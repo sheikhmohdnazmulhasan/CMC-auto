@@ -5,6 +5,7 @@ import MercedesBenzVclassBanner from '../assets/Mercedes-benz-vclass-banner-1.we
 import aat from '../assets/aat-12.webp';
 import timeSq from '../assets/time_sq-5.webp';
 import Hyundai from '../assets/Hyundai-Staria-Luxury-Van-9.webp';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -37,11 +38,11 @@ const Home = () => {
                 </div >
 
                 {/* Services */}
-                <div className=" bg-[#F3F3F3] mt-20 p-10">
+                <div className=" bg-[#F3F3F3] mt-20 md:p-10">
 
                     {/* Links */}
                     <div className="flex flex-col md:flex-row justify-center">
-                        <button className='bg-white px-6 py-3 border hover:shadow-md transition-all hover:scale-105'>SEAT MODIFICATIONS</button>
+                        <Link to={'/seat-modification'}><button className='bg-white px-6 py-3 border hover:shadow-md transition-all hover:scale-105'>SEAT MODIFICATIONS</button></Link>
                         <button className='bg-white px-6 py-3 border hover:shadow-md transition-all hover:scale-105'>CAR UPHOLSTERY</button>
                         <button className='bg-white px-6 py-3 border hover:shadow-md transition-all hover:scale-105'>SEAT MODIFICATIONS</button>
                         <button className='bg-white px-6 py-3 border hover:shadow-md transition-all hover:scale-105'> CENTRAL CONSOLE</button>
@@ -50,11 +51,11 @@ const Home = () => {
                     </div>
 
                     {/* Images */}
-                    <div className="flex p-2 gap-3 ">
-                        <img className='w-[24%]' src={MercedesBenzVclassBanner} alt="" />
-                        <img className='w-[24%]' src={aat} alt="" />
-                        <img className='w-[24%]' src={timeSq} alt="" />
-                        <img className='w-[24%]' src={Hyundai} alt="" />
+                    <div className="md:flex p-2 gap-3 space-y-4 md:space-y-0">
+                        <img className='md:w-[24%]' src={MercedesBenzVclassBanner} alt="" />
+                        <img className='md:w-[24%]' src={aat} alt="" />
+                        <img className='md:w-[24%]' src={timeSq} alt="" />
+                        <img className='md:w-[24%]' src={Hyundai} alt="" />
 
                     </div>
                 </div>

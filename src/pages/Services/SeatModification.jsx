@@ -10,7 +10,7 @@ const SeatModification = () => {
         <div className="mt-20">
 
             {/* Banner */}
-            <div className="bg-[url('https://th.bing.com/th/id/R.c676fc057467fc822a6b18c06e0f5048?rik=UAp8PRAp0407GA&riu=http%3a%2f%2f3.bp.blogspot.com%2f_3Nq7CKYaRdQ%2fS8sWBuGPhFI%2fAAAAAAAANEw%2fuoSspVEI--E%2fs1600%2fporsche-techart-black-edition-panamera-5.jpg&ehk=TbhVNRZVwiAamSpQ3zQIKeI2w0Wek7CQhYapIp%2bIGRk%3d&risl=&pid=ImgRaw&r=0')] h-72 flex justify-center items-center text-white">
+            <div className="bg-[url('https://th.bing.com/th/id/R.c676fc057467fc822a6b18c06e0f5048?rik=UAp8PRAp0407GA&riu=http%3a%2f%2f3.bp.blogspot.com%2f_3Nq7CKYaRdQ%2fS8sWBuGPhFI%2fAAAAAAAANEw%2fuoSspVEI--E%2fs1600%2fporsche-techart-black-edition-panamera-5.jpg&ehk=TbhVNRZVwiAamSpQ3zQIKeI2w0Wek7CQhYapIp%2bIGRk%3d&risl=&pid=ImgRaw&r=0')] h-72 flex justify-center items-center text-white bg-fixed bg-cover">
                 <h3 className='text-4xl font-bold'>Seat Modification</h3>
             </div>
 
