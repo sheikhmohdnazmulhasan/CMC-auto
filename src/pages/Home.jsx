@@ -1,6 +1,10 @@
+import '../CSS/hero.css'
 import logo from '../assets/logo.png';
 import heroVideo from '../assets/heroVideo.mp4';
-import '../CSS/hero.css'
+import MercedesBenzVclassBanner from '../assets/Mercedes-benz-vclass-banner-1.webp';
+import aat from '../assets/aat-12.webp';
+import timeSq from '../assets/time_sq-5.webp';
+import Hyundai from '../assets/Hyundai-Staria-Luxury-Van-9.webp';
 
 const Home = () => {
     return (
@@ -31,6 +35,30 @@ const Home = () => {
                         </div>
                     </div>
                 </div >
+
+                {/* Services */}
+                <div className=" bg-[#F3F3F3] mt-20 p-10">
+
+                    {/* Links */}
+                    <div className="flex flex-col md:flex-row justify-center">
+                        <button className='bg-white px-6 py-3 border hover:shadow-md transition-all hover:scale-105'>SEAT MODIFICATIONS</button>
+                        <button className='bg-white px-6 py-3 border hover:shadow-md transition-all hover:scale-105'>CAR UPHOLSTERY</button>
+                        <button className='bg-white px-6 py-3 border hover:shadow-md transition-all hover:scale-105'>SEAT MODIFICATIONS</button>
+                        <button className='bg-white px-6 py-3 border hover:shadow-md transition-all hover:scale-105'> CENTRAL CONSOLE</button>
+                        <button className='bg-white px-6 py-3 border hover:shadow-md transition-all hover:scale-105'> CUSTOM DASHBOARD</button>
+                        <button className='bg-white px-6 py-3 border hover:shadow-md transition-all hover:scale-105'>  MORE SERVICES...</button>
+                    </div>
+
+                    {/* Images */}
+                    <div className="flex p-2 gap-3 ">
+                        <img className='w-[24%]' src={MercedesBenzVclassBanner} alt="" />
+                        <img className='w-[24%]' src={aat} alt="" />
+                        <img className='w-[24%]' src={timeSq} alt="" />
+                        <img className='w-[24%]' src={Hyundai} alt="" />
+
+                    </div>
+                </div>
+
             </main>
         </div >
     );

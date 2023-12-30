@@ -16,15 +16,13 @@ const Root = () => {
 
     return (
         <div className="">
+
+            {/* Secondary Navbar */}
             <div className="h-8 bg-[#E5E5E5] p-1 w-full flex justify-around font-semibold text-slate-500">
-                <div className="">
-                    <p>Phone: +9710000000</p>
-                </div>
-                <div className="">
-                    <p>
-                        WE EXPORT WORLDWIDE</p>
-                </div>
+                <p>Phone: +9710000000</p>
+                <p>WE EXPORT WORLDWIDE</p>
             </div>
+
             {/* Navbar */}
             <Headroom>
                 <Navbar fluid={true} className="shadow">
@@ -45,7 +43,7 @@ const Root = () => {
                         </Navbar.Container>
 
                         <Navbar.Collapse collapseType="sidebar" className="fixed right-0 top-0 bg-white p-10 lg:!w-2/6 xl:!w-1/6 md:!w-2/6 w-1/2">
-                            <Navbar.Container tag="ul" className="flex flex-col gap-5">{navLinks}</Navbar.Container>
+                            <Navbar.Container tag="ul" className="flex flex-col  gap-5">{navLinks}</Navbar.Container>
                         </Navbar.Collapse>
                     </Navbar.Container>
                 </Navbar>
