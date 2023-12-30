@@ -46,6 +46,47 @@ const SeatModification = () => {
 
                     <p>Experience the pinnacle of seat modification with Scuderia Motor Design. Contact us today to schedule a consultation and embark on a journey to transform your vehicle’s interior into a haven of luxury and relaxation. Your destination is comfort, and it starts here with us.</p>
                 </div>
+
+                {/* Accordion */}
+                <div className="w-full my-10 space-y-4">
+                    <div className="collapse collapse-arrow bg-base-200 opacity-80">
+                        <input type="radio" name="my-accordion-2" checked="checked" />
+                        <div className="collapse-title font-medium">
+                            Custom Seat Design and Installation
+                        </div>
+                        <div className="collapse-content">
+                            <p>Our team of experienced professionals will work closely with you to create custom seat designs that suit your specific preferences and requirements. From ergonomic designs to luxurious materials, we ensure that every seat is tailored to perfection. We handle the entire installation process with precision and expertise, guaranteeing a seamless integration into your vehicle.</p>
+                        </div>
+                    </div>
+                    <div className="collapse collapse-arrow bg-base-200 opacity-80">
+                        <input type="radio" name="my-accordion-2" />
+                        <div className="collapse-title font-medium">
+                            Custom Seat Design and Installation
+                        </div>
+                        <div className="collapse-content">
+                            <p>Our team of experienced professionals will work closely with you to create custom seat designs that suit your specific preferences and requirements. From ergonomic designs to luxurious materials, we ensure that every seat is tailored to perfection. We handle the entire installation process with precision and expertise, guaranteeing a seamless integration into your vehicle.</p>
+                        </div>
+                    </div>
+                    <div className="collapse collapse-arrow bg-base-200 opacity-80">
+                        <input type="radio" name="my-accordion-2" />
+                        <div className="collapse-title font-medium">
+                            Seat Heating and Cooling Solutions
+                        </div>
+                        <div className="collapse-content">
+                            <p>Experience ultimate comfort regardless of the weather with our seat heating and cooling solutions. We integrate advanced temperature control systems into your seats, allowing you to adjust the climate according to your preference. Say goodbye to uncomfortable seats during extreme weather conditions and enjoy a pleasant journey all year round.</p>
+                        </div>
+                    </div>
+                    <div className="collapse collapse-arrow bg-base-200 opacity-80">
+                        <input type="radio" name="my-accordion-2" />
+                        <div className="collapse-title font-medium">
+                            Lumbar Support and Ergonomic Enhancements
+                        </div>
+                        <div className="collapse-content">
+                            <p>If you suffer from back pain or discomfort during long drives, our lumbar support and ergonomic enhancements are the perfect solution. We utilize cutting-edge technology and design principles to provide optimal support to your back, reducing strain and promoting better posture. Enjoy a pain-free driving experience and arrive at your destination feeling refreshed and rejuvenated.</p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
     );
