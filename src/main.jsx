@@ -5,13 +5,15 @@ import "./index.css";
 import Root from "./Root";
 import Home from "./pages/Home";
 import SeatModification from "./pages/Services/SeatModification";
+import CarUpholstery from "./pages/Services/CarUpholstery";
 
 const router = createBrowserRouter([
   {
     path: "/", element: <Root />,
     children: [
       { index: true, element: <Home /> },
-      { path: '/seat-modification', element: <SeatModification /> }
+      { path: '/seat-modification', element: <SeatModification /> },
+      { path: '/auto-upholstery', element: <CarUpholstery /> }
     ]
 
   },

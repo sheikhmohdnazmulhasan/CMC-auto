@@ -27,7 +27,7 @@ const Root = () => {
             </div>
 
             {/* Navbar */}
-            <Headroom>
+            {/* <Headroom>
                 <Navbar fluid={true} className="shadow">
                     <Navbar.Container className="flex items-center justify-between">
                         <Navbar.Brand> <img src={logo} alt="CMC Logo" width="60" /> </Navbar.Brand>
@@ -50,7 +50,7 @@ const Root = () => {
                         </Navbar.Collapse>
                     </Navbar.Container>
                 </Navbar>
-            </Headroom>
+            </Headroom> */}
 
             {/* OutLet */}
             <div className=""><Outlet /></div>

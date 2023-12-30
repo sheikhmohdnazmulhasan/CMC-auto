@@ -33,12 +33,12 @@ const SeatModification = () => {
 
                 {/* Images */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:ml-5 my-10">
-                    <img className='md:w-[80%] rounded' src={s1} alt="" />
-                    <img className='md:w-[80%] rounded' src={s2} alt="" />
-                    <img className='md:w-[80%] rounded' src={s3} alt="" />
-                    <img className='md:w-[80%] rounded' src={s4} alt="" />
-                    <img className='md:w-[80%] rounded' src={s5} alt="" />
-                    <img className='md:w-[80%] rounded' src={s6} alt="" />
+                    <img className='md:w-[80%] rounded hover:scale-105 transition-all' src={s1} alt="" />
+                    <img className='md:w-[80%] rounded hover:scale-105 transition-all' src={s2} alt="" />
+                    <img className='md:w-[80%] rounded hover:scale-105 transition-all' src={s3} alt="" />
+                    <img className='md:w-[80%] rounded hover:scale-105 transition-all' src={s4} alt="" />
+                    <img className='md:w-[80%] rounded hover:scale-105 transition-all' src={s5} alt="" />
+                    <img className='md:w-[80%] rounded hover:scale-105 transition-all' src={s6} alt="" />
                 </div>
 
                 <div className=" opacity-65 space-y-4 text-sm">
@@ -48,7 +48,8 @@ const SeatModification = () => {
                 </div>
 
                 {/* Accordion */}
-                <div className="w-full my-10 space-y-4">
+                <div className="w-full my-16 space-y-4">
+                    <h3  className='text-2xl'>Why Choose SMD?</h3>
                     <div className="collapse collapse-arrow bg-base-200 opacity-80">
                         <input type="radio" name="my-accordion-2" checked="checked" />
                         <div className="collapse-title font-medium">

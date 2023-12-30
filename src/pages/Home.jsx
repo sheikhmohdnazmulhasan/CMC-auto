@@ -1,10 +1,6 @@
 import '../CSS/hero.css'
 import logo from '../assets/logo.png';
 import heroVideo from '../assets/heroVideo.mp4';
-import MercedesBenzVclassBanner from '../assets/Mercedes-benz-vclass-banner-1.webp';
-import aat from '../assets/aat-12.webp';
-import timeSq from '../assets/time_sq-5.webp';
-import Hyundai from '../assets/Hyundai-Staria-Luxury-Van-9.webp';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -41,21 +37,15 @@ const Home = () => {
                 <div className=" bg-[#F3F3F3] mt-20 md:p-10">
 
                     {/* Links */}
-                    <div className="flex flex-col md:flex-row justify-center">
-                        <Link to={'/seat-modification'}><button className='bg-white px-6 py-3 border hover:shadow-md transition-all hover:scale-105'>SEAT MODIFICATIONS</button></Link>
-                        <button className='bg-white px-6 py-3 border hover:shadow-md transition-all hover:scale-105'>CAR UPHOLSTERY</button>
-                        <button className='bg-white px-6 py-3 border hover:shadow-md transition-all hover:scale-105'>SEAT MODIFICATIONS</button>
-                        <button className='bg-white px-6 py-3 border hover:shadow-md transition-all hover:scale-105'> CENTRAL CONSOLE</button>
-                        <button className='bg-white px-6 py-3 border hover:shadow-md transition-all hover:scale-105'> CUSTOM DASHBOARD</button>
-                        <button className='bg-white px-6 py-3 border hover:shadow-md transition-all hover:scale-105'>  MORE SERVICES...</button>
-                    </div>
+                    <div className="flex flex-col md:flex-row justify-around">
 
-                    {/* Images */}
-                    <div className="md:flex p-2 gap-3 space-y-4 md:space-y-0">
-                        <img className='md:w-[24%]' src={MercedesBenzVclassBanner} alt="" />
-                        <img className='md:w-[24%]' src={aat} alt="" />
-                        <img className='md:w-[24%]' src={timeSq} alt="" />
-                        <img className='md:w-[24%]' src={Hyundai} alt="" />
+                        <Link className='bg-white text-center px-6 py-3 border hover:shadow-md transition-all hover:scale-105' to={'/seat-modification'}><button className=''>SEAT MODIFICATIONS</button></Link>
+
+                        <Link className='bg-white text-center px-6 py-3 border hover:shadow-md transition-all hover:scale-105' to={'/auto-upholstery'}><button >CAR UPHOLSTERY</button></Link>
+
+                        <Link className='bg-white text-center px-6 py-3 border hover:shadow-md transition-all hover:scale-105' to={'/seat-modification'}><button className=''>SEAT MODIFICATIONS</button></Link>
+
+                        <Link className='bg-white text-center px-6 py-3 border hover:shadow-md transition-all hover:scale-105' to={'/auto-upholstery'}><button >CENTRAL CONSOLE</button></Link>
 
                     </div>
                 </div>
