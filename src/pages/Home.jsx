@@ -28,7 +28,7 @@ const Home = () => {
                             <img className="w-[1000px]" src={logo} alt="" />
                         </div>
                         <div className="md:w-[60%]">
-                            <h1 className="text-4xl font-bold uppercase"><span className="text-[#3EA354]"> Luxury Car</span>  Interior Builder</h1>
+                            <h1 className="text-4xl font-bold uppercase"><span className="text-[#3EA354]"> CMC AUTOMOBILE </span>  OUTFITTING</h1>
                             <div className="mt-5 text-xl opacity-75">
                                 <p>CMC Auto specializes in Mercedes car luxury interior builder. We have a collective experience of over 10 years in luxury vehicle modification and delivered with utmost satisfaction to our high-profile customers. Scuderia leads the industry in transforming vans and another SUV’s into some of the most luxuriously productive, comfortable, safe, and exclusive vehicles in the world today. As the leading authority in luxury interior design Dubai, we are committed to delivering unparalleled quality and unparalleled experiences. SMD is the luxury interior builder for Mercedes, Lexus, and other top brands’ vehicle design and conversion.</p>
                             </div>
