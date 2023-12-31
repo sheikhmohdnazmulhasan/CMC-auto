@@ -1,10 +1,9 @@
 import '../CSS/hero.css'
 import logo from '../assets/logo.png';
 import heroVideo from '../assets/heroVideo.mp4';
-import { Link } from 'react-router-dom';
 import v1 from '../assets/video2.mp4';
-import s1 from '../assets/CroCstorage.webp';
 import ServiceCard from '../components/ServiceCard';
+import { IoIosArrowForward } from "react-icons/io";
 
 const Home = () => {
     return (
@@ -59,11 +58,30 @@ const Home = () => {
                 </div>
 
                 {/*video Section */}
-                <div className="mt-20 p-10 flex">
+                <div className="mt-20 p-10 flex gap-5 items-center">
+
+                    {/* Content */}
                     <div className="flex-1">
+                        <h1 className='font-bold'>At CMC, we specialize in crafting extraordinary driving experiences by offering bespoke car modification services tailored to your unique preferences and lifestyle. With a passion for excellence, we take pride in delivering VIP 4-seat, opulent 5-seat, and futuristic Falcon 6-seat configurations, ensuring that every detail reflects luxury, innovation, and personalized style. Trust us to turn your brand-new car into a true masterpiece that goes beyond the ordinary, setting you apart on the road. Your journey begins with CMC, where every drive becomes an extraordinary adventure.</h1>
+                        <div className="flex mt-5">
+                            <p> <IoIosArrowForward className='text-xl mt-1 text-[#3EA354] font-bold' /> </p>
+                            <p>Our team comprises skilled artisans and craftsmen who are masters in their trade. We pride ourselves on delivering meticulous attention to detail, ensuring that every modification reflects the highest standards of craftsmanship and precision.</p>
+                        </div>
+
+                        {/* <div className="flex mt-5">
+                            <p> <IoIosArrowForward className='text-xl mt-1 text-[#3EA354] font-bold' /> </p>
+                            <p>We understand that each client is unique, and so are their preferences. Our personalized approach means that every modification service is tailored to meet your specific desires and lifestyle, ensuring a one-of-a-kind driving experience that resonates with your personality.</p>
+                        </div>
+                        <div className="flex mt-5">
+                            <p> <IoIosArrowForward className='text-xl mt-1 text-[#3EA354] font-bold' /> </p>
+                            <p>We source and utilize premium materials to guarantee durability, comfort, and a touch of opulence in every project. Whether it's the finest leather upholstery or high-end interior components, our commitment to quality is unwavering.</p>
+                        </div> */}
                     </div>
-                    <div className="flex-1">
-                        <video src={v1} type='video/mp4' muted autoPlay></video>
+
+
+                    {/* Video */}
+                    <div className="flex-1 ">
+                        <video className='rounded-lg' src={v1} type='video/mp4' muted loop autoPlay></video>
                     </div>
                 </div>
             </main>
