@@ -43,9 +43,9 @@ const Home = () => {
 
                         <Link className='bg-white text-center px-6 py-3 border hover:shadow-md transition-all hover:scale-105' to={'/auto-upholstery'}><button >CAR UPHOLSTERY</button></Link>
 
-                        <Link className='bg-white text-center px-6 py-3 border hover:shadow-md transition-all hover:scale-105' to={'/entertainment'}><button className='uppercase'> Entertainment</button></Link>
+                        <Link className='bg-white text-center px-6 py-3 border hover:shadow-md transition-all hover:scale-105' to={'/central-console-design'}><button className='uppercase'> Entertainment</button></Link>
 
-                        <Link className='bg-white text-center px-6 py-3 border hover:shadow-md transition-all hover:scale-105' to={'/auto-upholstery'}><button >CENTRAL CONSOLE</button></Link>
+                        <Link className='bg-white text-center px-6 py-3 border hover:shadow-md transition-all hover:scale-105' to={'/central-console-design'}><button >CENTRAL CONSOLE</button></Link>
 
                     </div>
                 </div>

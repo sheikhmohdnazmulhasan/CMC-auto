@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import SeatModification from "./pages/Services/SeatModification";
 import CarUpholstery from "./pages/Services/CarUpholstery";
 import Entertainment from "./pages/Services/Entertainment";
+import CentralConsole from "./pages/Services/centralConsole";
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,8 @@ const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: '/seat-modification', element: <SeatModification /> },
       { path: '/auto-upholstery', element: <CarUpholstery /> },
-      { path: '/entertainment', element: <Entertainment /> }
+      { path: '/entertainment', element: <Entertainment /> },
+      { path: '/central-console-design', element: <CentralConsole /> }
     ]
 
   },
