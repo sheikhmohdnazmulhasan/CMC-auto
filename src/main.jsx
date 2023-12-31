@@ -10,8 +10,10 @@ import Entertainment from "./pages/Services/Entertainment";
 import CentralConsole from "./pages/Services/centralConsole";
 import { Cadillac } from "./pages/Cars/Cadillac";
 import Mercedes from "./pages/Cars/Mercedes";
+import Toyota from "./pages/Cars/Toyota";
 
 const router = createBrowserRouter([
+
   {
     path: "/", element: <Root />,
     children: [
@@ -21,7 +23,8 @@ const router = createBrowserRouter([
       { path: '/entertainment', element: <Entertainment /> },
       { path: '/central-console-design', element: <CentralConsole /> },
       { path: '/cadillac', element: <Cadillac /> },
-      { path: '/mercedes', element: < Mercedes /> }
+      { path: '/mercedes', element: < Mercedes /> },
+      { path: '/toyota', element: <Toyota /> }
     ]
 
   },

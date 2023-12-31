@@ -34,10 +34,10 @@ export const CarouselComponent2 = () => {
                 <Link to={'/mercedes'}> <button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
             </div>
             <div className="block text-center">
-                <h4 className="uppercase text-xl font-bold text-[#3EA354]">Cadillac</h4>
-                <h1 className="uppercase text-7xl font-bold text-[#2FA053]">ViceRoy</h1>
+                <h4 className="uppercase text-xl font-bold text-[#3EA354]">toyota</h4>
+                <h1 className="uppercase text-7xl font-bold text-[#2FA053]">toyota</h1>
                 <img src={img5} />
-                <Link> <button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
+                <Link to={'/toyota'}> <button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
             </div>
             <div className="block text-center">
                 <h4 className="uppercase text-xl font-bold text-[#3EA354]">Cadillac</h4>
