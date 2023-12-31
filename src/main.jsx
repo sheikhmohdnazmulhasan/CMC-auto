@@ -11,6 +11,7 @@ import CentralConsole from "./pages/Services/centralConsole";
 import { Cadillac } from "./pages/Cars/Cadillac";
 import Mercedes from "./pages/Cars/Mercedes";
 import Toyota from "./pages/Cars/Toyota";
+import Gmc from "./pages/Cars/Gmc";
 
 const router = createBrowserRouter([
 
@@ -24,7 +25,8 @@ const router = createBrowserRouter([
       { path: '/central-console-design', element: <CentralConsole /> },
       { path: '/cadillac', element: <Cadillac /> },
       { path: '/mercedes', element: < Mercedes /> },
-      { path: '/toyota', element: <Toyota /> }
+      { path: '/toyota', element: <Toyota /> },
+      { path: '/gmc', element: <Gmc /> }
     ]
 
   },
