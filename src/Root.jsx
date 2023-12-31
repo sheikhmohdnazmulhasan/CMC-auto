@@ -24,7 +24,7 @@ const Root = () => {
             {/* 
             Secondary Navbar */}
             {!hideTopNavbar && <div className="h-8 bg-[#E5E5E5] p-1 w-full flex justify-around font-semibold text-slate-500">
-                <p>Phone: +9710000000</p>
+                <p>Phone: +971 50 358 3882</p>
                 <p>WE EXPORT WORLDWIDE</p>
             </div>}
 
@@ -73,7 +73,7 @@ const Root = () => {
                     <div className="">
                         <h1 className="text-xl font-semibold">CMC AUTOMOBILE OUTFITTING</h1>
                         <p className="opacity-55">38 26th St - Al Quoz - Al Quoz Industrial Area 4 - Dubai</p>
-                        <p className="opacity-55">Phone: +971 00 000 000</p>
+                        <p className="opacity-55">Phone: +971 50 358 3882</p>
                         <p className="opacity-55">Email: info@cmcauto.ae</p>
                     </div>
                     <nav>

@@ -9,6 +9,9 @@ import { CarouselComponent2 } from '../components/Carousel2';
 import PhotoGallery from '../components/PhotoGallery';
 import Testimonial from '../components/Testimonial';
 import WhyChoose from '../components/WhyChoose';
+import { Link } from 'react-router-dom';
+import { FaPhoneAlt } from 'react-icons/fa';
+import { MdOutlineMail } from 'react-icons/md';
 
 const Home = () => {
     return (
@@ -112,6 +115,18 @@ const Home = () => {
                     </div>
                     <div className="mt-20">
                         <Testimonial />
+                    </div>
+
+                    {/* need help */}
+                    <div className=" h-96 shadow-md bg-[url('https://www.shutterstock.com/shutterstock/videos/1101756747/thumb/8.jpg?ip=x480')] bg-cover bg-fixed flex justify-center items-center">
+                        <div className="h-60 bg-blue-500 bg-opacity-0 md:bg-opacity-20 w-[70%] flex flex-col justify-center items-center">
+                            <h1 className="text-3xl uppercase text-white font-semibold">Need Help?</h1>
+                            <p className="text-white text-center mt-2">If you need CMC's location or have any trouble finding us, <br /> please don’t hesitate to contact us, and we will be happy to assist you.</p>
+                            <div className="flex gap-3 mt-5">
+                                <Link to={'mailto:info@cmcauto.ae'}>  <button className="text-white flex items-center py-1 px-4 gap-2 font-semibold bg-blue-500 hover:bg-blue-700 transition-all"> <MdOutlineMail className="font-semibold" /> Mail Now</button></Link>
+                                <Link to={'tel:+971503583882'}> <button className="text-white flex items-center py-1 px-4 gap-2 font-semibold bg-blue-500 hover:bg-blue-700 transition-all"> <FaPhoneAlt className="font-semibold" /> Call Now</button></Link>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </main>
