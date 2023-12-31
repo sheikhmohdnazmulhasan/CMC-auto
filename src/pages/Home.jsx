@@ -58,7 +58,7 @@ const Home = () => {
                 </div>
 
                 {/*video Section */}
-                <div className="mt-20 p-10 flex gap-5 items-center">
+                <div className="mt-20 p-10 md:flex gap-5 items-center space-y-5 md:space-y-0">
 
                     {/* Content */}
                     <div className="flex-1">
