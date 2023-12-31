@@ -4,6 +4,9 @@ import heroVideo from '../assets/heroVideo.mp4';
 import v1 from '../assets/video2.mp4';
 import ServiceCard from '../components/ServiceCard';
 import { IoIosArrowForward } from "react-icons/io";
+import CarouselComponent from '../components/Carousel';
+import { CarouselComponent2 } from '../components/Carousel2';
+import PhotoGallery from '../components/PhotoGallery';
 
 const Home = () => {
     return (
@@ -83,6 +86,25 @@ const Home = () => {
                     <div className="flex-1 ">
                         <video className='rounded-lg' src={v1} type='video/mp4' muted loop autoPlay></video>
                     </div>
+                </div>
+                <div className="mt-20 ">
+                    <div className="text-center mb-10 px-5 md:px-0">
+                        <h1 className='text-3xl font-bold uppercase'>Discover CMC Vehicles</h1>
+                        <p className='mt-2 font-semibold opacity-55'>The possibilities are endless with custom luxury interior upgrades for automobiles. <br /> At Lexani Motorcars our mission is to provide the most functional, luxurious, and elegant travel experience possible. <br /> The unanimously positive response we have received, demonstrates clearly that we have succeeded.</p>
+                    </div>
+                    <div className="hidden md:flex">
+                        <CarouselComponent />
+                    </div>
+                    <div className="md:hidden">
+                        <CarouselComponent2 />
+                    </div>
+                </div>
+                <div className="mt-20">
+                    <div className="text-center mb-5 px-5 md:px-0">
+                        <h1 className='text-3xl font-bold uppercase'>Discover CMC Vehicles</h1>
+                        <p className='mt-2 font-semibold opacity-55'>The possibilities are endless with custom luxury interior upgrades for automobiles. <br /> At Lexani Motorcars our mission is to provide the most functional, luxurious, and elegant travel experience possible. <br /> The unanimously positive response we have received, demonstrates clearly that we have succeeded.</p>
+                    </div>
+                    <PhotoGallery />
                 </div>
             </main>
         </div >
