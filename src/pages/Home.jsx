@@ -89,8 +89,8 @@ const Home = () => {
                 </div>
                 <div className="mt-20 ">
                     <div className="text-center mb-10 px-5 md:px-0">
-                        <h1 className='text-3xl font-bold uppercase'>Discover CMC Vehicles</h1>
-                        <p className='mt-2 font-semibold opacity-55'>The possibilities are endless with custom luxury interior upgrades for automobiles. <br /> At Lexani Motorcars our mission is to provide the most functional, luxurious, and elegant travel experience possible. <br /> The unanimously positive response we have received, demonstrates clearly that we have succeeded.</p>
+                        <h1 className='text-3xl font-bold uppercase'>Discover CMC's Vehicles</h1>
+                        <p className='mt-2 font-semibold opacity-55'>The possibilities are endless with custom luxury interior upgrades for automobiles. <br /> At CMC our mission is to provide the most functional, luxurious, and elegant travel experience possible. <br /> The unanimously positive response we have received, demonstrates clearly that we have succeeded.</p>
                     </div>
                     <div className="hidden md:flex">
                         <CarouselComponent />
@@ -101,8 +101,8 @@ const Home = () => {
                 </div>
                 <div className="mt-20">
                     <div className="text-center mb-5 px-5 md:px-0">
-                        <h1 className='text-3xl font-bold uppercase'>Discover CMC Vehicles</h1>
-                        <p className='mt-2 font-semibold opacity-55'>The possibilities are endless with custom luxury interior upgrades for automobiles. <br /> At Lexani Motorcars our mission is to provide the most functional, luxurious, and elegant travel experience possible. <br /> The unanimously positive response we have received, demonstrates clearly that we have succeeded.</p>
+                        <h1 className='text-3xl font-bold uppercase'>Explore the Motorcar Gallery</h1>
+                        <p className='mt-2 font-semibold opacity-55'>CMC’s conversions are famous for their premium interiors, cutting-edge technology, <br />  and unmatched elegance. We believe you shouldn’t have to sail or fly to be transported with class, <br /> so we brought the convenience, comfort and prestige of private first class travel to the road. View just a few of our executive vehicles, <br /> custom SUV and luxury vans in the motorcar gallery.</p>
                     </div>
                     <PhotoGallery />
                 </div>
