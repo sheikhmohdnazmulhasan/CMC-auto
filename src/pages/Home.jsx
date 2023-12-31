@@ -2,6 +2,9 @@ import '../CSS/hero.css'
 import logo from '../assets/logo.png';
 import heroVideo from '../assets/heroVideo.mp4';
 import { Link } from 'react-router-dom';
+import v1 from '../assets/video2.mp4';
+import s1 from '../assets/CroCstorage.webp';
+import ServiceCard from '../components/ServiceCard';
 
 const Home = () => {
     return (
@@ -34,21 +37,35 @@ const Home = () => {
                 </div >
 
                 {/* Services */}
-                <div className=" bg-[#F3F3F3] mt-20 md:p-10">
+                <div className=" mt-20 mb-10 md:p-10">
+                    <div className="text-center mb-10 px-5 md:px-0">
+                        <h1 className='text-3xl font-bold'>OUR SERVICES</h1>
+                        <p className='mt-2 font-semibold opacity-55'>We transform your brand-new car into a personalized masterpiece with our VIP Modification Services, <br />offering luxurious 4-seat, opulent 5-seat, and futuristic Falcon 6-seat configurations, <br /> each meticulously crafted for an elevated driving experience.</p>
+                    </div>
 
                     {/* Links */}
-                    <div className="flex flex-col md:flex-row justify-around">
+                    {/* <div className="flex flex-col md:flex-row justify-around">
 
-                        <Link className='bg-white text-center px-6 py-3 border hover:shadow-md transition-all hover:scale-105' to={'/seat-modification'}><button className=''>SEAT MODIFICATIONS</button></Link>
+                        <Link className='bg-white text-center px-6 py-3 border hover:shadow-md transition-all hover:scale-105' to={'/seat-modification'}><button className=''></button></Link>
 
                         <Link className='bg-white text-center px-6 py-3 border hover:shadow-md transition-all hover:scale-105' to={'/auto-upholstery'}><button >CAR UPHOLSTERY</button></Link>
 
                         <Link className='bg-white text-center px-6 py-3 border hover:shadow-md transition-all hover:scale-105' to={'/central-console-design'}><button className='uppercase'> Entertainment</button></Link>
 
                         <Link className='bg-white text-center px-6 py-3 border hover:shadow-md transition-all hover:scale-105' to={'/central-console-design'}><button >CENTRAL CONSOLE</button></Link>
-                    </div>
+                    </div> */}
+
+                    <ServiceCard />
                 </div>
 
+                {/*video Section */}
+                <div className="mt-20 p-10 flex">
+                    <div className="flex-1">
+                    </div>
+                    <div className="flex-1">
+                        <video src={v1} type='video/mp4' muted autoPlay></video>
+                    </div>
+                </div>
             </main>
         </div >
     );
