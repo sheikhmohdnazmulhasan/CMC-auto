@@ -5,7 +5,7 @@ import img3 from '../../assets/PS5.webp';
 const Entertainment = () => {
     return (
         <div>
-            <div className="mt-20">
+            <div className="">
 
                 {/* Banner */}
                 <div className="bg-[url('https://www.jvc.com/content/dam/jvc/shared/asia/22_Asia%20Banner_MM_Asia_1200x600.png')] h-72 flex justify-center items-center text-white bg-fixed bg-cover">

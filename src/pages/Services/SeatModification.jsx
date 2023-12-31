@@ -7,7 +7,7 @@ import s6 from '../../assets/Seat_1.webp';
 
 const SeatModification = () => {
     return (
-        <div className="mt-20">
+        <div className="">
 
             {/* Banner */}
             <div className="bg-[url('https://th.bing.com/th/id/R.c676fc057467fc822a6b18c06e0f5048?rik=UAp8PRAp0407GA&riu=http%3a%2f%2f3.bp.blogspot.com%2f_3Nq7CKYaRdQ%2fS8sWBuGPhFI%2fAAAAAAAANEw%2fuoSspVEI--E%2fs1600%2fporsche-techart-black-edition-panamera-5.jpg&ehk=TbhVNRZVwiAamSpQ3zQIKeI2w0Wek7CQhYapIp%2bIGRk%3d&risl=&pid=ImgRaw&r=0')] h-72 flex justify-center items-center text-white bg-fixed bg-cover">
@@ -49,7 +49,7 @@ const SeatModification = () => {
 
                 {/* Accordion */}
                 <div className="w-full my-16 space-y-4">
-                    <h3  className='text-2xl'>Why Choose SMD?</h3>
+                    <h3 className='text-2xl'>Why Choose SMD?</h3>
                     <div className="collapse collapse-arrow bg-base-200 opacity-80">
                         <input type="radio" name="my-accordion-2" checked="checked" />
                         <div className="collapse-title font-medium">

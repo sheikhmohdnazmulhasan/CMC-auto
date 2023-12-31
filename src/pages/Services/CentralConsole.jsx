@@ -8,7 +8,7 @@ import img6 from '../../assets/IMG_5724.webp';
 const CentralConsole = () => {
     return (
         <div>
-            <div className="mt-20">
+            <div className="">
 
                 {/* Banner */}
                 <div className="bg-[url('https://i.pinimg.com/736x/5d/9a/b3/5d9ab3486d4b4d9d2f4df9c1c228448d.jpg')] h-72 flex justify-center items-center text-white bg-fixed bg-cover">

@@ -4,7 +4,7 @@ import croCstorage from '../../assets/CroCstorage.webp';
 
 const CarUpholstery = () => {
     return (
-        <div className="mt-20">
+        <div className="">
             {/* Banner */}
             <div className="bg-[url('https://fantasticservicesgroup.com.au/blog/wp-content/uploads/2021/05/how-to-clean-car-upholstery_header.jpg')] h-72 flex justify-center items-center text-white bg-fixed bg-cover">
                 <h3 className='text-4xl font-bold'>Car Upholstery Service</h3>
