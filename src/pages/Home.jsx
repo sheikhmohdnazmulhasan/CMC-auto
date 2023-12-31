@@ -8,6 +8,7 @@ import CarouselComponent from '../components/Carousel';
 import { CarouselComponent2 } from '../components/Carousel2';
 import PhotoGallery from '../components/PhotoGallery';
 import Testimonial from '../components/Testimonial';
+import WhyChoose from '../components/WhyChoose';
 
 const Home = () => {
     return (
@@ -106,6 +107,9 @@ const Home = () => {
                         <p className='mt-2 font-semibold opacity-55'>CMC’s conversions are famous for their premium interiors, cutting-edge technology, <br />  and unmatched elegance. We believe you shouldn’t have to sail or fly to be transported with class, <br /> so we brought the convenience, comfort and prestige of private first class travel to the road. View just a few of our executive vehicles, <br /> custom SUV and luxury vans in the motorcar gallery.</p>
                     </div>
                     <PhotoGallery />
+                    <div className="mt-20">
+                        <WhyChoose />
+                    </div>
                     <div className="mt-20">
                         <Testimonial />
                     </div>
