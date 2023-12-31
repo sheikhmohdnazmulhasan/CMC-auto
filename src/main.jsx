@@ -9,6 +9,7 @@ import CarUpholstery from "./pages/Services/CarUpholstery";
 import Entertainment from "./pages/Services/Entertainment";
 import CentralConsole from "./pages/Services/centralConsole";
 import { Cadillac } from "./pages/Cars/Cadillac";
+import Mercedes from "./pages/Cars/Mercedes";
 
 const router = createBrowserRouter([
   {
@@ -19,7 +20,8 @@ const router = createBrowserRouter([
       { path: '/auto-upholstery', element: <CarUpholstery /> },
       { path: '/entertainment', element: <Entertainment /> },
       { path: '/central-console-design', element: <CentralConsole /> },
-      { path: '/cadillac', element: <Cadillac /> }
+      { path: '/cadillac', element: <Cadillac /> },
+      { path: '/mercedes', element: < Mercedes /> }
     ]
 
   },

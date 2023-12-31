@@ -20,17 +20,18 @@ export const CarouselComponent2 = () => {
                     <ArrowLineRight size={20} weight="bold" color="white" />
                 </span>
             }>
+                {/* **** */}
             <div className="block text-center">
                 <h4 className="uppercase text-xl font-bold text-[#3EA354]">Cadillac</h4>
                 <h1 className="uppercase text-7xl font-bold text-[#2FA053]">ViceRoy</h1>
                 <img src={img2} />
-                <Link> <button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
+                <Link to={'/cadillac'}> <button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
             </div>
             <div className="block text-center">
-                <h4 className="uppercase text-xl font-bold text-[#3EA354]">Cadillac</h4>
-                <h1 className="uppercase text-7xl font-bold text-[#2FA053]">ViceRoy</h1>
+                <h4 className="uppercase text-xl font-bold text-[#3EA354]">mercedes</h4>
+                <h1 className="uppercase text-7xl font-bold text-[#2FA053]">romano</h1>
                 <img src={img4} />
-                <Link> <button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
+                <Link to={'/mercedes'}> <button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
             </div>
             <div className="block text-center">
                 <h4 className="uppercase text-xl font-bold text-[#3EA354]">Cadillac</h4>
