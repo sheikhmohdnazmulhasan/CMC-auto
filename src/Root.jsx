@@ -26,34 +26,44 @@ const Root = () => {
                 <p>WE EXPORT WORLDWIDE</p>
             </div>
 
-            {/* Navbar */}
-            {/* <Headroom>
-                <Navbar fluid={true} className="shadow">
-                    <Navbar.Container className="flex items-center justify-between">
-                        <Navbar.Brand> <img src={logo} alt="CMC Logo" width="60" /> </Navbar.Brand>
+            <div className="drawer">
+                <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
+                <div className="drawer-content flex flex-col">
+                    {/* Navbar */}
+                    <Headroom> <div className="w-full navbar bg-white shadow-md">
+                        <div className="flex-none lg:hidden">
+                            <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                            </label>
+                        </div>
+                        <div className="hidden md:block flex-1 px-2 mx-2">
+                            <img className="w-[60px]" src={logo} alt="" />
+                        </div>
+                        <div className="flex-none hidden lg:block">
+                            <ul className="menu menu-horizontal">
+                                {/* Navbar menu content here */}
+                                <li><a>Navbar Item 1</a></li>
+                                <li><a>Navbar Item 2</a></li>
+                            </ul>
+                        </div>
+                        <div className=" flex md:hidden justify-end flex-1">
+                            <img className="w-[60px]" src={logo} alt="" />
+                        </div>
+                    </div></Headroom>
+                    {/* Page content here */}
+                    {/* OutLet */}
+                    <div className=""><Outlet /></div>
 
-                        <Navbar.Container className="flex items-center gap-6">
-                            <Navbar.Container tag="ul" className="lg:flex hidden items-center justify-between gap-4">
-                                <Navbar.Link icon={<FacebookLogo size={20} color="#444" />} iconAnimation={false} />
-                                <Navbar.Link icon={<InstagramLogo size={20} color="#444" />} iconAnimation={false} />
-                                <Navbar.Link icon={<TwitterLogo size={20} color="#444" />} iconAnimation={false} />
-                            </Navbar.Container>
-
-                            <Navbar.Container className="flex gap-1">
-                                <Navbar.Toggle className=" block" /> <div className="hidden md:block space-x-5">{navLinks}</div>
-                            </Navbar.Container>
-
-                        </Navbar.Container>
-
-                        <Navbar.Collapse collapseType="sidebar" className="fixed right-0 top-0 bg-white p-10 lg:!w-2/6 xl:!w-1/6 md:!w-2/6 w-1/2">
-                            <Navbar.Container tag="ul" className="flex flex-col  gap-5">{navLinks}</Navbar.Container>
-                        </Navbar.Collapse>
-                    </Navbar.Container>
-                </Navbar>
-            </Headroom> */}
-
-            {/* OutLet */}
-            <div className=""><Outlet /></div>
+                </div>
+                <div className="drawer-side">
+                    <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label>
+                    <ul className="menu p-4 w-80 min-h-full bg-base-200">
+                        {/* Sidebar content here */}
+                        <li><a>Sidebar Item 1</a></li>
+                        <li><a>Sidebar Item 2</a></li>
+                    </ul>
+                </div>
+            </div>
 
             {/* footer */}
             <footer className=" text-white pt-20 bg-white">
