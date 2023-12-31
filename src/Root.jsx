@@ -1,23 +1,49 @@
-import { Navbar } from "keep-react";
-import { FacebookLogo, InstagramLogo, TwitterLogo } from "phosphor-react";
 import { Link, NavLink, Outlet } from "react-router-dom";
 import logo from '../src/assets/logo.png';
 import Headroom from "react-headroom";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { MdOutlineCancel } from "react-icons/md";
+import { IoIosArrowForward } from "react-icons/io";
 
 const Root = () => {
     const [hideTopNavbar, setHideTopNavbar] = useState(false);
+    const [openSubMenu, setOpenSubMenu] = useState(false)
 
-    const navLinks = <>
-        <NavLink>NavLink</NavLink>
-        <NavLink>NavLink</NavLink>
-        <NavLink>NavLink</NavLink>
-        <NavLink>NavLink</NavLink>
+    const navLinks = <div className="md:flex items-center">
+        <div className="md:flex gap-4 space-y-3 md:space-y-0">
+            <p> <NavLink className='font-semibold uppercase hover:text-[#3EA354]'>Home</NavLink></p>
+            <p><NavLink className='font-semibold uppercase hover:text-[#3EA354]'>About</NavLink></p>
+        </div>
+        <div className="relative my-3 md:my-0">
+            <a className="font-semibold cursor-pointer md:ml-3 flex items-center hover:text-[#3EA354]" onClick={() => setOpenSubMenu(!openSubMenu)}>
+                VEHICLES <IoIosArrowForward />
+            </a>
+            <div className={openSubMenu ? 'absolute mt-2 py-2 w-48 bg-white border rounded-md shadow-lg' : 'absolute hidden mt-2 py-2 w-48 bg-white border rounded-md shadow-lg'}>
+                <a href="#" className="block px-4 py-2 font-semibold hover:text-[#3EA354]">Option 1</a>
+            </div>
+        </div>
+        <div className="md:flex gap-4 md:ml-3 space-y-3 md:space-y-0">
+            <p> <NavLink className='font-semibold uppercase hover:text-[#3EA354]'>Portfolio</NavLink></p>
+            <p><NavLink className='font-semibold uppercase hover:text-[#3EA354]'>Contact</NavLink></p>
+        </div>
+    </div>
 
-    </>
+    useEffect(() => {
+        function handleScroll() {
+
+            if (window.scrollY > 0) {
+                setOpenSubMenu(false)
+            }
+        }
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll)
+        }
+    }, []);
 
     return (
         <div className="">
@@ -44,8 +70,7 @@ const Root = () => {
                         <div className="flex-none hidden lg:block">
                             <ul className="menu menu-horizontal">
                                 {/* Navbar menu content here */}
-                                <li><a>Navbar Item 1</a></li>
-                                <li><a>Navbar Item 2</a></li>
+                                {navLinks}
                             </ul>
                         </div>
                         <div className=" flex md:hidden justify-end flex-1">
@@ -59,10 +84,9 @@ const Root = () => {
                 </div>
                 <div className="drawer-side">
                     <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label>
-                    <ul className="menu p-4 w-80 min-h-full bg-base-200 pt-20">
+                    <ul className="menu p-4 w-80 min-h-full bg-base-200 pt-20 block md:hidden">
                         {/* Sidebar content here */}
-                        <li><a>Sidebar Item 1</a></li>
-                        <li><a>Sidebar Item 2</a></li>
+                        {navLinks}
                     </ul>
                 </div>
             </div>

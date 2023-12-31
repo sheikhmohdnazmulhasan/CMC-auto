@@ -1,10 +1,15 @@
+import img1 from '../../assets/Details/4/WhatsApp Image 2023-12-30 at 19.13.55_5781c2b0.jpg';
+import img2 from '../../assets/Details/4/WhatsApp Image 2023-12-30 at 19.13.59_21876fd3.jpg';
+import img3 from '../../assets/Details/4/WhatsApp Image 2023-12-30 at 19.14.01_80b3d289.jpg';
+import img4 from '../../assets/Details/4/WhatsApp Image 2023-12-30 at 19.14.02_611c59b7.jpg';
 
 const Gmc = () => {
     return (
         <div className="mt-20 mx-5 md:mx-10 ">
             <div className="text-center">
-                <h1 className="text-3xl font-bold">Mercedes-Benz Models</h1>
-                <p className="mt-3">CMC's proudly introduces one of a kind handcrafted quality created for first class travel in a Mercedes-Benz wide-body Sprinter. The "MERCEDES LUXURY TRANSPORT". Amenities that you would expect to find in a five-star hotel suite are abundant throughout this vehicle. It's spacious luxury interior includes custom tailored Italian leather seating with heat, massage, and ventilation, a lavish private restroom, multiple secured storage compartments, custom kitchen workstation with large refrigerator, Bose home theater surround sound system, Control 4 audio/visual touch screens, and satellite TV. Other onboard features and equipment include; electronic VIP cabin shades, dimmable ambient overhead lights, adjustable reading lights, and heavy duty air conditioning system all powered by a Cummings Onan generator when parked. A truly distinguished travel experience fashioned for the distinguished traveler.</p>
+                <h1 className="text-3xl font-bold">GMC Models</h1>
+                <p className="mt-3">The custom Yukon luxury conversion is breathtaking; with plush Italian leather seats, <br /> vibrant wood finish, custom raised ceiling, and ambient environment, you might forget you're not in a private jet. <br />
+                    This four-passenger executive transport with suede-lined walls and gold plated accents is easy on the eyes and provides unmatched comfort. <br /> Depending on the number of passengers, the 3-way power jump seats (patent pending) can function as a footrest or as seats.</p>
             </div>
             <div className="mt-20">
                 <div className="bg-white py-6 sm:py-8 lg:py-12">
