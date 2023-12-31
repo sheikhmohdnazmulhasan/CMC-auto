@@ -43,7 +43,7 @@ const Home = () => {
 
                         <Link className='bg-white text-center px-6 py-3 border hover:shadow-md transition-all hover:scale-105' to={'/auto-upholstery'}><button >CAR UPHOLSTERY</button></Link>
 
-                        <Link className='bg-white text-center px-6 py-3 border hover:shadow-md transition-all hover:scale-105' to={'/seat-modification'}><button className=''>SEAT MODIFICATIONS</button></Link>
+                        <Link className='bg-white text-center px-6 py-3 border hover:shadow-md transition-all hover:scale-105' to={'/entertainment'}><button className='uppercase'> Entertainment</button></Link>
 
                         <Link className='bg-white text-center px-6 py-3 border hover:shadow-md transition-all hover:scale-105' to={'/auto-upholstery'}><button >CENTRAL CONSOLE</button></Link>
 
