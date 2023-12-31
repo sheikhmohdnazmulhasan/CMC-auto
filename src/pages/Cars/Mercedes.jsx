@@ -5,13 +5,13 @@ import img4 from '../../assets/Details/2/WhatsApp Image 2023-12-30 at 19.13.59_0
 
 const Mercedes = () => {
     return (
-        <div className="mt-20 min-h-screen mx-5 md:mx-10 mb-72">
+        <div className="mt-20 mx-5 md:mx-10 ">
             <div className="text-center">
                 <h1 className="text-3xl font-bold">Mercedes-Benz Models</h1>
                 <p className="mt-3">CMC's proudly introduces one of a kind handcrafted quality created for first class travel in a Mercedes-Benz wide-body Sprinter. The "MERCEDES LUXURY TRANSPORT". Amenities that you would expect to find in a five-star hotel suite are abundant throughout this vehicle. It's spacious luxury interior includes custom tailored Italian leather seating with heat, massage, and ventilation, a lavish private restroom, multiple secured storage compartments, custom kitchen workstation with large refrigerator, Bose home theater surround sound system, Control 4 audio/visual touch screens, and satellite TV. Other onboard features and equipment include; electronic VIP cabin shades, dimmable ambient overhead lights, adjustable reading lights, and heavy duty air conditioning system all powered by a Cummings Onan generator when parked. A truly distinguished travel experience fashioned for the distinguished traveler.</p>
             </div>
             <div className="mt-20">
-                <div className="bg-white h-screen py-6 sm:py-8 lg:py-12">
+                <div className="bg-white py-6 sm:py-8 lg:py-12">
                     <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
 
                         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">

@@ -6,13 +6,13 @@ import img4 from '../../assets/Details/1/WhatsApp Image 2023-12-30 at 19.13.56_8
 export const Cadillac = () => {
 
     return (
-        <div className="mt-20 min-h-screen mx-5 md:mx-10 mb-72">
+        <div className="mt-20  mx-5 md:mx-10">
             <div className="text-center">
                 <h1 className="text-3xl font-bold">Cadillac Models</h1>
                 <p className="mt-3">This custom luxury cabin captures the look and feel of private jet travel with 18 way diamond stitched adjustable <br /> captain seats wrapped in the finest Italian leathers. <br /> 24 karat gold accents and black Zambrano wood trim compliment the custom luxury touches found in this exclusive vehicle. <br /> Complete the surround-sound, 48 inch Samsung LED curved TV, and cold beverage storage. The sky is the limit.</p>
             </div>
             <div className="mt-20">
-                <div className="bg-white h-screen py-6 sm:py-8 lg:py-12">
+                <div className="bg-white py-6 sm:py-8 lg:py-12">
                     <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
 
                         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
@@ -62,7 +62,6 @@ export const Cadillac = () => {
                     </div>
                 </div>
             </div>
-            <div className=""></div>
         </div>
     );
 };
