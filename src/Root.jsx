@@ -12,7 +12,7 @@ const Root = () => {
     const [openSubMenu, setOpenSubMenu] = useState(false)
 
     const navLinks = <div className="md:flex items-center">
-        <div className="md:flex gap-4 space-y-3 md:space-y-0">
+        <div className="md:flex gap-4 space-y-3 md:space-y-0" onClick={() => setOpenSubMenu(false)}>
             <p> <NavLink className='font-semibold uppercase hover:text-[#3EA354]'>Home</NavLink></p>
             <p><NavLink className='font-semibold uppercase hover:text-[#3EA354]'>About</NavLink></p>
         </div>
@@ -24,7 +24,7 @@ const Root = () => {
                 <a href="#" className="block px-4 py-2 font-semibold hover:text-[#3EA354]">Option 1</a>
             </div>
         </div>
-        <div className="md:flex gap-4 md:ml-3 space-y-3 md:space-y-0">
+        <div className="md:flex gap-4 md:ml-3 space-y-3 md:space-y-0" onClick={() => setOpenSubMenu(false)}>
             <p> <NavLink className='font-semibold uppercase hover:text-[#3EA354]'>Portfolio</NavLink></p>
             <p><NavLink className='font-semibold uppercase hover:text-[#3EA354]'>Contact</NavLink></p>
         </div>

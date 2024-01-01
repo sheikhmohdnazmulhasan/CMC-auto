@@ -123,8 +123,8 @@ const Home = () => {
                             <h1 className="text-3xl uppercase text-white font-semibold">Need Help?</h1>
                             <p className="text-white text-center mt-2">If you need CMC's location or have any trouble finding us, <br /> please don’t hesitate to contact us, and we will be happy to assist you.</p>
                             <div className="flex gap-3 mt-5">
-                                <Link to={'mailto:info@cmcauto.ae'}>  <button className="text-white flex items-center py-1 px-4 gap-2 font-semibold bg-blue-500 hover:bg-blue-700 transition-all"> <MdOutlineMail className="font-semibold" /> Mail Now</button></Link>
-                                <Link to={'tel:+971503583882'}> <button className="text-white flex items-center py-1 px-4 gap-2 font-semibold bg-blue-500 hover:bg-blue-700 transition-all"> <FaPhoneAlt className="font-semibold" /> Call Now</button></Link>
+                                <Link to={'mailto:info@cmcauto.ae'}>  <button className="text-white flex items-center py-1 px-4 gap-2 font-semibold bg-[#58AE69] hover:bg-[#2d703a] transition-all"> <MdOutlineMail className="font-semibold" /> Mail Now</button></Link>
+                                <Link to={'tel:+971503583882'}> <button className="text-white flex items-center py-1 px-4 gap-2 font-semibold bg-[#58AE69] hover:bg-[#2d703a] transition-all"> <FaPhoneAlt className="font-semibold" /> Call Now</button></Link>
                             </div>
                         </div>
                     </div>
