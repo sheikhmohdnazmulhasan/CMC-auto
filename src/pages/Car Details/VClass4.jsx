@@ -2,6 +2,18 @@ import img1 from '../../assets/Car details/2/VIP4 (1).jpg';
 import img2 from '../../assets/Car details/2/VIP4 (2).jpg';
 import img3 from '../../assets/Car details/2/VIP4 (3).jpg';
 import img4 from '../../assets/Car details/2/VIP4 (4).jpg';
+import DataCard from '../../components/DataCard';
+import imgX1 from '../../assets/Car-x/v4/Attention to Detail.jpg';
+import imgX3 from '../../assets/Car-x/v4/Luxurious Comfort.jpg';
+import imgX7 from '../../assets/Car-x/v4/Variety of Options.jpg';
+import imgX5 from '../../assets/Car-x/v4/Personalization Excellence.jpg';
+import CarPhoto from '../../components/CarPhoto';
+import car1 from '../../assets/Car-x/v4/g/WhatsApp Image 2023-12-30 at 19.13.42_af6acbb5.jpg';
+import car2 from '../../assets/Car-x/v4/g/WhatsApp Image 2023-12-30 at 19.13.43_104a5ebe.jpg';
+import car3 from '../../assets/Car-x/v4/g/WhatsApp Image 2023-12-30 at 19.13.43_34fcf43d.jpg';
+import car4 from '../../assets/Car-x/v4/g/WhatsApp Image 2023-12-30 at 19.13.43_64dc3c0a.jpg';
+import car5 from '../../assets/Car-x/v4/g/WhatsApp Image 2023-12-30 at 19.13.44_290b4637.jpg';
+import car6 from '../../assets/Car-x/v4/g/WhatsApp Image 2023-12-30 at 19.13.44_f6f902a2.jpg';
 
 const VClass4 = () => {
     return (
@@ -13,7 +25,7 @@ const VClass4 = () => {
             <div className="mt-10">
                 <div className="carousel w-full">
                     <div id="item1" className="carousel-item w-full">
-                        <img src={img1} className='w-full'/>
+                        <img src={img1} className='w-full' />
                     </div>
                     <div id="item2" className="carousel-item w-full">
                         <img src={img2} className="w-full" />
@@ -34,24 +46,21 @@ const VClass4 = () => {
             </div>
             <div className="mx-5 mt-20 md:mx-10">
                 <h1 className="text-3xl font-bold mb-5">Why Choose Our V Class 4 Seats Car Decor Service?</h1>
-                <div className="space-y-4">
-                    <p className="opacity-80 "><span className='font-bold'>Personalization Excellence:</span> Elevate your V Class 4 Seats with our car decoration service that excels in personalization. Our expert designers ensure that your vehicle reflects your individual taste and lifestyle with tailor-made interior decor</p>
 
-                    <p className="opacity-80 "><span className='font-bold'>Attention to Detail:</span> Every stitch, every accent – we pay attention to the smallest details. Our commitment to perfection ensures a flawlessly customized interior, from premium leather seat covers to woodgrain accents.</p>
+                <div className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <DataCard img={imgX5} title={'Personalization Excellence'} description={'  Seats with our car decoration service that excels in personalization. Our expert designers ensure that your vehicle reflects your individual taste and lifestyle with tailor-made interior decor'} />
 
-                    <p className="opacity-80 "><span className='font-bold'>Variety of Options:</span> Explore a wide range of customization options to suit your preferences. From refined leather finishes to personalized accessories, we offer a variety of choices to create a unique and eye-catching V Class 4 Seats interior.</p>
+                    <DataCard img={imgX1} title={'Attention to Detail'} description={'  Explore a wide range of customization options to suit your preferences. From refined leather finishes to personalized accessories, we  offer a variety of choices to create a unique and eye-catching V Class 4 Seats interior.'} />
 
-                    <p className="opacity-80 "><span className='font-bold'>Luxurious Comfort:</span> Indulge in the perfect blend of comfort and style. Our V Class 4 Seats car decoration prioritizes luxurious comfort with comfortable and durable seat covers, ensuring a premium driving experience.</p>
+                    <DataCard img={imgX7} title={'Variety of Options'} description={'  Every stitch, every accent – we pay attention to the smallest details. Our commitment to perfection ensures a flawlessly customized interior, from premium leather seat covers to woodgrain accents.'} />
 
-                    <p className="opacity-80 "><span className='font-bold'>Functional Design:</span>Our designs go beyond aesthetics. We provide functional design solutions, optimizing interior space for both practicality and style. Choose [Your Company Name] for a V Class 4 Seats car decor that combines luxury with functionality seamlessly.
-                    </p>
-
-                    <p className="opacity-80 "><span className='font-bold'>Safety First:</span> Your safety is our priority. Our V Class 4 Seats car decoration service ensures that your vehicle meets all safety standards and regulations, providing a secure and stylish journey.
-                    </p>
+                    <DataCard img={imgX3} title={'Luxurious Comfort'} description={'  Indulge in the perfect blend of comfort and style. Our V Class 4 Seats car decoration prioritizes luxurious comfort with comfortable and durable seat covers, ensuring a premium driving experience.'} />
                 </div>
             </div>
+            <div className="mx-5 md:mx-10 mt-20">
+                <CarPhoto p1={car1} p2={car2} p3={car3} p4={car4} p5={car5} p6={car6} />
+            </div>
         </div>
-
     );
 };
 

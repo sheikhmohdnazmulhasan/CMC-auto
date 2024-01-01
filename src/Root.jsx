@@ -6,6 +6,7 @@ import { BsTwitterX } from "react-icons/bs";
 import { useState, useEffect } from "react";
 import { MdOutlineCancel } from "react-icons/md";
 import { IoIosArrowForward } from "react-icons/io";
+// bg-gradient-to-r from-gray-50 to-blue-50
 
 const Root = () => {
     const [hideTopNavbar, setHideTopNavbar] = useState(false);
@@ -106,9 +107,9 @@ const Root = () => {
                     <nav>
                         <header className="footer-title">Useful Links</header>
                         <div className="opacity-70 space-y-5">
-                            <a className="link link-hover ">About us</a> <br />
-                            <a className="link link-hover">Contact</a> <br />
-                            <a className="link link-hover ">Portfolio</a> <br />
+                            <Link to={'/about'} className="link link-hover ">About us</Link> <br />
+                            <Link to={'/contact'} className="link link-hover">Contact</Link> <br />
+                            <Link to={'/portfolio'} className="link link-hover ">Portfolio</Link> <br />
                         </div>
                     </nav>
                     <form>
