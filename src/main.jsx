@@ -13,6 +13,7 @@ import Mercedes from "./pages/Cars/Mercedes";
 import Toyota from "./pages/Cars/Toyota";
 import Gmc from "./pages/Cars/Gmc";
 import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
 
 const router = createBrowserRouter([
 
@@ -28,7 +29,8 @@ const router = createBrowserRouter([
       { path: '/mercedes', element: < Mercedes /> },
       { path: '/toyota', element: <Toyota /> },
       { path: '/gmc', element: <Gmc /> },
-      { path: '/about', element: <About /> }
+      { path: '/about', element: <About /> },
+      { path: '/portfolio', element: <Portfolio /> }
     ]
 
   },
