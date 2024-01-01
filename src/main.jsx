@@ -15,6 +15,9 @@ import Gmc from "./pages/Cars/Gmc";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
+import CarAbout from "./components/CarAbout";
+import VClass5 from "./pages/Car Details/VClass5";
+import VClass4 from "./pages/Car Details/VClass4";
 
 const router = createBrowserRouter([
 
@@ -32,7 +35,9 @@ const router = createBrowserRouter([
       { path: '/gmc', element: <Gmc /> },
       { path: '/about', element: <About /> },
       { path: '/portfolio', element: <Portfolio /> },
-      { path: '/contact', element: <Contact /> }
+      { path: '/contact', element: <Contact /> },
+      { path: '/v-class-5', element: <VClass5 /> },
+      { path: '/v-class-4', element: <VClass4 /> },
     ]
 
   },
