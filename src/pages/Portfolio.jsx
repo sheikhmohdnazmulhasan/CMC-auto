@@ -36,9 +36,9 @@ const Portfolio = () => {
             <div className="mt-20 flex justify-center">
                 <Tabs>
                     <TabList>
-                        <Tab>All</Tab>
-                        <Tab>Tab2</Tab>
-                        <Tab>Tab3</Tab>
+                        <Tab>ALL</Tab>
+                        <Tab>SPRINTER</Tab>
+                        <Tab>FALCON</Tab>
                     </TabList>
                     <PanelList>
                         <Panel>
@@ -139,13 +139,100 @@ const Portfolio = () => {
                             </div>
                         </Panel>
                         <Panel>
-                            Officiis commodi facilis optio eum aliquam.<br />
-                            Tempore libero sit est architecto voluptate. Harum dolor modi deleniti animi qui similique facilis. Sit delectus voluptatem praesentium recusandae neque quo quod.
+                            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 ">
+                                <div className="grid gap-4">
+                                    <div>
+                                        <img className="h-auto max-w-full rounded-lg" src={all11} alt="" />
+                                    </div>
+                                    <div>
+                                        <img className="h-auto max-w-full rounded-lg" src={all4} alt="" />
+                                    </div>
+                                    <div>
+                                        <img className="h-auto max-w-full rounded-lg" src={all4} alt="" />
+                                    </div>
+                                </div>
+                                <div className="grid gap-4">
+                                    <div>
+                                        <img className="h-auto max-w-full rounded-lg" src={all20} alt="" />
+                                    </div>
+                                    <div>
+                                        <img className="h-auto max-w-full rounded-lg" src={all17} alt="" />
+                                    </div>
+                                    <div>
+                                        <img className="h-auto max-w-full rounded-lg" src={all12} alt="" />
+                                    </div>
+                                </div>
+                                <div className="grid gap-4">
+                                    <div>
+                                        <img className="h-auto max-w-full rounded-lg" src={all11} alt="" />
+                                    </div>
+                                    <div>
+                                        <img className="h-auto max-w-full rounded-lg" src={all19} alt="" />
+                                    </div>
+                                    <div>
+                                        <img className="h-auto max-w-full rounded-lg" src={all21} alt="" />
+                                    </div>
+                                </div>
+                                <div className="grid gap-4">
+                                    <div>
+                                        <img className="h-auto max-w-full rounded-lg" src={all9} alt="" />
+                                    </div>
+                                    <div>
+                                        <img className="h-auto max-w-full rounded-lg" src={all19} alt="" />
+                                    </div>
+                                    <div>
+                                        <img className="h-auto max-w-full rounded-lg" src={all124} alt="" />
+                                    </div>
+                                </div>
+                            </div>
                         </Panel>
                         <Panel>
-                            Ut voluptas a voluptas quo ut dolorum.<br />
-                            Dolorem sint velit explicabo sunt distinctio dolorem adipisci tempore.<br />
-                            Est repellat quis magnam quo nihil amet et. Iste consequatur architecto quam neque suscipit.
+                            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-4">
+                                <div className="grid gap-4">
+                                    <div>
+                                        <img className="h-auto max-w-full rounded-lg" src={all20} alt="" />
+                                    </div>
+                                    <div>
+                                        <img className="h-auto max-w-full rounded-lg" src={all19} alt="" />
+                                    </div>
+                                    <div>
+                                        <img className="h-auto max-w-full rounded-lg" src={all11} alt="" />
+                                    </div>
+                                </div>
+                                <div className="grid gap-4">
+                                    <div>
+                                        <img className="h-auto max-w-full rounded-lg" src={all1} alt="" />
+                                    </div>
+                                    <div>
+                                        <img className="h-auto max-w-full rounded-lg" src={all17} alt="" />
+                                    </div>
+                                    <div>
+                                        <img className="h-auto max-w-full rounded-lg" src={all13} alt="" />
+                                    </div>
+                                </div>
+                                <div className="grid gap-4">
+                                    <div>
+                                        <img className="h-auto max-w-full rounded-lg" src={all19} alt="" />
+                                    </div>
+                                    <div>
+                                        <img className="h-auto max-w-full rounded-lg" src={all23} alt="" />
+                                    </div>
+                                    <div>
+                                        <img className="h-auto max-w-full rounded-lg" src={all6} alt="" />
+                                    </div>
+                                </div>
+                                <div className="grid gap-4">
+                                    <div>
+                                        <img className="h-auto max-w-full rounded-lg" src={all3} alt="" />
+                                    </div>
+                                    <div>
+                                        <img className="h-auto max-w-full rounded-lg" src={all22} alt="" />
+                                    </div>
+                                    <div>
+                                        <img className="h-auto max-w-full rounded-lg" src={all124} alt="" />
+                                    </div>
+                                </div>
+                            </div>
                         </Panel>
                     </PanelList>
                 </Tabs>
