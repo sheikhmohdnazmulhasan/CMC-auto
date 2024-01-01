@@ -6,7 +6,6 @@ import img4 from '../../assets/Car details/4/Sprinter (4).jpeg';
 const Sprinter = () => {
     return (
         <div>
-            return (
             <div className="mt-20 ">
                 <div className="mx-5 md:mx-10">
                     <h1 className="text-3xl font-bold">Elevate Your Journey with Our Exclusive Sprinter Car Interior Decor Service</h1>
@@ -42,20 +41,18 @@ const Sprinter = () => {
                         <p className="opacity-80 "><span className='font-bold'>Premium Materials:</span> We source and use only the finest materials, ensuring durability, comfort, and a luxurious feel. From high-quality leather upholstery to stylish trim options, every detail is meticulously selected for a premium finish.
                         </p>
 
-                        <p className="opacity-80 "><span className='font-bold'>Customization Excellence: </span> Tailor your Falcon's interior to your preferences. Our customization options range from carbon fiber accents to sporty color schemes, allowing you to create a driving environment that resonates with your individual taste.</p>
+                        <p className="opacity-80 "><span className='font-bold'>Comfort Redefined </span>  Experience the ultimate in comfort with ergonomically designed seating and carefully curated interior layouts. Whether it's a spacious executive Sprinter or a cozy camper van, our designs prioritize your comfort during every journey.</p>
 
-                        <p className="opacity-80 "><span className='font-bold'>High-Tech Interior:</span> Immerse yourself in technology with our Falcon car decor. Enjoy the latest audio-visual systems and smart connectivity features, enhancing your driving experience with the best in modern innovation.</p>
+                        <p className="opacity-80 "><span className='font-bold'>Innovative Technology:</span> Stay connected and entertained on the road with our integration of cutting-edge technology. From advanced audio-visual systems to smart connectivity features, we bring the latest innovations to your Sprinter's interior.</p>
 
-                        <p className="opacity-80 "><span className='font-bold'>Distinctive Branding:</span>For corporate users, we seamlessly integrate branding elements into your Falcon's interior. Elevate your brand image with logos, color schemes, and brand elements incorporated into the design.
+                        <p className="opacity-80 "><span className='font-bold'>Branding Integration:</span>For businesses utilizing Sprinters for transportation, we offer seamless branding integration. Elevate your corporate image by incorporating logos, color schemes, and brand elements into the interior design.
                         </p>
 
-                        <p className="opacity-80 "><span className='font-bold'>Safety Assurance:</span>Your safety is our priority. Our Falcon car decoration service ensures that your vehicle complies with all safety standards and regulations, providing a secure and stylish journey.
+                        <p className="opacity-80 "><span className='font-bold'>Safety and Compliance:</span>Our designs prioritize safety without compromising on aesthetics. We ensure that your Sprinter meets all safety standards and regulations, providing peace of mind on every journey.
                         </p>
                     </div>
                 </div>
             </div>
-
-            );
         </div>
     );
 };
