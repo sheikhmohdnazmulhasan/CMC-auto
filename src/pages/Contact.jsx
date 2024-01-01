@@ -54,7 +54,7 @@ const Contact = () => {
                                     <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
                                 </svg>
                                 <div className="max-w-xl ml-4 text-lg font-semibold tracking-wide text-gray-500">
-                                    Sukedhara, Kathmandu , Nepal
+                                38 26th St - Al Quoz - Al Quoz Industrial Area 4 - Dubai
                                 </div>
                             </div>
                             <div className="flex mb-6 text-gray-400">
@@ -65,7 +65,7 @@ const Contact = () => {
                                     </path>
                                 </svg>
                                 <div className="max-w-xl ml-4 text-lg font-semibold tracking-wide text-gray-500">
-                                    <span> +977-014151329 ,</span> <span> +977-014151678</span>
+                                    <span> +971 50 358 3882</span>
                                 </div>
                             </div>
                             <div className="flex text-gray-400">
@@ -76,7 +76,7 @@ const Contact = () => {
                                     </path>
                                 </svg>
                                 <div className="max-w-xl ml-4 text-lg font-semibold tracking-wide text-gray-500">
-                                    info@gmail.com
+                                info@cmcauto.ae
                                 </div>
                             </div>
                         </div>
