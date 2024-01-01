@@ -61,7 +61,7 @@ const Root = () => {
                 <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
                 <div className="drawer-content flex flex-col">
                     {/* Navbar */}
-                    <Headroom> <div className={hideTopNavbar ? 'w-full navbar bg-white' : 'w-full navbar bg-white shadow-md'}>
+                    <Headroom> <div className={hideTopNavbar ? 'w-full navbar bg-white' : 'w-full navbar bg-white border-b'}>
                         <div className="flex-none lg:hidden" onClick={() => setHideTopNavbar(!hideTopNavbar)}>
                             <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
                                 {hideTopNavbar ? <MdOutlineCancel className="text-2xl" /> : <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>}
@@ -126,7 +126,7 @@ const Root = () => {
                 </div>
                 <div className=" p-4 bg-black flex flex-col md:flex-row justify-center md:justify-between w-full px-10">
                     <aside className="flex justify-center">
-                        <p className="hidden md:flex justify-center">Copyright © CMC AUTOMOBILE OUTFITTING, 2023 - All right reserved</p>
+                        <p className="hidden md:flex justify-center">Copyright © CMC AUTOMOBILE OUTFITTING, 2024 - All right reserved</p>
                         <p className="flex justify-center md:hidden">Copyright © CMC, 2023 - All right reserved</p>
                     </aside>
                     <aside className="flex gap-3 text-3xl justify-center mt-3 md:mt-0">

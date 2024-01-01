@@ -3,11 +3,11 @@ import img from '../assets/Screenshot 2024-01-01 121035.png';
 const About = () => {
     return (
         <div data-aos="fade-left">
-            <section className="flex items-center bg-stone-100 xl:h-screen font-poppins ">
+            <section className="flex items-center  xl:h-screen font-poppins ">
                 <div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
                     <div className="flex flex-wrap ">
                         <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
-                            <div className="hidden md:flex relative lg:max-w-md">
+                            <div className="hidden md:flex relative lg:max-w-md z-[-3]">
                                 <img  src={img} alt="aboutimage"
                                     className="relative hidden md:flex z-10 object-cover w-full rounded h-96" />
                                 <div

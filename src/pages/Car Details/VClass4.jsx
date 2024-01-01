@@ -13,7 +13,7 @@ const VClass4 = () => {
             <div className="mt-10">
                 <div className="carousel w-full">
                     <div id="item1" className="carousel-item w-full">
-                        <img src={img1} className="w-[100px]" />
+                        <img src={img1} className='w-full'/>
                     </div>
                     <div id="item2" className="carousel-item w-full">
                         <img src={img2} className="w-full" />
