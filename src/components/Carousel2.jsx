@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 export const CarouselComponent2 = () => {
     return (
         <Carousel className="h-96"
-            showControls={true}
+            showControls={false}
             leftControl={
                 <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-[#3EA354] group-hover:bg-[#308041] group-focus:outline-none group-focus:ring-2 group-focus:ring-white sm:h-10 sm:w-10">
                     <ArrowLineLeft size={20} weight="bold" color="white" />

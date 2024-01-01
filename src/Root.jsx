@@ -17,10 +17,10 @@ const Root = () => {
             <p><NavLink to={'/about'} className={({ isActive }) => isActive ? 'font-semibold uppercase text-[#3EA354]' : 'font-semibold uppercase hover:text-[#3EA354]'}>About</NavLink></p>
         </div>
         <div className="relative my-3 md:my-0">
-            <a className="font-semibold cursor-pointer md:ml-3 flex items-center hover:text-[#3EA354]" onClick={() => setOpenSubMenu(!openSubMenu)}>
+            <a className="font-semibold cursor-pointer md:ml-3 flex items-center hover:text-[#3EA354]" onClick={() => setOpenSubMenu(!openSubMenu)} onMouseEnter={() => setOpenSubMenu(true)}>
                 VEHICLES <IoIosArrowForward />
             </a>
-            <div className={openSubMenu ? 'absolute mt-2 py-2 w-48 bg-white border rounded-md shadow-lg' : 'absolute hidden mt-2 py-2 w-48 bg-white border rounded-md shadow-lg'}>
+            <div className={openSubMenu ? 'absolute mt-2 py-2 w-48 bg-white border rounded-md shadow-lg' : 'absolute hidden mt-2 py-2 w-48 bg-white border rounded-md shadow-lg'} onMouseLeave={() => setOpenSubMenu(false)}>
                 <Link to={'/v-class-5'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}>V Class 5 Seats</Link>
                 <Link to={'/v-class-4'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> V Class 4 Seats</Link>
                 <Link to={'/falcon'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> Falcon</Link>

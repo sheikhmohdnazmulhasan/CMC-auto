@@ -4,7 +4,6 @@ import heroVideo from '../assets/heroVideo.mp4';
 import v1 from '../assets/video2.mp4';
 import ServiceCard from '../components/ServiceCard';
 import { IoIosArrowForward } from "react-icons/io";
-import CarouselComponent from '../components/Carousel';
 import { CarouselComponent2 } from '../components/Carousel2';
 import PhotoGallery from '../components/PhotoGallery';
 import Testimonial from '../components/Testimonial';
@@ -12,6 +11,7 @@ import WhyChoose from '../components/WhyChoose';
 import { Link } from 'react-router-dom';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { MdOutlineMail } from 'react-icons/md';
+import Carosusel from '../components/Carosusel';
 
 const Home = () => {
     return (
@@ -50,18 +50,6 @@ const Home = () => {
                         <p className='mt-2 font-semibold opacity-55'>We transform your brand-new car into a personalized masterpiece with our VIP Modification Services, <br />offering luxurious 4-seat, opulent 5-seat, and futuristic Falcon 6-seat configurations, <br /> each meticulously crafted for an elevated driving experience.</p>
                     </div>
 
-                    {/* Links */}
-                    {/* <div className="flex flex-col md:flex-row justify-around">
-
-                        <Link className='bg-white text-center px-6 py-3 border hover:shadow-md transition-all hover:scale-105' to={'/seat-modification'}><button className=''></button></Link>
-
-                        <Link className='bg-white text-center px-6 py-3 border hover:shadow-md transition-all hover:scale-105' to={'/auto-upholstery'}><button >CAR UPHOLSTERY</button></Link>
-
-                        <Link className='bg-white text-center px-6 py-3 border hover:shadow-md transition-all hover:scale-105' to={'/central-console-design'}><button className='uppercase'> Entertainment</button></Link>
-
-                        <Link className='bg-white text-center px-6 py-3 border hover:shadow-md transition-all hover:scale-105' to={'/central-console-design'}><button >CENTRAL CONSOLE</button></Link>
-                    </div> */}
-
                     <ServiceCard />
                 </div>
 
@@ -75,15 +63,6 @@ const Home = () => {
                             <p> <IoIosArrowForward className='text-xl mt-1 text-[#3EA354] font-bold' /> </p>
                             <p>Our team comprises skilled artisans and craftsmen who are masters in their trade. We pride ourselves on delivering meticulous attention to detail, ensuring that every modification reflects the highest standards of craftsmanship and precision.</p>
                         </div>
-
-                        {/* <div className="flex mt-5">
-                            <p> <IoIosArrowForward className='text-xl mt-1 text-[#3EA354] font-bold' /> </p>
-                            <p>We understand that each client is unique, and so are their preferences. Our personalized approach means that every modification service is tailored to meet your specific desires and lifestyle, ensuring a one-of-a-kind driving experience that resonates with your personality.</p>
-                        </div>
-                        <div className="flex mt-5">
-                            <p> <IoIosArrowForward className='text-xl mt-1 text-[#3EA354] font-bold' /> </p>
-                            <p>We source and utilize premium materials to guarantee durability, comfort, and a touch of opulence in every project. Whether it's the finest leather upholstery or high-end interior components, our commitment to quality is unwavering.</p>
-                        </div> */}
                     </div>
 
 
@@ -98,7 +77,8 @@ const Home = () => {
                         <p className='mt-2 font-semibold opacity-55'>The possibilities are endless with custom luxury interior upgrades for automobiles. <br /> At CMC our mission is to provide the most functional, luxurious, and elegant travel experience possible. <br /> The unanimously positive response we have received, demonstrates clearly that we have succeeded.</p>
                     </div>
                     <div className="hidden md:flex">
-                        <CarouselComponent />
+                        {/* <CarouselComponent /> */}
+                        <Carosusel />
                     </div>
                     <div className="md:hidden">
                         <CarouselComponent2 />
