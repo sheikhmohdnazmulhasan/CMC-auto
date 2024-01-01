@@ -3,7 +3,7 @@ import CarAbout from "../../components/CarAbout";
 
 const VClass5 = () => {
     return (
-        <div>
+        <div data-aos="fade-left">
             <CarAbout />
         </div>
     );

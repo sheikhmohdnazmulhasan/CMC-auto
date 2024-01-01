@@ -82,7 +82,7 @@ const Root = () => {
                     </div></Headroom>
                     {/* Page content here */}
                     {/* OutLet */}
-                    <div className="min-h-screen"><Outlet /></div>
+                    <div className="min-h-screen overflow-hidden" ><Outlet /></div>
 
                 </div>
                 <div className="drawer-side">

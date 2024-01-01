@@ -8,7 +8,7 @@ import img6 from '../assets/x6.jpg';
 const PhotoGallery = () => {
 
     return (
-        <div>
+        <div data-aos="fade-up">
             <div className="container mx-auto px-3 md:px-10 py-2 pt-5">
                 <div className="-m-1 flex flex-wrap md:-m-2">
                     <div className="flex w-1/2 flex-wrap">

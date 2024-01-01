@@ -2,7 +2,7 @@
 
 const Contact = () => {
     return (
-        <div>
+        <div data-aos="fade-left">
             <section
                 className="flex items-center bg-gradient-to-r from-gray-50 to-blue-50 xl:h-screen font-poppins ">
                 <div className="justify-center flex-1 max-w-6xl px-4 py-4 mx-auto lg:py-10 md:px-7">

@@ -30,7 +30,7 @@ import all26 from '../assets/portfolio/all/VIP4 (8).jpg';
 
 const Portfolio = () => {
     return (
-        <div className="mt-20 mx-5 md:mx-10 min-h-screen">
+        <div className="mt-20 mx-5 md:mx-10 min-h-screen" data-aos="fade-left">
             <h1 className="text-center uppercase text-3xl font-bold">Our work history</h1>
 
             <div className="mt-20 flex justify-center">

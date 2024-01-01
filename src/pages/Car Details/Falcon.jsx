@@ -4,7 +4,7 @@ import img3 from '../../assets/Car details/3/Falcon6 (8).jpg';
 import img4 from '../../assets/Car details/3/Falcon6 (9).jpg';
 const Falcon = () => {
     return (
-        <div className="mt-20 ">
+        <div className="mt-20" data-aos="fade-left">
             <div className="mx-5 md:mx-10">
                 <h1 className="text-3xl font-bold">Unleash the Power of Style with Our Falcon Car Decoration Services</h1>
                 <p className="opacity-80 mt-4">Step into the extraordinary with our Falcon car decoration services. Elevate the interior of your Falcon to match its powerful performance. Our skilled decorators combine craftsmanship and innovation to create a customized interior that complements the dynamic nature of the Falcon.</p>

@@ -5,7 +5,7 @@ import img4 from '../../assets/Car details/4/Sprinter (4).jpeg';
 
 const Sprinter = () => {
     return (
-        <div>
+        <div data-aos="fade-left">
             <div className="mt-20 ">
                 <div className="mx-5 md:mx-10">
                     <h1 className="text-3xl font-bold">Elevate Your Journey with Our Exclusive Sprinter Car Interior Decor Service</h1>

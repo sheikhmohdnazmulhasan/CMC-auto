@@ -5,7 +5,7 @@ import img4 from '../../assets/Car details/2/VIP4 (4).jpg';
 
 const VClass4 = () => {
     return (
-        <div className="mt-20 ">
+        <div className="mt-20 " data-aos="fade-left">
             <div className="mx-5 md:mx-10">
                 <h1 className="text-3xl font-bold">Transform Your V Class 4 Seats with Our Exclusive Car Decoration Services</h1>
                 <p className="opacity-80 mt-4">Discover the perfect blend of comfort and style with our V Class 4 Seats car decoration service. Whether you use your V Class for business or leisure, our team of skilled decorators is dedicated to enhancing your driving environment. From refined leather finishes to personalized accessories, we offer a wide range of options to suit your preferences.</p>
