@@ -26,7 +26,7 @@ const Root = () => {
         </div>
         <div className="md:flex gap-4 md:ml-3 space-y-3 md:space-y-0" onClick={() => setOpenSubMenu(false)}>
             <p> <NavLink to={'/portfolio'} className={({ isActive }) => isActive ? 'font-semibold uppercase text-[#3EA354]' : 'font-semibold uppercase hover:text-[#3EA354]'}>Portfolio</NavLink></p>
-            <p><NavLink className={({ isActive }) => isActive ? 'font-semibold uppercase text-[#3EA354]' : 'font-semibold uppercase hover:text-[#3EA354]'}>Contact</NavLink></p>
+            <p><NavLink to={'/contact'} className={({ isActive }) => isActive ? 'font-semibold uppercase text-[#3EA354]' : 'font-semibold uppercase hover:text-[#3EA354]'}>Contact</NavLink></p>
         </div>
     </div>
 

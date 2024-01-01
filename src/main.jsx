@@ -14,6 +14,7 @@ import Toyota from "./pages/Cars/Toyota";
 import Gmc from "./pages/Cars/Gmc";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
 
 const router = createBrowserRouter([
 
@@ -30,7 +31,8 @@ const router = createBrowserRouter([
       { path: '/toyota', element: <Toyota /> },
       { path: '/gmc', element: <Gmc /> },
       { path: '/about', element: <About /> },
-      { path: '/portfolio', element: <Portfolio /> }
+      { path: '/portfolio', element: <Portfolio /> },
+      { path: '/contact', element: <Contact /> }
     ]
 
   },

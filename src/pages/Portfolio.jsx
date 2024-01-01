@@ -116,7 +116,7 @@ const Portfolio = () => {
                                 </div>
                                 <div className="grid gap-4">
                                     <div>
-                                        <img className="h-auto max-w-full rounded-lg" src={all19} alt="" />
+                                        <img className="h-auto max-w-full rounded-lg" src={all25} alt="" />
                                     </div>
                                     <div>
                                         <img className="h-auto max-w-full rounded-lg" src={all20} alt="" />
@@ -142,7 +142,7 @@ const Portfolio = () => {
                             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 ">
                                 <div className="grid gap-4">
                                     <div>
-                                        <img className="h-auto max-w-full rounded-lg" src={all11} alt="" />
+                                        <img className="h-auto max-w-full rounded-lg" src={all26} alt="" />
                                     </div>
                                     <div>
                                         <img className="h-auto max-w-full rounded-lg" src={all4} alt="" />
