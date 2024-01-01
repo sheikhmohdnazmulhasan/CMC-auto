@@ -13,8 +13,8 @@ const Root = () => {
 
     const navLinks = <div className="md:flex items-center">
         <div className="md:flex gap-4 space-y-3 md:space-y-0" onClick={() => setOpenSubMenu(false)}>
-            <p> <NavLink className='font-semibold uppercase hover:text-[#3EA354]'>Home</NavLink></p>
-            <p><NavLink className='font-semibold uppercase hover:text-[#3EA354]'>About</NavLink></p>
+            <p> <NavLink className={({ isActive }) => isActive ? 'font-semibold uppercase text-[#3EA354]' : 'font-semibold uppercase hover:text-[#3EA354]'}>Home</NavLink></p>
+            <p><NavLink to={'/about'} className={({ isActive }) => isActive ? 'font-semibold uppercase text-[#3EA354]' : 'font-semibold uppercase hover:text-[#3EA354]'}>About</NavLink></p>
         </div>
         <div className="relative my-3 md:my-0">
             <a className="font-semibold cursor-pointer md:ml-3 flex items-center hover:text-[#3EA354]" onClick={() => setOpenSubMenu(!openSubMenu)}>
@@ -25,8 +25,8 @@ const Root = () => {
             </div>
         </div>
         <div className="md:flex gap-4 md:ml-3 space-y-3 md:space-y-0" onClick={() => setOpenSubMenu(false)}>
-            <p> <NavLink className='font-semibold uppercase hover:text-[#3EA354]'>Portfolio</NavLink></p>
-            <p><NavLink className='font-semibold uppercase hover:text-[#3EA354]'>Contact</NavLink></p>
+            <p> <NavLink className={({ isActive }) => isActive ? 'font-semibold uppercase text-[#3EA354]' : 'font-semibold uppercase hover:text-[#3EA354]'}>Portfolio</NavLink></p>
+            <p><NavLink className={({ isActive }) => isActive ? 'font-semibold uppercase text-[#3EA354]' : 'font-semibold uppercase hover:text-[#3EA354]'}>Contact</NavLink></p>
         </div>
     </div>
 

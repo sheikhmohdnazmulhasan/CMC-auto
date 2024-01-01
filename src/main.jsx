@@ -12,6 +12,7 @@ import { Cadillac } from "./pages/Cars/Cadillac";
 import Mercedes from "./pages/Cars/Mercedes";
 import Toyota from "./pages/Cars/Toyota";
 import Gmc from "./pages/Cars/Gmc";
+import About from "./pages/About";
 
 const router = createBrowserRouter([
 
@@ -26,7 +27,8 @@ const router = createBrowserRouter([
       { path: '/cadillac', element: <Cadillac /> },
       { path: '/mercedes', element: < Mercedes /> },
       { path: '/toyota', element: <Toyota /> },
-      { path: '/gmc', element: <Gmc /> }
+      { path: '/gmc', element: <Gmc /> },
+      { path: '/about', element: <About /> }
     ]
 
   },
