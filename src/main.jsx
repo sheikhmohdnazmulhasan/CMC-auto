@@ -18,6 +18,8 @@ import Contact from "./pages/Contact";
 import CarAbout from "./components/CarAbout";
 import VClass5 from "./pages/Car Details/VClass5";
 import VClass4 from "./pages/Car Details/VClass4";
+import Falcon from "./pages/Car Details/Falcon";
+import Sprinter from "./pages/Car Details/Sprinter";
 
 const router = createBrowserRouter([
 
@@ -38,6 +40,8 @@ const router = createBrowserRouter([
       { path: '/contact', element: <Contact /> },
       { path: '/v-class-5', element: <VClass5 /> },
       { path: '/v-class-4', element: <VClass4 /> },
+      { path: '/falcon', element: <Falcon /> },
+      { path: '/sprinter', element: <Sprinter /> }
     ]
 
   },

@@ -23,6 +23,8 @@ const Root = () => {
             <div className={openSubMenu ? 'absolute mt-2 py-2 w-48 bg-white border rounded-md shadow-lg' : 'absolute hidden mt-2 py-2 w-48 bg-white border rounded-md shadow-lg'}>
                 <Link to={'/v-class-5'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}>V Class 5 Seats</Link>
                 <Link to={'/v-class-4'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> V Class 4 Seats</Link>
+                <Link to={'/falcon'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> Falcon</Link>
+                <Link to={'/sprinter'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> Sprinter</Link>
             </div>
         </div>
         <div className="md:flex gap-4 md:ml-3 space-y-3 md:space-y-0" onClick={() => setOpenSubMenu(false)}>
