@@ -20,6 +20,7 @@ import VClass5 from "./pages/Car Details/VClass5";
 import VClass4 from "./pages/Car Details/VClass4";
 import Falcon from "./pages/Car Details/Falcon";
 import Sprinter from "./pages/Car Details/Sprinter";
+import Services from "./pages/Services";
 
 const router = createBrowserRouter([
 
@@ -36,6 +37,7 @@ const router = createBrowserRouter([
       { path: '/toyota', element: <Toyota /> },
       { path: '/gmc', element: <Gmc /> },
       { path: '/about', element: <About /> },
+      {path: '/services', element: <Services/>},
       { path: '/portfolio', element: <Portfolio /> },
       { path: '/contact', element: <Contact /> },
       { path: '/v-class-5', element: <VClass5 /> },

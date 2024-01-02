@@ -2,6 +2,18 @@ import img1 from '../../assets/Car details/4/Sprinter (1).jpeg';
 import img2 from '../../assets/Car details/4/Sprinter (2).jpeg';
 import img3 from '../../assets/Car details/4/Sprinter (3).jpeg';
 import img4 from '../../assets/Car details/4/Sprinter (4).jpeg';
+import DataCard from '../../components/DataCard';
+import imgX1 from '../../assets/Car-x/spriner/Comfort Redefined.jpg';
+import imgX2 from '../../assets/Car-x/spriner/Innovative Technology.jpg';
+import imgX3 from '../../assets/Car-x/spriner/pexels-andrea-piacquadio-3764000.jpg';
+import imgX4 from '../../assets/Car-x/spriner/Tailored Elegance.jpg';
+import CarPhoto from '../../components/CarPhoto';
+import car1 from '../../assets/Car-x/spriner/g/1.jpg';
+import car2 from '../../assets/Car-x/spriner/g/2.jpg';
+import car3 from '../../assets/Car-x/spriner/g/3.jpg';
+import car4 from '../../assets/Car-x/spriner/g/5.jpg';
+import car5 from '../../assets/Car-x/spriner/g/4.jpg';
+import car6 from '../../assets/Car-x/spriner/g/6.jpg';
 
 const Sprinter = () => {
     return (
@@ -35,23 +47,19 @@ const Sprinter = () => {
                 </div>
                 <div className="mx-5 mt-20 md:mx-10">
                     <h1 className="text-3xl font-bold mb-5">Why Choose Our Sprinter Car Decor Service?</h1>
-                    <div className="space-y-4">
-                        <p className="opacity-80 "><span className='font-bold'>Tailored Elegance:</span>  Our expert designers understand that each client is unique. We work closely with you to tailor the interior decor to your specific preferences, ensuring a touch of elegance that reflects your style.</p>
+                    <div className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <DataCard img={imgX4} title={'Tailored Elegance: '} description={" Our expert designers understand that each client is unique. We work closely with you to tailor the interior decor to your specific preferences, ensuring a touch of elegance that reflects your style."} />
 
-                        <p className="opacity-80 "><span className='font-bold'>Premium Materials:</span> We source and use only the finest materials, ensuring durability, comfort, and a luxurious feel. From high-quality leather upholstery to stylish trim options, every detail is meticulously selected for a premium finish.
-                        </p>
+                        <DataCard img={imgX1} title={'Premium Materials'} description={"We source and use only the finest materials, ensuring durability, comfort, and a luxurious feel. From high-quality leather upholstery to stylish trim options, every detail is meticulously selected for a premium finish."} />
 
-                        <p className="opacity-80 "><span className='font-bold'>Comfort Redefined </span>  Experience the ultimate in comfort with ergonomically designed seating and carefully curated interior layouts. Whether it's a spacious executive Sprinter or a cozy camper van, our designs prioritize your comfort during every journey.</p>
+                        <DataCard img={imgX3} title={'Comfort Redefined'} description={" Experience the ultimate in comfort with ergonomically designed seating and carefully curated interior layouts. Whether it's a spacious executive Sprinter or a cozy camper van, our designs prioritize your comfort during every journey."} />
 
-                        <p className="opacity-80 "><span className='font-bold'>Innovative Technology:</span> Stay connected and entertained on the road with our integration of cutting-edge technology. From advanced audio-visual systems to smart connectivity features, we bring the latest innovations to your Sprinter's interior.</p>
-
-                        <p className="opacity-80 "><span className='font-bold'>Branding Integration:</span>For businesses utilizing Sprinters for transportation, we offer seamless branding integration. Elevate your corporate image by incorporating logos, color schemes, and brand elements into the interior design.
-                        </p>
-
-                        <p className="opacity-80 "><span className='font-bold'>Safety and Compliance:</span>Our designs prioritize safety without compromising on aesthetics. We ensure that your Sprinter meets all safety standards and regulations, providing peace of mind on every journey.
-                        </p>
+                        <DataCard img={imgX2} title={'Innovative Technology:'} description={"Stay connected and entertained on the road with our integration of cutting-edge technology. From advanced audio-visual systems to smart connectivity features, we bring the latest innovations to your Sprinter's interior."} />
                     </div>
                 </div>
+            </div>
+            <div className="mx-5 md:mx-10 mt-20">
+                <CarPhoto p1={car1} p2={car2} p3={car3} p4={car4} p5={car5} p6={car6} />
             </div>
         </div>
     );
