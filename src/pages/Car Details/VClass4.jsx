@@ -48,7 +48,7 @@ const VClass4 = () => {
                 <h1 className="text-3xl font-bold mb-5">Why Choose Our V Class 4 Seats Car Decor Service?</h1>
 
                 <div className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <DataCard img={imgX5} title={'Personalization Excellence'} description={'  Seats with our car decoration service that excels in personalization. Our expert designers ensure that your vehicle reflects your individual taste and lifestyle with tailor-made interior decor'} />
+                    <DataCard img={imgX5} title={'Personalization '} description={'  Seats with our car decoration service that excels in personalization. Our expert designers ensure that your vehicle reflects your individual taste and lifestyle with tailor-made interior decor'} />
 
                     <DataCard img={imgX1} title={'Attention to Detail'} description={'  Explore a wide range of customization options to suit your preferences. From refined leather finishes to personalized accessories, we  offer a variety of choices to create a unique and eye-catching V Class 4 Seats interior.'} />
 
