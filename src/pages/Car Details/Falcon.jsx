@@ -7,6 +7,13 @@ import imgX1 from '../../assets/Car-x/falcon/Personalization Excellence.jpg';
 import imgX2 from '../../assets/Car-x/falcon/Precision Craftsmanship.jpg';
 import imgX3 from '../../assets/Car-x/falcon/Customization Excellence.jpg';
 import imgX4 from '../../assets/Car-x/falcon/High-Tech Interior.jpg';
+import CarPhoto from '../../components/CarPhoto';
+import car1 from '../../assets/Car-x/falcon/g/WhatsApp Image 2023-12-30 at 19.13.57_6b0ee08f.jpg';
+import car2 from '../../assets/Car-x/falcon/g/WhatsApp Image 2023-12-30 at 19.13.59_9a48082c.jpg';
+import car3 from '../../assets/Car-x/falcon/g/WhatsApp Image 2023-12-30 at 19.14.00_46f96475.jpg';
+import car4 from '../../assets/Car-x/falcon/g/WhatsApp Image 2023-12-30 at 19.14.00_55772e2c.jpg';
+import car5 from '../../assets/Car-x/falcon/g/WhatsApp Image 2023-12-30 at 19.14.00_7af2b281.jpg';
+import car6 from '../../assets/Car-x/falcon/g/WhatsApp Image 2023-12-30 at 19.14.01_32791275.jpg';
 
 const Falcon = () => {
     return (
@@ -48,6 +55,9 @@ const Falcon = () => {
 
                     <DataCard img={imgX4} title={'High-Tech Interior'} description={"Immerse yourself in technology with our Falcon car decor. Enjoy the latest audio-visual systems and smart connectivity features, enhancing your driving experience with the best in modern innovation."} />
                 </div>
+            </div>
+            <div className="mx-5 md:mx-10 mt-20">
+                <CarPhoto p1={car1} p2={car2} p3={car3} p4={car4} p5={car5} p6={car6} />
             </div>
         </div>
 
