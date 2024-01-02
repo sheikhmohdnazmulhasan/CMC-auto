@@ -29,7 +29,7 @@ const Root = () => {
             </div>
         </div>
         <div className="md:flex gap-4 md:ml-3 space-y-3 md:space-y-0" onClick={() => setOpenSubMenu(false)}>
-            <p> <NavLink to={'/portfolio'} className={({ isActive }) => isActive ? 'font-semibold uppercase text-[#3EA354]' : 'font-semibold uppercase hover:text-[#3EA354]'}>Portfolio</NavLink></p>
+            <p> <NavLink to={'/portfolio'} className={({ isActive }) => isActive ? 'font-semibold uppercase text-[#3EA354]' : 'font-semibold uppercase hover:text-[#3EA354]'}>Media</NavLink></p>
             <p><NavLink to={'/contact'} className={({ isActive }) => isActive ? 'font-semibold uppercase text-[#3EA354]' : 'font-semibold uppercase hover:text-[#3EA354]'}>Contact</NavLink></p>
         </div>
     </div>
@@ -109,7 +109,7 @@ const Root = () => {
                         <div className="opacity-70 space-y-5">
                             <Link to={'/about'} className="link link-hover ">About us</Link> <br />
                             <Link to={'/contact'} className="link link-hover">Contact</Link> <br />
-                            <Link to={'/portfolio'} className="link link-hover ">Portfolio</Link> <br />
+                            <Link to={'/portfolio'} className="link link-hover ">Media</Link> <br />
                         </div>
                     </nav>
                     <form>
@@ -128,7 +128,7 @@ const Root = () => {
                 <div className=" p-4 bg-black flex flex-col md:flex-row justify-center md:justify-between w-full px-10">
                     <aside className="flex justify-center">
                         <p className="hidden md:flex justify-center">Copyright © CMC AUTOMOBILE OUTFITTING, 2024 - All right reserved</p>
-                        <p className="flex justify-center md:hidden">Copyright © CMC, 2023 - All right reserved</p>
+                        <p className="flex justify-center md:hidden">Copyright © CMC, 2024 - All right reserved</p>
                     </aside>
                     <aside className="flex gap-3 text-3xl justify-center mt-3 md:mt-0">
                         <FaFacebook className="cursor-pointer hover:scale-110 transition-all hover:text-[#3EA354]" />
