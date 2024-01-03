@@ -11,6 +11,7 @@ import { IoIosArrowForward } from "react-icons/io";
 const Root = () => {
     const [hideTopNavbar, setHideTopNavbar] = useState(false);
     const [openSubMenu, setOpenSubMenu] = useState(false)
+    console.log('Developed by Sheikh Mohammad Nazmul Hasan || nazmulofficial@outlook.com');
 
     const navLinks = <div className="md:flex items-center">
         <div className="md:flex gap-4 space-y-3 md:space-y-0" onClick={() => setOpenSubMenu(false)}>
@@ -54,26 +55,26 @@ const Root = () => {
         <div className="">
             {/* 
             Secondary Navbar */}
-            {!hideTopNavbar && <div className="h-8 bg-[#E5E5E5] p-1 w-full flex justify-around font-semibold text-slate-500">
+            {!hideTopNavbar && <div className="h-8 text-sm bg-[#E5E5E5] p-1 w-full flex justify-around font-semibold text-slate-500">
                 <p>Phone: +971 50 358 3882</p>
                 <p>WE EXPORT WORLDWIDE</p>
             </div>}
 
-            <div className="drawer">
+            <div className="drawer ">
                 <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
                 <div className="drawer-content flex flex-col">
                     {/* Navbar */}
-                    <Headroom> <div className={hideTopNavbar ? 'w-full navbar bg-white' : 'w-full navbar bg-white border-b'}>
+                    <Headroom className=" bg-white"> <div className={hideTopNavbar ? 'w-full navbar bg-white' : 'w-full navbar bg-white border-b'}>
                         <div className="flex-none lg:hidden" onClick={() => setHideTopNavbar(!hideTopNavbar)}>
                             <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
                                 {hideTopNavbar ? <MdOutlineCancel className="text-2xl" /> : <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>}
                             </label>
                         </div>
-                        <div className="hidden md:block flex-1 px-2 mx-2">
+                        <div className="hidden md:ml-7 md:block flex-1 px-2 mx-2">
                             <Link to={'/'}> <img className="w-[60px]" src={logo} alt="" /></Link>
                         </div>
                         <div className="flex-none hidden lg:block">
-                            <ul className="menu menu-horizontal">
+                            <ul className="menu menu-horizontal md:mr-7">
                                 {/* Navbar menu content here */}
                                 {navLinks}
                             </ul>

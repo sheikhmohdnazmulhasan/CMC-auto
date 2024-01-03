@@ -1,4 +1,7 @@
 import img from '../assets/Screenshot 2024-01-01 121035.png';
+import mission from '../assets/about/mission-280x280-1.webp';
+import values from '../assets/about/values-280x280-1.webp';
+import vision from '../assets/about/vision-280x280-1.webp';
 
 const About = () => {
     return (
@@ -8,7 +11,7 @@ const About = () => {
                     <div className="flex flex-wrap ">
                         <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
                             <div className="hidden md:flex relative lg:max-w-md z-[-3]">
-                                <img  src={img} alt="aboutimage"
+                                <img src={img} alt="aboutimage"
                                     className="relative hidden md:flex z-10 object-cover w-full rounded h-96" />
                                 <div
                                     className="absolute bottom-0 right-0 z-10 p-8 bg-white border-4 border-blue-500 rounded shadow lg:-mb-8 lg:-mr-11 sm:p-8">
@@ -43,19 +46,31 @@ const About = () => {
                 </div>
             </section>
             <div className="mx-5 md:mx-10 mt-20" id='more-about'>
-                <h1 className='text-3xl font-bold mb-10'>Transforming Car Interiors with Elegance and Style</h1>
-                <div className="space-y-4 opacity-70">
-                    <p><span className='font-bold'>Our Passion for Excellence:</span> At the heart of our company is a passionate team dedicated to the artistry of car interior decoration. We believe that the interior of a car is a reflection of its owner's personality and style. With this philosophy, we embark on a journey to transform ordinary car interiors into extraordinary spaces that exude sophistication and luxury.</p>
-
-                    <p><span className='font-bold'>Craftsmanship and Quality:</span> Our skilled artisans and craftsmen are masters in their trade, ensuring every detail is meticulously crafted to perfection. We source premium materials to guarantee durability, comfort, and a touch of opulence in every project. From sumptuous leather upholstery to custom stitching and bespoke trimmings, we pay attention to every element to create an interior that is both visually stunning and comfortable.</p>
-
-                    <p><span className='font-bold'>Tailored Solutions for Every Client:</span> Understanding that each car owner has unique tastes and preferences, we offer personalized solutions to meet individual needs. Whether you're looking for a classic, contemporary, or avant-garde interior design, our team collaborates closely with clients to bring their vision to life. We believe in turning dreams into reality, one car interior at a time.</p>
-
-                    <p><span className='font-bold'>Innovation in Design:</span> Staying at the forefront of design trends and automotive innovations, we infuse modernity into our creations. Our designs not only focus on aesthetics but also incorporate cutting-edge technologies that enhance the functionality and convenience of your car interior. We blend the classic with the contemporary to deliver a timeless appeal.</p>
-
-                    <p><span className='font-bold'>Commitment to Customer Satisfaction:</span> Customer satisfaction is our ultimate goal. We strive to exceed expectations at every step of the process, from the initial consultation to the final delivery. Our transparent communication, attention to detail, and dedication to quality ensure that our clients are not just satisfied but delighted with the transformation of their car interiors.</p>
-
-                    <p><span className='font-bold'>Join Us on the Journey:</span> Embark on a journey with CMC and witness the transformation of your car interior into a masterpiece of design and comfort. Discover the joy of driving in an environment that reflects your style, personality, and a passion for excellence.</p>
+                <div className="grid grid-cols-1 md:grid-cols-3">
+                    <div className="card bg-base-100 " data-aos="fade-right">
+                        <figure className=" ">
+                            <img src={mission} alt="Shoes" className="rounded-xl" />
+                        </figure>
+                        <div className="card-body items-center text-center">
+                            <p className=''> CMC mission is to transform ordinary car interiors into extraordinary works of art. We are passionate about creating custom, high-quality interiors that reflect our client’s unique styles and personalities. Our goal is to make every ride a luxurious and comfortable experience, while also enhancing the overall value and appeal of the vehicle.</p>
+                        </div>
+                    </div>
+                    <div className="card bg-base-100 " >
+                        <figure className=" ">
+                            <img src={vision} alt="Shoes" className="rounded-xl" />
+                        </figure>
+                        <div className="card-body items-center text-center">
+                            <p>CMC vision is to be the premier provider of custom car interiors, known for our exceptional craftsmanship, innovative designs, and unparalleled customer service. We aim to set the standard for the industry, continuously pushing the boundaries of what is possible in custom car interiors. </p>
+                        </div>
+                    </div>
+                    <div className="card bg-base-100" data-aos="fade-left">
+                        <figure className=" ">
+                            <img src={values} alt="Shoes" className="rounded-xl" />
+                        </figure>
+                        <div className="card-body items-center text-center">
+                            <p>We are committed to upholding the highest standards of excellence in all aspects of our business. Our core values guide everything we do, from our interactions with clients to quality control. As a leading car interior decoration company, we take pride in our commitment to elevating the aesthetics and comfort of your vehicle.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

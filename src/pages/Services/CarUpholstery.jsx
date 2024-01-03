@@ -71,7 +71,7 @@ const CarUpholstery = () => {
             </div>
             {/* Accordion */}
             <div className="w-full my-16 space-y-4 px-6 md:px-10">
-                <h3 className='text-2xl'>Why Choose SMD?</h3>
+                <h3 className='text-2xl'>Why Choose CMC?</h3>
                 <div className="collapse collapse-arrow bg-base-200 opacity-80">
                     <input type="radio" name="my-accordion-2" checked="checked" />
                     <div className="collapse-title font-medium">

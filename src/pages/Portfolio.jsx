@@ -32,6 +32,7 @@ const Portfolio = () => {
     return (
         <div className="mt-20 mx-5 md:mx-10 min-h-screen" data-aos="fade-left">
             <h1 className="text-center uppercase text-3xl font-bold">Our work history</h1>
+            <p className='text-center'>Welcome to the CMC media page. Explore our gallery of stunning automotive creations, behind-the-scenes glimpses, <br /> and exciting events we’ve been a part of. From concept to reality, our passion for automotive excellence is captured in every image and video.</p>
 
             <div className="mt-20 flex justify-center">
                 <Tabs>
