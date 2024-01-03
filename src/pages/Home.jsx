@@ -21,6 +21,7 @@ const Home = () => {
             <section className="fixed z-[-1] top-0 left-0 w-full h-screen flex flex-col items-center justify-center py-0 px-3">
                 <div className="video-docker absolute top-0 left-0 w-full h-full overflow-hidden bg-fixed">
                     <video className="min-w-full min-h-full  object-cover absolute" src={heroVideo} type="video/mp4" autoPlay muted loop></video>
+                    {/* <div className="relative right-0 bottom-0"> ffff</div> */}
                 </div>
             </section>
 

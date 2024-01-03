@@ -1,11 +1,11 @@
 import { Link, NavLink, Outlet } from "react-router-dom";
 import logo from '../src/assets/logo.png';
 import Headroom from "react-headroom";
-import { FaFacebook, FaInstagram } from "react-icons/fa";
-import { BsTwitterX } from "react-icons/bs";
+import { FaTiktok, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { useState, useEffect } from "react";
 import { MdOutlineCancel } from "react-icons/md";
 import { IoIosArrowForward } from "react-icons/io";
+import ScrollToTop from "react-scroll-to-top";
 // bg-gradient-to-r from-gray-50 to-blue-50
 
 const Root = () => {
@@ -133,13 +133,19 @@ const Root = () => {
                         <p className="flex justify-center md:hidden">Copyright © CMC, 2024 - All right reserved</p>
                     </aside>
                     <aside className="flex gap-3 text-3xl justify-center mt-3 md:mt-0">
-                        <FaFacebook className="cursor-pointer hover:scale-110 transition-all hover:text-[#3EA354]" />
-                        <FaInstagram className="cursor-pointer hover:scale-110 transition-all hover:text-[#3EA354]" />
-                        <BsTwitterX className="cursor-pointer hover:scale-110 transition-all hover:text-[#3EA354]" />
+                        <a href="https://www.instagram.com/cmc.uae?igsh=MmE1emZqYjRhZHVv" target="_blank" rel="noreferrer"> <FaInstagram className="cursor-pointer hover:scale-110 transition-all hover:text-[#3EA354]" /></a>
+
+                        <a href="https://www.tiktok.com/@cmc_modification_center" target="_blank" rel="noreferrer">
+                            <FaTiktok className="cursor-pointer hover:scale-110 transition-all hover:text-[#3EA354]" /> </a>
+
+                        <a href="https://wa.me/+971503583882" target="_blank" rel="noreferrer">
+                            <FaWhatsapp className="cursor-pointer hover:scale-110 transition-all hover:text-[#3EA354]" />
+                        </a>
+
                     </aside>
                 </div>
             </footer>
-
+            <ScrollToTop width="40" smooth />
         </div>
     );
 }

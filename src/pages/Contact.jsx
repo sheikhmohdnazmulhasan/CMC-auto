@@ -1,8 +1,19 @@
+import Swal from "sweetalert2";
 
 
 const Contact = () => {
+
+    function handleContact(event) {
+        event.preventDefault();
+        Swal.fire({
+            icon: 'success',
+            title: 'Messages Send',
+            text: 'You have successfully sent the message and we will contact you as soon as possible'
+        })
+    }
+
     return (
-        <div data-aos="fade-left">
+        <div data-aos="fade-left" >
             <section
                 className="flex items-center xl:h-screen font-poppins ">
                 <div className="justify-center flex-1 max-w-6xl px-4 py-4 mx-auto lg:py-10 md:px-7">
@@ -11,7 +22,7 @@ const Contact = () => {
                             <div className="max-w-sm mx-auto ">
                                 <div
                                     className="p-6 mb-6 text-center bg-white border rounded-md shadow">
-                                    <form action="">
+                                    <form onSubmit={handleContact}>
                                         <div className="mb-6">
                                             <h2 className="text-xl font-bold text-gray-700">
                                                 Please send message for futher information! </h2>
@@ -54,7 +65,7 @@ const Contact = () => {
                                     <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
                                 </svg>
                                 <div className="max-w-xl ml-4 text-lg font-semibold tracking-wide text-gray-500">
-                                38 26th St - Al Quoz - Al Quoz Industrial Area 4 - Dubai
+                                    38 26th St - Al Quoz - Al Quoz Industrial Area 4 - Dubai
                                 </div>
                             </div>
                             <div className="flex mb-6 text-gray-400">
@@ -76,7 +87,7 @@ const Contact = () => {
                                     </path>
                                 </svg>
                                 <div className="max-w-xl ml-4 text-lg font-semibold tracking-wide text-gray-500">
-                                info@cmcauto.ae
+                                    info@cmcauto.ae
                                 </div>
                             </div>
                         </div>
