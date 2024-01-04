@@ -1,15 +1,50 @@
 import Swal from "sweetalert2";
 
-
 const Contact = () => {
 
     function handleContact(event) {
         event.preventDefault();
-        Swal.fire({
-            icon: 'success',
-            title: 'Messages Send',
-            text: 'You have successfully sent the message and we will contact you as soon as possible'
-        })
+        const form = event.target;
+        const name = form.name.value;
+        const email = form.name.value;
+        const subject = form.subject.value;
+        const msg = form.msg.value;
+
+        const msgBody = 'Name: ' + name + '<br/> Email: ' + email + '<br/> MSG: ' + msg;
+
+        const config = {
+
+            Host: "smtp.elasticemail.com",
+            Username: "x.nazmulofficial@gmail.com",
+            Password: "C78F089D2E6A59643A1AE34A7A543776D958",
+            To: 'info@cmcauto.ae',
+            From: "x.nazmulofficial@gmail.com",
+            Subject: subject,
+            Body: msgBody
+        }
+
+        if (window.Email) {
+            window.Email.send(config).then(
+                message => {
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Messages Send',
+                        text: 'You have successfully sent the message and we will contact you as soon as possible'
+                    });
+                    form.reset()
+                }
+            );
+        }
+
+        // 153D0FB36733013B6887A72CFF961C7E6FB1
+        // info@cmcauto.ae
+        // 
+
+
+
+
+
+
     }
 
     return (
@@ -27,22 +62,17 @@ const Contact = () => {
                                             <h2 className="text-xl font-bold text-gray-700">
                                                 Please send message for futher information! </h2>
                                         </div>
-                                        <div className="flex flex-wrap mb-4 -mx-2">
-                                            <div className="w-full px-2 mb-4 lg:mb-0 lg:w-1/2">
-                                                <input
-                                                    className="w-full px-3 py-2 leading-loose bg-gray-100 border rounded-md"
-                                                    type="text" placeholder="First Name.." required />
-                                            </div>
-                                            <div className="w-full px-2 lg:w-1/2">
-                                                <input
-                                                    className="w-full px-3 py-2 leading-loose bg-gray-100 border rounded-md"
-                                                    type="text" placeholder="Last Name.." required />
-                                            </div>
-                                        </div>
-                                        <input
-                                            className="w-full px-3 py-2 mb-4 leading-loose bg-gray-100 border rounded-md"
+
+                                        <input name="name"
+                                            className="w-full mb-3 px-3 py-2 leading-loose bg-gray-100 border rounded-md"
+                                            type="text" placeholder="Full Name.." required />
+                                        <input name="email"
+                                            className="w-full px-3 mb-3 py-2 leading-loose bg-gray-100 border rounded-md"
                                             type="email" placeholder="abc@gmail.com" required />
-                                        <textarea rows="4" type="message" placeholder="Write a message..." required
+                                        <input name="subject"
+                                            className="w-full px-3 py-2 mb-4 leading-loose bg-gray-100 border rounded-md"
+                                            type="text" placeholder="Subject" required />
+                                        <textarea name="msg" rows="4" type="message" placeholder="Write a message..." required
                                             className="block w-full px-4 mb-4 leading-tight text-gray-700 bg-gray-100 border rounded"></textarea>
                                         <button
                                             className="w-full py-4 text-sm font-bold leading-normal text-white transition-all duration-300 bg-[#3EA354] rounded-md hover:bg-[#2f7a3f]">

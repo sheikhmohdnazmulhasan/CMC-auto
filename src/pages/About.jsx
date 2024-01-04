@@ -2,6 +2,7 @@ import img from '../assets/Screenshot 2024-01-01 121035.png';
 import mission from '../assets/about/mission-280x280-1.webp';
 import values from '../assets/about/values-280x280-1.webp';
 import vision from '../assets/about/vision-280x280-1.webp';
+import { Faq } from '../components/Faq';
 
 const About = () => {
     return (
@@ -72,6 +73,9 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="mt-20 mx-5 md:mx-10 rounded-md">
+                <Faq title1={"Custom Seat Design and Installation"} des1={"Our team of experienced professionals will work closely with you to create custom seat designs that suit your specific preferences and requirements. From ergonomic designs to luxurious materials, we ensure that every seat is tailored to perfection. We handle the entire installation process with precision and expertise, guaranteeing a seamless integration into your vehicle."} title2={"Seat Upholstery and Material Upgrades"} des2={"Upgrade the look and feel of your vehicle’s seats with our extensive range of high-quality upholstery and material options. From premium leather to durable fabrics, we offer a wide selection of materials that are both stylish and easy to maintain. Our skilled craftsmen pay attention to every detail, ensuring a flawless finish that enhances the overall aesthetics of your vehicle’s interior."} title3={"Seat Heating and Cooling Solutions"} des3={"Experience ultimate comfort regardless of the weather with our seat heating and cooling solutions. We integrate advanced temperature control systems into your seats, allowing you to adjust the climate according to your preference. Say goodbye to uncomfortable seats during extreme weather conditions and enjoy a pleasant journey all year round."} title4={"14 Airbag Massage System"} des4={"At Scuderia Motor Design, we are proud to present the latest innovation in automotive luxury: the 14 Airbag Massage for Vehicles. Imagine experiencing the ultimate comfort and relaxation during your daily commute or long road trips. Our cutting-edge technology combines the convenience of modern vehicles with the therapeutic benefits of a professional massage, taking your driving experience to a whole new level."} />
             </div>
         </div>
     );

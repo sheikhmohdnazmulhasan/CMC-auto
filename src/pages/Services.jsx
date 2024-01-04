@@ -15,7 +15,7 @@ const Services = () => {
             <div className="mx-5 md:mx-10 mt-20">
                 <h1 className='text-3xl font-bold'>AUTOMOBILE OUTFITTING</h1>
                 <p className='opacity-70 mt-5'>
-                    Scuderia Motor Design, a leading car luxury interior builder, specializing in Mercedes, excels at transforming the standard interior of a vehicle into a personalized and luxurious space. With SMD expertise as a car luxury interior builder, Scuderia Motor Design creates bespoke automotive interiors that exude opulence and reflect the unique preferences of our clients, particularly in Mercedes vehicles. Using premium materials, advanced technologies, and meticulous craftsmanship as a luxury car interior builder, We ensure that every aspect of the Mercedes interior is tailored to perfection, offering a truly elevated driving experience that surpasses expectations.
+                    CMC, a leading car luxury interior builder, specializing in Mercedes, excels at transforming the standard interior of a vehicle into a personalized and luxurious space. With SMD expertise as a car luxury interior builder, Scuderia Motor Design creates bespoke automotive interiors that exude opulence and reflect the unique preferences of our clients, particularly in Mercedes vehicles. Using premium materials, advanced technologies, and meticulous craftsmanship as a luxury car interior builder, We ensure that every aspect of the Mercedes interior is tailored to perfection, offering a truly elevated driving experience that surpasses expectations.
                 </p>
             </div>
             <div className="mx-5 md:mx-10 mt-20" data-aos="fade-up">

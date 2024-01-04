@@ -56,8 +56,8 @@ const Root = () => {
             {/* 
             Secondary Navbar */}
             {!hideTopNavbar && <div className="h-8 text-sm bg-[#E5E5E5] p-1 w-full flex justify-around font-semibold text-slate-500">
-                <p>Phone: +971 50 358 3882</p>
-                <p>WE EXPORT WORLDWIDE</p>
+                <p data-aos="fade-right">Phone: +971 50 358 3882</p>
+                <p data-aos="fade-left">WE EXPORT WORLDWIDE</p>
             </div>}
 
             <div className="drawer ">
@@ -145,7 +145,7 @@ const Root = () => {
                     </aside>
                 </div>
             </footer>
-            <ScrollToTop width="40" smooth />
+            {/* <ScrollToTop width="40" smooth /> */}
         </div>
     );
 }
