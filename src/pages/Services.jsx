@@ -3,6 +3,7 @@ import ServiceComp from '../components/ServiceComp';
 import img1 from '../assets/service/4-768x575.webp';
 import img2 from '../assets/service/Car-Upholstery-1067x800.webp';
 import img3 from '../assets/service/Smart-TV-Apple-TV_03.webp';
+import img4 from '../assets/service/ksa_bro-9-768x575.webp';
 
 const Services = () => {
 
@@ -26,7 +27,7 @@ const Services = () => {
 
                     <ServiceComp text={'Installing custom audio and entertainment systems that integrate seamlessly with the car’s interior design and provide '} title={"Entertainment systems"} img={img3} link={'/entertainment'} />
 
-                    <ServiceComp text={'Designing and building custom dashboards and consoles that provide a unique look and feel and incorporate advanced '} title={"Central console design"} img={img3} link={'/central-console-design'} />
+                    <ServiceComp text={'Designing and building custom dashboards and consoles that provide a unique look and feel and incorporate advanced '} title={"Central console design"} img={img4} link={'/central-console-design'} />
                 </div>
             </div>
         </div>
