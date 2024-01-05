@@ -1,14 +1,9 @@
 import { DetailC } from "./DetailsC";
-import img1 from '../assets/x.jpg';
-import img2 from '../assets/x2.jpg';
-import img3 from '../assets/x3.jpg';
-import img4 from '../assets/x4.jpg';
-import img5 from '../assets/x5.jpg';
-import img6 from '../assets/x6.jpg';
 import { Faq } from "./Faq";
 import Wp from "./Wp";
 
-const CarDetailsParent = () => {
+// eslint-disable-next-line react/prop-types
+const CarDetailsParent = ({ img1, img2, img3, img4, title, des, li1, li2, li3, li4, vTitle, vDes, bTitle, bDes1, bDes2, g1, g2, g3, g4, g5, g6 }) => {
     return (
         <div className="">
             <Wp />
@@ -16,19 +11,19 @@ const CarDetailsParent = () => {
 
                 {/* content */}
                 <div className="flex-1 p-5">
-                    <h3 className="text-2xl font-bold mb-2">MERCEDES V CLASS LUXURY INTERIOR</h3>
-                    <p className="text-sm">At Scuderia Motor Design, we focus on creating excellent Mercedes V-Class Luxury Van. Indulge in a world of luxury and quality with our careful craftsmanship, high-quality materials, and advanced technologies. Enhance your driving experience with our custom luxury interior solutions for the Mercedes V Class</p>
+                    <h3 className="text-2xl font-bold mb-2">{title}</h3>
+                    <p className="text-sm">{des}</p>
                     <ul className="list-disc ml-10 mt-10 text-sm">
-                        <li>Special Edition</li>
-                        <li> Luxury Edition</li>
-                        <li> Executive Edition</li>
-                        <li>Business Edition</li>
+                        <li>{li1}</li>
+                        <li>{li2}</li>
+                        <li> {li3}</li>
+                        <li>{li4}</li>
                     </ul>
                 </div>
 
                 {/* img */}
                 <div className="flex-1 mt-5 md:mt-10">
-                    <DetailC />
+                    <DetailC img1={img1} img2={img2} img3={img3} img4={img4} />
                 </div>
             </div>
             <div data-aos="fade-up" className=" md:mx-10 mt-20">
@@ -39,19 +34,19 @@ const CarDetailsParent = () => {
                                 <img
                                     alt="gallery"
                                     className="block h-full w-full rounded-lg object-cover object-center"
-                                    src={img1} />
+                                    src={g1} />
                             </div>
                             <div className="w-1/2 p-1 md:p-2">
                                 <img
                                     alt="gallery"
                                     className="block h-full w-full rounded-lg object-cover object-center"
-                                    src={img2} />
+                                    src={g2} />
                             </div>
                             <div className="w-full p-1 md:p-2">
                                 <img
                                     alt="gallery"
                                     className="block h-full w-full rounded-lg object-cover object-center"
-                                    src={img3} />
+                                    src={g3} />
                             </div>
                         </div>
                         <div className="flex w-1/2 flex-wrap">
@@ -59,19 +54,19 @@ const CarDetailsParent = () => {
                                 <img
                                     alt="gallery"
                                     className="block h-full w-full rounded-lg object-cover object-center"
-                                    src={img4} />
+                                    src={g4} />
                             </div>
                             <div className="w-1/2 p-1 md:p-2">
                                 <img
                                     alt="gallery"
                                     className="block h-full w-full rounded-lg object-cover object-center"
-                                    src={img5} />
+                                    src={g5} />
                             </div>
                             <div className="w-1/2 p-1 md:p-2">
                                 <img
                                     alt="gallery"
                                     className="block h-full w-full rounded-lg object-cover object-center"
-                                    src={img6} />
+                                    src={g6} />
                             </div>
                         </div>
                     </div>
@@ -88,15 +83,17 @@ const CarDetailsParent = () => {
 
                 {/* Content */}
                 <div className="flex-1 mx-5 md:mx-0 mt-5 md:mt-0">
-                    <h1 className="text-2xl font-bold mb-4">Welcome to Scuderia Motor Design </h1>
-                    <h4 className="text-xl font-semibold opacity-75 mb-5">Your Gateway to Mercedes V-Class Luxury Van </h4>
-                    <p className="opacity-80">Introducing the epitome of elegance and sophistication on wheels – the Mercedes V-Class Luxury Van by Scuderia Motor Design. We take pride in transforming the iconic Mercedes V-Class into three exceptional editions – the Luxury Edition, Business Edition, and Presidential Van – each offering a unique blend of opulence, versatility, and superior craftsmanship.</p>
+                    <h1 className="text-2xl font-bold mb-4">{vTitle}</h1>
+                    <p className="opacity-80">{vDes}</p>
                 </div>
             </div>
             <div className="mx-5 md:mx-10 mt-20">
-                <h3 className="text-xl font-semibold">Unveiling the V Class Luxury Van Family</h3>
+                <h3 className="text-xl font-semibold">{bTitle}</h3>
                 <p className="mt-5 opacity-90">
-                    In addition to the Luxury, Business, and Presidential editions, Scuderia Motor Design also offers the Vito Luxury Van, Vito VIP Van, and V Class Armor Van – catering to a wide array of needs and preferences.
+                    {bDes1}
+                </p>
+                <p className="mt-5 opacity-90">
+                    {bDes2}
                 </p>
             </div>
             <div className="mt-20 md:z-10">

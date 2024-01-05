@@ -5,8 +5,6 @@ import { FaTiktok, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { useState, useEffect } from "react";
 import { MdOutlineCancel } from "react-icons/md";
 import { IoIosArrowForward } from "react-icons/io";
-import ScrollToTop from "react-scroll-to-top";
-// bg-gradient-to-r from-gray-50 to-blue-50
 
 const Root = () => {
     const [hideTopNavbar, setHideTopNavbar] = useState(false);
