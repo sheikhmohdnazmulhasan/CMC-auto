@@ -18,11 +18,12 @@ import Sprinter from "./pages/Car Details/Sprinter";
 import Services from "./pages/Services";
 import CarDetailsParent from "./components/CarDetailsParent";
 import LongBussesType from "./pages/Car Details/LongBussesType";
+import ErrorPage from "./pages/ErrorPage";
 
 const router = createBrowserRouter([
 
   {
-    path: "/", element: <Root />,
+    path: "/", element: <Root />, errorElement: <ErrorPage />,
     children: [
       { index: true, element: <Home /> },
       { path: '/seat-modification', element: <SeatModification /> },
