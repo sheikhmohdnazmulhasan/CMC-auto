@@ -146,6 +146,7 @@ const Root = () => {
                 </div>
             </footer>
             {/* <ScrollToTop width="40" smooth /> */}
+           
         </div>
     );
 }
