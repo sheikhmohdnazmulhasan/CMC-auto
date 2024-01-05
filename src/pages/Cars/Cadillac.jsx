@@ -8,7 +8,8 @@ export const Cadillac = () => {
     return (
         <div className="mt-20  mx-5 md:mx-10">
             <div className="text-center">
-                <h1 className="text-3xl font-bold">Cadillac Models</h1>
+                <h1 className="text-3xl font-bold">MERCEDES BENZ <br />
+V CLASS</h1>
                 <p className="mt-3">This custom luxury cabin captures the look and feel of private jet travel with 18 way diamond stitched adjustable <br /> captain seats wrapped in the finest Italian leathers. <br /> 24 karat gold accents and black Zambrano wood trim compliment the custom luxury touches found in this exclusive vehicle. <br /> Complete the surround-sound, 48 inch Samsung LED curved TV, and cold beverage storage. The sky is the limit.</p>
             </div>
             <div className="mt-20">
