@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import img from '../assets/Screenshot 2024-01-01 121035.png';
-import mission from '../assets/about/mission-280x280-1.webp';
-import values from '../assets/about/values-280x280-1.webp';
-import vision from '../assets/about/vision-280x280-1.webp';
 import { Faq } from '../components/Faq';
+import goal from '../assets/about/goal.png';
+import opportunity from '../assets/about/opportunity.png';
+import values from '../assets/about/value.png';
 import Wp from '../components/Wp';
 
 const About = () => {
@@ -58,7 +58,7 @@ const About = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3">
                     <div className="card bg-base-100 " data-aos="fade-right">
                         <figure className=" ">
-                            <img src={mission} alt="Shoes" className="rounded-xl" />
+                            <img src={goal} alt="Shoes" className="rounded-xl w-36" />
                         </figure>
                         <div className="card-body items-center text-center">
                             <p className=''> CMC mission is to transform ordinary car interiors into extraordinary works of art. We are passionate about creating custom, high-quality interiors that reflect our client’s unique styles and personalities. Our goal is to make every ride a luxurious and comfortable experience, while also enhancing the overall value and appeal of the vehicle.</p>
@@ -66,7 +66,8 @@ const About = () => {
                     </div>
                     <div className="card bg-base-100 " >
                         <figure className=" ">
-                            <img src={vision} alt="Shoes" className="rounded-xl" />
+                            <img src={opportunity} alt="Shoes" className="rounded-xl w-36" />
+                            {/* <a href="https://www.flaticon.com/free-icons/arrive" title="arrive icons"></a> */}
                         </figure>
                         <div className="card-body items-center text-center">
                             <p>CMC vision is to be the premier provider of custom car interiors, known for our exceptional craftsmanship, innovative designs, and unparalleled customer service. We aim to set the standard for the industry, continuously pushing the boundaries of what is possible in custom car interiors. </p>
@@ -74,7 +75,7 @@ const About = () => {
                     </div>
                     <div className="card bg-base-100" data-aos="fade-left">
                         <figure className=" ">
-                            <img src={values} alt="Shoes" className="rounded-xl" />
+                            <img src={values} alt="Shoes" className="rounded-xl w-36" />
                         </figure>
                         <div className="card-body items-center text-center">
                             <p>We are committed to upholding the highest standards of excellence in all aspects of our business. Our core values guide everything we do, from our interactions with clients to quality control. As a leading car interior decoration company, we take pride in our commitment to elevating the aesthetics and comfort of your vehicle.</p>

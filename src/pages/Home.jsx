@@ -13,23 +13,21 @@ import { FaPhoneAlt } from 'react-icons/fa';
 import { MdOutlineMail } from 'react-icons/md';
 import Carosusel from '../components/Carosusel';
 import Wp from '../components/Wp';
-
 const Home = () => {
 
     return (
         <div>
-
             {/* Hero */}
-            <section className="fixed z-[-1] top-0 left-0 w-full h-screen flex flex-col items-center justify-center py-0 px-3">
+            <section className="fixed z-[-1] top-0 left-0 w-full h-[600px] flex flex-col items-center justify-center py-0 px-3">
                 <div className="video-docker absolute top-0 left-0 w-full h-full overflow-hidden bg-fixed">
                     <video className="min-w-full min-h-full  object-cover absolute" src={heroVideo} type="video/mp4" autoPlay muted loop></video>
-                    {/* <div className="relative right-0 bottom-0"> ffff</div> */}
+                    <div className="absolute right-0 bottom-0">
+                    </div>
                 </div>
             </section>
 
             {/* Main Content */}
             <main className=" z-50 mt-[100vh] bg-white w-full">
-
                 {/* whatsApp */}
                 <Wp />
 
@@ -77,6 +75,7 @@ const Home = () => {
                         <video className='rounded-lg' src={v1} type='video/mp4' muted loop autoPlay></video>
                     </div>
                 </div>
+
                 <div className="mt-20 " data-aos="fade-up">
                     <div className="text-center mb-10 px-5 md:px-0">
                         <h1 className='text-3xl font-bold uppercase'>Discover CMC's Vehicles</h1>
