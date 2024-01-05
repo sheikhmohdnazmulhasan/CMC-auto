@@ -32,7 +32,7 @@ const router = createBrowserRouter([
       { path: '/central-console-design', element: <CentralConsole /> },
       { path: '/about', element: <About /> },
       { path: '/services', element: <Services /> },
-      { path: '/portfolio', element: <Portfolio /> },
+      { path: '/media', element: <Portfolio /> },
       { path: '/contact', element: <Contact /> },
       { path: '/v-class-5', element: <VClass5 /> },
       { path: '/v-class-4', element: <VClass4 /> },

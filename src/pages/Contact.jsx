@@ -116,8 +116,8 @@ const Contact = () => {
                     </div>
                 </div>
             </section>
-            <div className=" hidden md:flex">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.568943387994!2d55.2386008!3d25.116449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f69c8e0d7c975%3A0x45ac4b54bc4180f9!2sCMC!5e0!3m2!1sen!2sae!4v1704096068906!5m2!1sen!2sae" width="1260" height="400" allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <div className="w-full border">
+                <iframe className="w-full h-96" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.568943387994!2d55.2386008!3d25.116449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f69c8e0d7c975%3A0x45ac4b54bc4180f9!2sCMC!5e0!3m2!1sen!2sae!4v1704096068906!5m2!1sen!2sae"  allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     );

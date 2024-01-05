@@ -29,7 +29,7 @@ const Root = () => {
             </div>
         </div>
         <div className="md:flex gap-4 md:ml-3 space-y-3 md:space-y-0" onClick={() => setOpenSubMenu(false)}>
-            <p> <NavLink to={'/portfolio'} className={({ isActive }) => isActive ? 'font-semibold uppercase text-[#3EA354]' : 'font-semibold uppercase hover:text-[#3EA354]'}>Media</NavLink></p>
+            <p> <NavLink to={'/media'} className={({ isActive }) => isActive ? 'font-semibold uppercase text-[#3EA354]' : 'font-semibold uppercase hover:text-[#3EA354]'}>Media</NavLink></p>
             <p><NavLink to={'/about'} className={({ isActive }) => isActive ? 'font-semibold uppercase text-[#3EA354]' : 'font-semibold uppercase hover:text-[#3EA354]'}>About</NavLink></p>
             <p><NavLink to={'/contact'} className={({ isActive }) => isActive ? 'font-semibold uppercase text-[#3EA354]' : 'font-semibold uppercase hover:text-[#3EA354]'}>Contact</NavLink></p>
         </div>
@@ -110,7 +110,7 @@ const Root = () => {
                         <div className="opacity-70 space-y-5">
                             <Link to={'/about'} className="link link-hover ">About us</Link> <br />
                             <Link to={'/contact'} className="link link-hover">Contact</Link> <br />
-                            <Link to={'/portfolio'} className="link link-hover ">Media</Link> <br />
+                            <Link to={'/media'} className="link link-hover ">Media</Link> <br />
                         </div>
                     </nav>
                     <form>
