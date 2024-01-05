@@ -1,4 +1,3 @@
-import React from 'react';
 import ServiceComp from '../components/ServiceComp';
 import img1 from '../assets/service/4-768x575.webp';
 import img2 from '../assets/service/Car-Upholstery-1067x800.webp';
