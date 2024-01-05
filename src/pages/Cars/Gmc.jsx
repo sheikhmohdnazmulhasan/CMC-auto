@@ -7,7 +7,7 @@ const Gmc = () => {
     return (
         <div className="mt-20 mx-5 md:mx-10 ">
             <div className="text-center">
-                <h1 className="text-3xl font-bold">GMC Models</h1>
+                <h1 className="text-3xl font-bold">5 Seat Type</h1>
                 <p className="mt-3">The custom Yukon luxury conversion is breathtaking; with plush Italian leather seats, <br /> vibrant wood finish, custom raised ceiling, and ambient environment, you might forget you're not in a private jet. <br />
                     This four-passenger executive transport with suede-lined walls and gold plated accents is easy on the eyes and provides unmatched comfort. <br /> Depending on the number of passengers, the 3-way power jump seats (patent pending) can function as a footrest or as seats.</p>
             </div>

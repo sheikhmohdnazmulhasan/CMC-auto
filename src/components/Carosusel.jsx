@@ -23,21 +23,21 @@ const Carosusel = () => {
                     <h4 className="uppercase text-xl font-bold text-[#3EA354]">Bus</h4>
                     <h1 className="uppercase text-7xl font-bold text-[#2FA053]">Long Bus</h1>
                     <img src={img4} />
-                    <Link to={'/mercedes'}> <button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
+                    <Link to={'/long-bus'}> <button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
                 </div>
 
                 <div className="block text-center px-40 bg-white">
                     <h4 className="uppercase text-xl font-bold text-[#3EA354]">Mercedes Benz</h4>
                     <h1 className="uppercase text-7xl font-bold text-[#2FA053]">Falcon</h1>
                     <img src={img5} />
-                    <Link to={'/toyota'}> <button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
+                    <Link to={'/falcon'}> <button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
                 </div>
 
                 <div className="block text-center px-40 bg-white">
                     <h4 className="uppercase text-xl font-bold text-[#3EA354]">5 SEAT Type</h4>
                     <h1 className="uppercase text-7xl font-bold text-[#2FA053]">5 SEAT</h1>
                     <img src={img7} />
-                    <Link to={'/gmc'}> <button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
+                    <Link to={'/5-seat'}> <button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
                 </div>
 
             </AwesomeSlider>

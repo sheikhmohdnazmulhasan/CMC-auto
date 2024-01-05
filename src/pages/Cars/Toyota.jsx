@@ -7,7 +7,7 @@ const Toyota = () => {
     return (
         <div className="mt-20 mx-5 md:mx-10 ">
             <div className="text-center">
-                <h1 className="text-3xl font-bold">Toyota Models</h1>
+                <h1 className="text-3xl font-bold">Falcon</h1>
                 <p className="mt-3">Due to the immense popularity of the Cadillac Escalade Luxury conversions, we decided to expand our SUV conversion repertoire. <br /> Toyota Sequoias and Land Cruisers proved to be perfect canvases for Lexani Motorcars to work on. <br /> While expanding also in color combinations, finishes, <br /> and seat designs, some of the most outstanding interiors to date have been in these two unassuming SUVs.</p>
             </div>
             <div className="mt-20">
