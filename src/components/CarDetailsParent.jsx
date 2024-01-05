@@ -98,7 +98,21 @@ const CarDetailsParent = ({ img1, img2, img3, img4, title, des, li1, li2, li3, l
             </div>
             <div className="mt-20 md:z-10">
                 <div className="mt-20 mx-5 md:mx-10 rounded-md">
-                    <Faq title1={"Custom Seat Design and Installation"} des1={"Our team of experienced professionals will work closely with you to create custom seat designs that suit your specific preferences and requirements. From ergonomic designs to luxurious materials, we ensure that every seat is tailored to perfection. We handle the entire installation process with precision and expertise, guaranteeing a seamless integration into your vehicle."} title2={"Seat Upholstery and Material Upgrades"} des2={"Upgrade the look and feel of your vehicle’s seats with our extensive range of high-quality upholstery and material options. From premium leather to durable fabrics, we offer a wide selection of materials that are both stylish and easy to maintain. Our skilled craftsmen pay attention to every detail, ensuring a flawless finish that enhances the overall aesthetics of your vehicle’s interior."} title3={"Seat Heating and Cooling Solutions"} des3={"Experience ultimate comfort regardless of the weather with our seat heating and cooling solutions. We integrate advanced temperature control systems into your seats, allowing you to adjust the climate according to your preference. Say goodbye to uncomfortable seats during extreme weather conditions and enjoy a pleasant journey all year round."} title4={"14 Airbag Massage System"} des4={"At Scuderia Motor Design, we are proud to present the latest innovation in automotive luxury: the 14 Airbag Massage for Vehicles. Imagine experiencing the ultimate comfort and relaxation during your daily commute or long road trips. Our cutting-edge technology combines the convenience of modern vehicles with the therapeutic benefits of a professional massage, taking your driving experience to a whole new level."} />
+                    <Faq title1={"What customization options do you offer for luxury vehicles?"}
+
+                        des1={"At CMC, we specialize in a wide array of customization options, ranging from interior upgrades like bespoke leather seating, advanced entertainment systems, to exterior modifications such as bespoke paint finishes, aerodynamic enhancements, and high-end wheel selections."}
+
+                        title2={"How long does the customization process typically take?"}
+
+                        des2={"The duration of customization can vary based on the extent of modifications desired. Generally, our team works efficiently to ensure a timely completion without compromising the superior quality our clients expect. We provide an estimated timeline for each project based on its unique requirements."}
+
+                        title3={"Can you accommodate specific safety and security enhancements?"}
+
+                        des3={"Absolutely. We prioritize safety and security, offering various options such as advanced security systems, reinforced doors, bulletproof glass installations, and other bespoke safety features tailored to meet individual needs."}
+
+                        title4={"Do you provide ongoing support and maintenance after customization?"}
+
+                        des4={"At CMC, our commitment extends beyond the completion of the customization. We offer post-customization support and maintenance services to ensure that our clients continue to experience the same level of excellence and satisfaction with their vehicles over time."} />
                 </div>
             </div>
         </div>
