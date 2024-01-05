@@ -28,7 +28,7 @@ const Testimonial = () => {
                                         </div>
                                     </div>
                                     <div className="w-full">
-                                        <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt ratione dolor exercitationem minima quas itaque saepe quasi architecto vel! Accusantium, vero sint recusandae cum tempora nemo commodi soluta deleniti.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                                        <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>The CMC Car Care Kit is an absolute game-changer! From the quick-detailer spray to the microfiber cloths, everything is top-notch quality. It's a comprehensive set that leaves my car shining and protected without any streaks.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
                                     </div>
                                 </div>
                                 <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
@@ -41,7 +41,7 @@ const Testimonial = () => {
                                         </div>
                                     </div>
                                     <div className="w-full">
-                                        <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Dolore quod necessitatibus, labore sapiente, est, dignissimos ullam error ipsam sint quam tempora vel.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                                        <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>I recently bought CMC seat covers for my sedan, and they fit like a glove! The material feels durable and comfortable. Plus, the installation was a breeze. Great value for money!<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -56,7 +56,7 @@ const Testimonial = () => {
                                         </div>
                                     </div>
                                     <div className="w-full">
-                                        <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, obcaecati ullam excepturi dicta error deleniti sequi.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                                        <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>These all-weather floor mats from CMC are a lifesaver, especially during the rainy season. They're easy to clean and offer fantastic coverage. No more worries about muddy shoes ruining my car's interior!<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
                                     </div>
                                 </div>
                                 <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
@@ -69,7 +69,7 @@ const Testimonial = () => {
                                         </div>
                                     </div>
                                     <div className="w-full">
-                                        <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto inventore voluptatum nostrum atque, corrupti, vitae esse id accusamus dignissimos neque reprehenderit natus, hic sequi itaque dicta nisi voluptatem! Culpa, iusto.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                                        <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>This organizer has been a savior for keeping my car clutter-free. The multiple compartments are spacious and well-designed. It's sturdy and doesn't slip around, even during sharp turns.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -84,7 +84,7 @@ const Testimonial = () => {
                                         </div>
                                     </div>
                                     <div className="w-full">
-                                        <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, voluptatem porro obcaecati dicta, quibusdam sunt ipsum, laboriosam nostrum facere exercitationem pariatur deserunt tempora molestiae assumenda nesciunt alias eius? Illo, autem!<span className="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
+                                        <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>This sunshade has significantly reduced the heat buildup inside my car. It's well-made, fits perfectly, and the reflective surface works wonders in protecting the dashboard and keeping the temperature down<span className="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
                                     </div>
                                 </div>
                                 <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
@@ -97,7 +97,7 @@ const Testimonial = () => {
                                         </div>
                                     </div>
                                     <div className="w-full">
-                                        <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iusto, explicabo, cupiditate quas totam!<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                                        <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>"I'm impressed with CMC's Tire Shine Spray! It gives my tires a deep, glossy look that lasts for weeks. Application is easy, and it doesn't sling off onto the car's body while driving."<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
                                     </div>
                                 </div>
                             </div>

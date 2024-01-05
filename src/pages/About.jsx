@@ -1,12 +1,20 @@
+import { useState } from 'react';
 import img from '../assets/Screenshot 2024-01-01 121035.png';
 import mission from '../assets/about/mission-280x280-1.webp';
 import values from '../assets/about/values-280x280-1.webp';
 import vision from '../assets/about/vision-280x280-1.webp';
 import { Faq } from '../components/Faq';
+import Wp from '../components/Wp';
 
 const About = () => {
+
     return (
+
         <div data-aos="fade-left">
+            {/* whatsApp */}
+            <div className="absolute right-5 md:top-[550px] top-[600px] !fixed z-[50000]">
+                <Wp />
+            </div>
             <section className="flex items-center  xl:h-screen font-poppins ">
                 <div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
                     <div className="flex flex-wrap ">

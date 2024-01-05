@@ -14,10 +14,12 @@ import car3 from '../../assets/Car-x/v4/g/WhatsApp Image 2023-12-30 at 19.13.43_
 import car4 from '../../assets/Car-x/v4/g/WhatsApp Image 2023-12-30 at 19.13.43_64dc3c0a.jpg';
 import car5 from '../../assets/Car-x/v4/g/WhatsApp Image 2023-12-30 at 19.13.44_290b4637.jpg';
 import car6 from '../../assets/Car-x/v4/g/WhatsApp Image 2023-12-30 at 19.13.44_f6f902a2.jpg';
+import Wp from '../../components/Wp';
 
 const VClass4 = () => {
     return (
         <div className="mt-20 " data-aos="fade-left">
+            <Wp />
             <div className="mx-5 md:mx-10">
                 <h1 className="text-3xl font-bold">Transform Your V Class 4 Seats with Our Exclusive Car Decoration Services</h1>
                 <p className="opacity-80 mt-4">Discover the perfect blend of comfort and style with our V Class 4 Seats car decoration service. Whether you use your V Class for business or leisure, our team of skilled decorators is dedicated to enhancing your driving environment. From refined leather finishes to personalized accessories, we offer a wide range of options to suit your preferences.</p>

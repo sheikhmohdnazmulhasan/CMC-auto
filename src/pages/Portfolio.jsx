@@ -27,6 +27,7 @@ import all23 from '../assets/portfolio/all/VIP4 (5).jpg';
 import all124 from '../assets/portfolio/all/VIP4 (6).jpg';
 import all25 from '../assets/portfolio/all/VIP4 (5).jpg';
 import all26 from '../assets/portfolio/all/VIP4 (8).jpg';
+import Wp from '../components/Wp';
 
 const Portfolio = () => {
     return (
@@ -35,12 +36,13 @@ const Portfolio = () => {
             <p className='text-center'>Welcome to the CMC media page. Explore our gallery of stunning automotive creations, behind-the-scenes glimpses, <br /> and exciting events we’ve been a part of. From concept to reality, our passion for automotive excellence is captured in every image and video.</p>
 
             <div className="mt-20 flex justify-center">
+                <Wp />
                 <Tabs>
-                    <TabList>
+                    {/* <TabList>
                         <Tab>ALL</Tab>
                         <Tab>SPRINTER</Tab>
                         <Tab>FALCON</Tab>
-                    </TabList>
+                    </TabList> */}
                     <PanelList>
                         <Panel>
 

@@ -12,11 +12,9 @@ import { Link } from 'react-router-dom';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { MdOutlineMail } from 'react-icons/md';
 import Carosusel from '../components/Carosusel';
-import WP from '../assets/4485687-gyLRfVl4.png';
-import { useState } from 'react';
+import Wp from '../components/Wp';
 
 const Home = () => {
-    const [showNeedHelp, setShowNeedHelp] = useState(false)
 
     return (
         <div>
@@ -33,14 +31,7 @@ const Home = () => {
             <main className=" z-50 mt-[100vh] bg-white w-full">
 
                 {/* whatsApp */}
-                <div className="absolute right-5 md:top-[550px] top-[600px] !fixed z-[50000]">
-                    <div className="flex items-center gap-4">
-
-                        {showNeedHelp && <p className='font-semibold'>Need Help?</p>}
-                        <a href="https://wa.me/+971503583882" target='_blank' rel='noreferrer' onMouseEnter={() => setShowNeedHelp(true)} onMouseLeave={() => setShowNeedHelp(false)}>  <img className="w-12 cursor-pointer hover:scale-110 transition-all" src={WP} alt="" /></a>
-
-                    </div>
-                </div>
+                <Wp />
 
                 {/* About us */}
                 <div className="w-[90%] mt-96 mx-auto py-20" data-aos="fade-up">

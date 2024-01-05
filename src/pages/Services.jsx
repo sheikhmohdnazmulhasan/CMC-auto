@@ -4,11 +4,13 @@ import img2 from '../assets/service/Car-Upholstery-1067x800.webp';
 import img3 from '../assets/service/Smart-TV-Apple-TV_03.webp';
 import img4 from '../assets/service/ksa_bro-9-768x575.webp';
 import { Faq } from '../components/Faq';
+import Wp from '../components/Wp';
 
 const Services = () => {
 
     return (
         <div className='' data-aos="fade-left">
+            <Wp />
             {/* Banner */}
             <div className="bg-[url('https://cdn.pixabay.com/photo/2017/03/20/04/57/truck-2158284_640.png')] h-72 flex justify-center items-center text-white bg-fixed bg-cover">
                 <h3 className='text-4xl font-bold'>Our Services</h3>

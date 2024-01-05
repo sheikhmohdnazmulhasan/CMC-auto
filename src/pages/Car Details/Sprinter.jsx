@@ -14,10 +14,12 @@ import car3 from '../../assets/Car-x/spriner/g/3.jpg';
 import car4 from '../../assets/Car-x/spriner/g/5.jpg';
 import car5 from '../../assets/Car-x/spriner/g/4.jpg';
 import car6 from '../../assets/Car-x/spriner/g/6.jpg';
+import Wp from '../../components/Wp';
 
 const Sprinter = () => {
     return (
         <div data-aos="fade-left">
+            <Wp />
             <div className="mt-20 ">
                 <div className="mx-5 md:mx-10">
                     <h1 className="text-3xl font-bold">Elevate Your Journey with Our Exclusive Sprinter Car Interior Decor Service</h1>

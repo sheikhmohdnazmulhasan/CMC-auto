@@ -1,4 +1,5 @@
 import Swal from "sweetalert2";
+import Wp from "../components/Wp";
 
 const Contact = () => {
 
@@ -25,7 +26,7 @@ const Contact = () => {
 
         if (window.Email) {
             window.Email.send(config).then(
-                message => {
+                () => {
                     Swal.fire({
                         icon: 'success',
                         title: 'Messages Send',
@@ -35,20 +36,11 @@ const Contact = () => {
                 }
             );
         }
-
-        // 153D0FB36733013B6887A72CFF961C7E6FB1
-        // info@cmcauto.ae
-        // 
-
-
-
-
-
-
     }
 
     return (
         <div data-aos="fade-left" >
+            <Wp />
             <section
                 className="flex items-center xl:h-screen font-poppins ">
                 <div className="justify-center flex-1 max-w-6xl px-4 py-4 mx-auto lg:py-10 md:px-7">

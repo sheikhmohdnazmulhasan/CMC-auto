@@ -14,10 +14,12 @@ import car3 from '../../assets/Car-x/falcon/g/WhatsApp Image 2023-12-30 at 19.14
 import car4 from '../../assets/Car-x/falcon/g/WhatsApp Image 2023-12-30 at 19.14.00_55772e2c.jpg';
 import car5 from '../../assets/Car-x/falcon/g/WhatsApp Image 2023-12-30 at 19.14.00_7af2b281.jpg';
 import car6 from '../../assets/Car-x/falcon/g/WhatsApp Image 2023-12-30 at 19.14.01_32791275.jpg';
+import Wp from '../../components/Wp';
 
 const Falcon = () => {
     return (
         <div className="mt-20" data-aos="fade-left">
+            <Wp />
             <div className="mx-5 md:mx-10">
                 <h1 className="text-3xl font-bold">Unleash the Power of Style with Our Falcon Car Decoration Services</h1>
                 <p className="opacity-80 mt-4">Step into the extraordinary with our Falcon car decoration services. Elevate the interior of your Falcon to match its powerful performance. Our skilled decorators combine craftsmanship and innovation to create a customized interior that complements the dynamic nature of the Falcon.</p>
