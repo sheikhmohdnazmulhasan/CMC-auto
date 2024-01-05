@@ -51,13 +51,13 @@ const Root = () => {
     }, []);
 
     return (
-        <div className="">
+        <div className="z-[900000000000]">
             {/* 
             Secondary Navbar */}
-            {!hideTopNavbar && <div className="h-8 text-sm bg-[#E5E5E5] p-1 w-full flex justify-around font-semibold text-slate-500">
+             <div className="h-8 text-sm bg-[#E5E5E5] p-1 w-full hidden md:flex justify-around font-semibold text-slate-500">
                 <p data-aos="fade-right">Phone: +971 50 358 3882</p>
                 <p data-aos="fade-left">WE EXPORT WORLDWIDE</p>
-            </div>}
+            </div>
 
             <div className="drawer ">
                 <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
@@ -66,7 +66,7 @@ const Root = () => {
                     <Headroom className=" bg-white z-[50000000000]"> <div className={hideTopNavbar ? 'w-full navbar bg-white' : 'w-full navbar bg-white border-b'}>
                         <div className="flex-none lg:hidden" onClick={() => setHideTopNavbar(!hideTopNavbar)}>
                             <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
-                                {hideTopNavbar ? <MdOutlineCancel className="text-2xl" /> : <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>}
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                             </label>
                         </div>
                         <div className="hidden md:ml-7 md:block flex-1 px-2 mx-2">
@@ -84,7 +84,7 @@ const Root = () => {
                     </div></Headroom>
                     {/* Page content here */}
                     {/* OutLet */}
-                    <div className="min-h-screen overflow-hidden" ><Outlet /></div>
+                    <div className="min-h-screen overflow-hidden"><Outlet onClick={() => setHideTopNavbar(!hideTopNavbar)} /></div>
 
                 </div>
                 <div className="drawer-side">
