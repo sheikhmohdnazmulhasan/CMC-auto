@@ -4,6 +4,7 @@ import img1 from '../assets/service/4-768x575.webp';
 import img2 from '../assets/service/Car-Upholstery-1067x800.webp';
 import img3 from '../assets/service/Smart-TV-Apple-TV_03.webp';
 import img4 from '../assets/service/ksa_bro-9-768x575.webp';
+import { Faq } from '../components/Faq';
 
 const Services = () => {
 
@@ -29,6 +30,9 @@ const Services = () => {
 
                     <ServiceComp text={'Designing and building custom dashboards and consoles that provide a unique look and feel and incorporate advanced '} title={"Central console design"} img={img4} link={'/central-console-design'} />
                 </div>
+            </div>
+            <div className="mt-20 mx-5 md:mx-10">
+                <Faq title1={" Expert Craftsmanship"} des1={"Our team of highly skilled upholsterers has years of experience in the industry. We take pride in our meticulous attention to detail and commitment to delivering exceptional results."} title2={"  Customization Options"} des2={"We understand that every client has unique preferences and requirements. That’s why we offer a wide range of customization options, including fabric selection, color schemes, patterns, stitching styles, and additional features. Our goal is to create a tailored interior that reflects your personal style and meets your specific needs"} title3={"  Premium Materials"} des3={"We source only the finest materials for our upholstery projects. From luxurious fabrics to durable and easy-to-clean options, we ensure that your van’s interior is not only visually stunning but also built to withstand the demands of your lifestyle"} title4={"  Timely Delivery"} des4={"We understand the excitement of transforming your van, and we strive to complete projects within the agreed-upon timeline. Our efficient processes and dedicated team enable us to deliver on time without compromising on quality"} />
             </div>
         </div>
     );

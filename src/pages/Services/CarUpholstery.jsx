@@ -75,7 +75,7 @@ const CarUpholstery = () => {
                 <div className="collapse collapse-arrow bg-base-200 opacity-80">
                     <input type="radio" name="my-accordion-2" checked="checked" />
                     <div className="collapse-title font-medium">
-                    Expert Craftsmanship
+                        Expert Craftsmanship
                     </div>
                     <div className="collapse-content">
                         <p>Our team of highly skilled upholsterers has years of experience in the industry. We take pride in our meticulous attention to detail and commitment to delivering exceptional results.</p>
@@ -84,7 +84,7 @@ const CarUpholstery = () => {
                 <div className="collapse collapse-arrow bg-base-200 opacity-80">
                     <input type="radio" name="my-accordion-2" />
                     <div className="collapse-title font-medium">
-                    Customization Options
+                        Customization Options
 
                     </div>
                     <div className="collapse-content">
@@ -94,7 +94,7 @@ const CarUpholstery = () => {
                 <div className="collapse collapse-arrow bg-base-200 opacity-80">
                     <input type="radio" name="my-accordion-2" />
                     <div className="collapse-title font-medium">
-                    Premium Materials
+                        Premium Materials
                     </div>
                     <div className="collapse-content">
                         <p>We source only the finest materials for our upholstery projects. From luxurious fabrics to durable and easy-to-clean options, we ensure that your van’s interior is not only visually stunning but also built to withstand the demands of your lifestyle</p>
@@ -103,7 +103,7 @@ const CarUpholstery = () => {
                 <div className="collapse collapse-arrow bg-base-200 opacity-80">
                     <input type="radio" name="my-accordion-2" />
                     <div className="collapse-title font-medium">
-                    Timely Delivery
+                        Timely Delivery
                     </div>
                     <div className="collapse-content">
                         <p>We understand the excitement of transforming your van, and we strive to complete projects within the agreed-upon timeline. Our efficient processes and dedicated team enable us to deliver on time without compromising on quality</p>
