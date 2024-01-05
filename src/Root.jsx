@@ -22,10 +22,11 @@ const Root = () => {
             <a className="font-semibold cursor-pointer md:ml-3 flex items-center hover:text-[#3EA354]" onClick={() => setOpenSubMenu(!openSubMenu)} onMouseEnter={() => setOpenSubMenu(true)}>
                 VEHICLES <IoIosArrowForward />
             </a>
-            <div className={openSubMenu ? 'absolute mt-2 py-2 w-48 bg-white border rounded-md shadow-lg' : 'absolute hidden mt-2 py-2 w-48 bg-white border rounded-md shadow-lg'} onMouseLeave={() => setOpenSubMenu(false)}>
-                <Link to={'/v-class-5'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}>V Class 5 Seats</Link>
-                <Link to={'/v-class-4'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> V Class 4 Seats</Link>
-                <Link to={'/falcon'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> Falcon</Link>
+            <div className={openSubMenu ? 'absolute mt-2 uppercase py-2 w-48 bg-white border rounded-md shadow-lg' : 'absolute uppercase hidden mt-2 py-2 w-48 bg-white border rounded-md shadow-lg'} onMouseLeave={() => setOpenSubMenu(false)}>
+                <Link to={'/v-class-5'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}>VIP V CLASS</Link>
+                <Link to={'/v-class-4'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}>  MERCEDES V CLASS</Link>
+                <Link to={'/falcon'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> Falcon type</Link>
+                <Link to={'/long-busses-type'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> long busses type</Link>
                 <Link to={'/sprinter'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> Sprinter</Link>
             </div>
         </div>
@@ -146,7 +147,7 @@ const Root = () => {
                 </div>
             </footer>
             {/* <ScrollToTop width="40" smooth /> */}
-           
+
         </div>
     );
 }

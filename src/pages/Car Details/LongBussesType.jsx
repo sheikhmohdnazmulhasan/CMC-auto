@@ -1,11 +1,11 @@
 import CarDetailsParent from "../../components/CarDetailsParent";
 
-const VClass5 = () => {
+const LongBussesType = () => {
     return (
-        <div data-aos="fade-left">
+        <div>
             <CarDetailsParent />
         </div>
     );
 };
 
-export default VClass5;
+export default LongBussesType;
