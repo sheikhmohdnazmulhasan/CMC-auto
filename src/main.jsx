@@ -8,14 +8,9 @@ import SeatModification from "./pages/Services/SeatModification";
 import CarUpholstery from "./pages/Services/CarUpholstery";
 import Entertainment from "./pages/Services/Entertainment";
 import CentralConsole from "./pages/Services/centralConsole";
-import { Cadillac } from "./pages/Cars/Cadillac";
-import Mercedes from "./pages/Cars/Mercedes";
-import Toyota from "./pages/Cars/Toyota";
-import Gmc from "./pages/Cars/Gmc";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
-import CarAbout from "./components/CarAbout";
 import VClass5 from "./pages/Car Details/VClass5";
 import VClass4 from "./pages/Car Details/VClass4";
 import Falcon from "./pages/Car Details/Falcon";
@@ -32,10 +27,6 @@ const router = createBrowserRouter([
       { path: '/auto-upholstery', element: <CarUpholstery /> },
       { path: '/entertainment', element: <Entertainment /> },
       { path: '/central-console-design', element: <CentralConsole /> },
-      { path: '/mercedes-vip', element: <Cadillac /> },
-      { path: '/long-bus', element: < Mercedes /> },
-      { path: '/falcon', element: <Toyota /> },
-      { path: '/5-seat', element: <Gmc /> },
       { path: '/about', element: <About /> },
       { path: '/services', element: <Services /> },
       { path: '/portfolio', element: <Portfolio /> },

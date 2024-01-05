@@ -16,7 +16,7 @@ const Carosusel = () => {
                     <h4 className="uppercase text-xl font-bold text-[#3EA354]">Mercedes Benz</h4>
                     <h1 className="uppercase text-7xl font-bold text-[#2FA053]">V CLASS</h1>
                     <img className="" src={img2} />
-                    <Link to={'/mercedes-vip'}> <button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
+                    <Link to={'/v-class-5'}> <button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
                 </div>
 
                 <div className="block text-center px-40 bg-white">
@@ -35,9 +35,9 @@ const Carosusel = () => {
 
                 <div className="block text-center px-40 bg-white">
                     <h4 className="uppercase text-xl font-bold text-[#3EA354]">5 SEAT Type</h4>
-                    <h1 className="uppercase text-7xl font-bold text-[#2FA053]">5 SEAT</h1>
+                    <h1 className="uppercase text-7xl font-bold text-[#2FA053]"> Sprinter</h1>
                     <img src={img7} />
-                    <Link to={'/5-seat'}> <button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
+                    <Link to={'/sprinter'}> <button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
                 </div>
 
             </AwesomeSlider>
