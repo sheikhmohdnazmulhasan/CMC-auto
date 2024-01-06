@@ -10,7 +10,7 @@ const About = () => {
 
     return (
 
-        <div data-aos="fade-left" className='bg-[url("https://i.ibb.co/6wQxFYJ/Whats-App-Image-2024-01-06-at-20-19-27-0dbbe3b5-1.jpg")] bg-cover'>
+        <div data-aos="fade-left" className="bg-[url('https://i.ibb.co/NshGgLF/CMC-WEB-BG.jpg')] bg-cover text-white" >
 
 
             {/* whatsApp */}
@@ -26,7 +26,7 @@ const About = () => {
                                     className="relative hidden md:flex z-10 object-cover w-full rounded h-96" />
                                 <div
                                     className="absolute bottom-0 right-0 z-10 p-8 bg-white border-4 border-blue-500 rounded shadow lg:-mb-8 lg:-mr-11 sm:p-8">
-                                    <p className="text-lg font-semibold md:w-72">
+                                    <p className="text-lg font-semibold md:w-72 text-black">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                                             className="absolute top-0 left-0 w-16 h-16 text-blue-700 opacity-10"
                                             viewBox="0 0 16 16">

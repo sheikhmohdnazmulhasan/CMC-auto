@@ -3,7 +3,6 @@ import logo from '../src/assets/logo.png';
 import Headroom from "react-headroom";
 import { FaTiktok, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { useState, useEffect } from "react";
-import { MdOutlineCancel } from "react-icons/md";
 import { IoIosArrowForward } from "react-icons/io";
 
 const Root = () => {
@@ -11,7 +10,7 @@ const Root = () => {
     const [openSubMenu, setOpenSubMenu] = useState(false)
     console.log('Developed by Sheikh Mohammad Nazmul Hasan || nazmulofficial@outlook.com');
 
-    const navLinks = <div className="md:flex items-center">
+    const navLinks = <div className="md:flex items-center text-white">
         <div className="md:flex gap-4 space-y-3 md:space-y-0" onClick={() => setOpenSubMenu(false)}>
             <p> <NavLink to={'/'} className={({ isActive }) => isActive ? 'font-semibold uppercase text-[#3EA354]' : 'font-semibold uppercase hover:text-[#3EA354]'}>Home</NavLink></p>
             <p><NavLink to={'/services'} className={({ isActive }) => isActive ? 'font-semibold uppercase text-[#3EA354]' : 'font-semibold uppercase hover:text-[#3EA354]'}>Services</NavLink></p>
@@ -20,7 +19,7 @@ const Root = () => {
             <a className="font-semibold cursor-pointer md:ml-3 flex items-center hover:text-[#3EA354]" onClick={() => setOpenSubMenu(!openSubMenu)} onMouseEnter={() => setOpenSubMenu(true)}>
                 VEHICLES <IoIosArrowForward />
             </a>
-            <div className={openSubMenu ? 'absolute mt-2 uppercase py-2 w-48 bg-white border rounded-md shadow-lg' : 'absolute uppercase hidden mt-2 py-2 w-48 bg-white border rounded-md shadow-lg'} onMouseLeave={() => setOpenSubMenu(false)}>
+            <div className={openSubMenu ? 'absolute mt-2 uppercase py-2 w-48 !bg-black border rounded-md shadow-lg' : 'absolute uppercase hidden mt-2 py-2 w-48 bg-white border rounded-md shadow-lg'} onMouseLeave={() => setOpenSubMenu(false)}>
                 <Link to={'/v-class-5'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}>VIP V CLASS</Link>
                 <Link to={'/v-class-4'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}>  MERCEDES V CLASS</Link>
                 <Link to={'/falcon'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> Falcon type</Link>
@@ -54,26 +53,26 @@ const Root = () => {
         <div className="z-[900000000000]">
             {/* 
             Secondary Navbar */}
-             <div className="h-8 text-sm bg-[#E5E5E5] p-1 w-full hidden md:flex justify-around font-semibold text-slate-500">
+            <div className="h-8 text-sm bg-[#292929] p-1 w-full hidden md:flex justify-around font-semibold text-slate-400">
                 <p data-aos="fade-right">Phone: +971 50 358 3882</p>
                 <p data-aos="fade-left">WE EXPORT WORLDWIDE</p>
             </div>
 
             <div className="drawer ">
                 <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
-                <div className="drawer-content flex flex-col">
+                <div className="drawer-content flex flex-col ">
                     {/* Navbar */}
-                    <Headroom className=" bg-white z-[50000000000]"> <div className={hideTopNavbar ? 'w-full navbar bg-white' : 'w-full navbar bg-white border-b'}>
+                    <Headroom className=" !bg-black z-[50000000000]"> <div className={hideTopNavbar ? 'w-full navbar !bg-black' : 'w-full navbar !bg-black shadow-lg'}>
                         <div className="flex-none lg:hidden" onClick={() => setHideTopNavbar(!hideTopNavbar)}>
                             <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current text-white"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                             </label>
                         </div>
                         <div className="hidden md:ml-7 md:block flex-1 px-2 mx-2">
                             <Link to={'/'}> <img className="w-[60px]" src={logo} alt="" /></Link>
                         </div>
-                        <div className="flex-none hidden lg:block">
-                            <ul className="menu menu-horizontal md:mr-7">
+                        <div className="flex-none hidden lg:block ">
+                            <ul className="menu menu-horizontal md:mr-7 ">
                                 {/* Navbar menu content here */}
                                 {navLinks}
                             </ul>
@@ -89,7 +88,7 @@ const Root = () => {
                 </div>
                 <div className="drawer-side">
                     <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label>
-                    <ul className="menu p-4 w-80 min-h-full bg-base-200 pt-20 block md:hidden">
+                    <ul className="menu p-4 w-80 min-h-full !bg-black pt-20 block md:hidden">
                         {/* Sidebar content here */}
                         {navLinks}
                     </ul>

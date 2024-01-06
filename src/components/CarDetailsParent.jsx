@@ -5,7 +5,7 @@ import Wp from "./Wp";
 // eslint-disable-next-line react/prop-types
 const CarDetailsParent = ({ img1, img2, img3, img4, title, des, li1, li2, li3, li4, vTitle, vDes, bTitle, bDes1, bDes2, g1, g2, g3, g4, g5, g6 }) => {
     return (
-        <div className="">
+        <div className="bg-[url('https://i.ibb.co/NshGgLF/CMC-WEB-BG.jpg')] bg-cover text-white" >
             <Wp />
             <div className=" md:flex w-full bg-[#000000] text-white  md:p-20 gap-10 flex-row-reverse">
 
