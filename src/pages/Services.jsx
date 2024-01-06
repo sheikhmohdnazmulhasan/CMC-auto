@@ -9,7 +9,7 @@ import Wp from '../components/Wp';
 const Services = () => {
 
     return (
-        <div className='' data-aos="fade-left">
+        <div className='bg-[url("https://i.ibb.co/6wQxFYJ/Whats-App-Image-2024-01-06-at-20-19-27-0dbbe3b5-1.jpg")] bg-cover text-white' data-aos="fade-left">
             <Wp />
             {/* Banner */}
             <div className="bg-[url('https://cdn.pixabay.com/photo/2017/03/20/04/57/truck-2158284_640.png')] h-72 flex justify-center items-center text-white bg-fixed bg-cover">
@@ -25,7 +25,7 @@ const Services = () => {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
                     <ServiceComp text={'Modifying the seats to provide more comfort or support, or to fit the customer’s specific body shape or size.'} title={"Seat modifications"} img={img1} link={'/seat-modification'} />
 
-                    <ServiceComp text={'Creating unique upholstery designs that perfectly match the customer’s vision, using high-quality materials such as leather, suede, or Alcantara.'} title={"Car Upholstery Service"} img={img2} link={'/auto-upholstery'} />
+                    <ServiceComp text={'Creating unique upholstery designs that perfectly match the customer’s vision, using high-quality materials such as leather.'} title={"Car Upholstery Service"} img={img2} link={'/auto-upholstery'} />
 
                     <ServiceComp text={'Installing custom audio and entertainment systems that integrate seamlessly with the car’s interior design and provide '} title={"Entertainment systems"} img={img3} link={'/entertainment'} />
 
