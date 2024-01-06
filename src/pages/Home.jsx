@@ -13,6 +13,7 @@ import { FaPhoneAlt } from 'react-icons/fa';
 import { MdOutlineMail } from 'react-icons/md';
 import Carosusel from '../components/Carosusel';
 import Wp from '../components/Wp';
+import newImage from '../assets/new Detail page/VIP V class/g/IMG-20231214-WA0114.jpg';
 const Home = () => {
 
     return (
@@ -32,12 +33,12 @@ const Home = () => {
                 <Wp />
 
                 {/* About us */}
-                <div className="w-[90%] mt-96 mx-auto py-20" data-aos="fade-up">
-                    <div className="md:flex items-center gap-5 space-y-20">
-                        <div className="md:w-[40%] md:flex">
-                            <img className="w-[1000px]" src={logo} alt="" />
+                <div className=" w-[90%] mt-96 mx-auto py-20" data-aos="">
+                    <div className="md:flex gap-5 w-full" data-aos="fade-right">
+                        <div className="flex-1">
+                            <img className="rounded-lg" src={newImage} alt="" />
                         </div>
-                        <div className="md:w-[60%]">
+                        <div className="flex-1" data-aos="fade-left">
                             <h1 className="text-4xl font-bold uppercase"><span className="text-[#3EA354]"> CMC AUTOMOBILE </span>  OUTFITTING</h1>
                             <div className="mt-5 text-xl opacity-75">
                                 <p>CMC Auto specializes in Mercedes car luxury interior builder. We have a collective experience of over 10 years in luxury vehicle modification and delivered with utmost satisfaction to our high-profile customers. Scuderia leads the industry in transforming vans and another SUV’s into some of the most luxuriously productive, comfortable, safe, and exclusive vehicles in the world today. As the leading authority in luxury interior design Dubai, we are committed to delivering unparalleled quality and unparalleled experiences. SMD is the luxury interior builder for Mercedes, Lexus, and other top brands’ vehicle design and conversion.</p>
@@ -46,9 +47,9 @@ const Home = () => {
                         </div>
                     </div>
                 </div >
-
+                {/* data-aos="fade-up */}
                 {/* Services */}
-                <div className=" mt-20 mb-10 md:p-10" data-aos="fade-up">
+                <div className=" mt-20 mb-10 md:p-10 bg-black text-white">
                     <div className="text-center mb-10 px-5 md:px-0">
                         <h1 className='text-3xl font-bold'>OUR SERVICES</h1>
                         <p className='mt-2 font-semibold opacity-55'>We transform your brand-new car into a personalized masterpiece with our VIP Modification Services, <br />offering luxurious 4-seat, opulent 5-seat, and futuristic Falcon 6-seat configurations, <br /> each meticulously crafted for an elevated driving experience.</p>

@@ -27,7 +27,7 @@ const CarDetailsParent = ({ img1, img2, img3, img4, title, des, li1, li2, li3, l
                 </div>
             </div>
             <div data-aos="fade-up" className=" md:mx-10 mt-20">
-                <div className="container mx-auto px-3 md:px-10 py-2 pt-5">
+                {/* <div className="container mx-auto px-3 md:px-10 py-2 pt-5">
                     <div className="-m-1 flex flex-wrap md:-m-2">
                         <div className="flex w-1/2 flex-wrap">
                             <div className="w-1/2 p-1 md:p-2">
@@ -70,6 +70,14 @@ const CarDetailsParent = ({ img1, img2, img3, img4, title, des, li1, li2, li3, l
                             </div>
                         </div>
                     </div>
+                </div> */}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <img src={g1} alt="" />
+                    <img src={g2} alt="" />
+                    <img src={g3} alt="" />
+                    <img src={g4} alt="" />
+                    <img src={g5} alt="" />
+                    <img src={g6} alt="" />
                 </div>
             </div>
 
