@@ -77,14 +77,14 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="mt-20 " data-aos="fade-up" >
+                <div className="pt-20 text-white bg-[#2F2F2F]" >
                     <div className="text-center mb-10 px-5 md:px-0">
                         <h1 className='text-3xl font-bold uppercase'>Discover CMC's Vehicles</h1>
                         <p className='mt-2 font-semibold opacity-55'>The possibilities are endless with custom luxury interior upgrades for automobiles. <br /> At CMC our mission is to provide the most functional, luxurious, and elegant travel experience possible. <br /> The unanimously positive response we have received, demonstrates clearly that we have succeeded.</p>
                     </div>
-                    <div className="hidden md:flex z-[-100]">
+                    <div className="hidden md:flex z-[-100] bg-[#2F2F2F]">
                         {/* <CarouselComponent /> */}
-                        <Carosusel />
+                        <Carosusel className='bg-[#2F2F2F]' />
                     </div>
                     <div className="md:hidden">
                         <CarouselComponent2 />
