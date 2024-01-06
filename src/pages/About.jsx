@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import img from '../assets/Screenshot 2024-01-01 121035.png';
 import { Faq } from '../components/Faq';
 import goal from '../assets/about/goal.png';
@@ -6,11 +5,14 @@ import opportunity from '../assets/about/opportunity.png';
 import values from '../assets/about/value.png';
 import Wp from '../components/Wp';
 
+
 const About = () => {
 
     return (
 
-        <div data-aos="fade-left">
+        <div data-aos="fade-left" className='bg-[url("https://i.ibb.co/gS7HzFV/Whats-App-Image-2024-01-06-at-21-54-35-0ac51658.jpg")] '>
+
+
             {/* whatsApp */}
             <div className="absolute right-5 md:top-[550px] top-[600px] !fixed z-[50000]">
                 <Wp />
@@ -19,7 +21,7 @@ const About = () => {
                 <div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
                     <div className="flex flex-wrap ">
                         <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
-                            <div className="hidden md:flex relative lg:max-w-md z-[-3]">
+                            <div className="hidden md:flex relative lg:max-w-md z-[500]">
                                 <img src={img} alt="aboutimage"
                                     className="relative hidden md:flex z-10 object-cover w-full rounded h-96" />
                                 <div
@@ -36,14 +38,14 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full px-6 mb-10 lg:w-1/2 lg:mb-0 ">
+                        <div className="w-full px-6 mb-10 lg:w-1/2 lg:mb-0 text-white">
                             <div className="pl-4 mb-6 border-l-4 border-blue-500 ">
-                                <span className="text-sm text-gray-600 uppercase ">Who we are?</span>
-                                <h1 className="mt-2 text-3xl font-black text-gray-700 md:text-5xl">
+                                <span className="text-sm uppercase text-white">Who we are?</span>
+                                <h1 className="mt-2 text-3xl font-black md:text-5xl">
                                     About Us
                                 </h1>
                             </div>
-                            <p className="mb-6 text-base leading-7 text-gray-500">
+                            <p className="mb-6 text-base leading-7">
                                 Welcome to CMC Automobile Outfitting, where we redefine the driving experience by enhancing car interiors with exquisite craftsmanship and unparalleled design. As a leading car interior decoration company, we take pride in our commitment to elevating the aesthetics and comfort of your vehicle.
                             </p>
                             <a href="#more-about"
@@ -55,16 +57,16 @@ const About = () => {
                 </div>
             </section>
             <div className="mx-5 md:mx-10 mt-20" id='more-about'>
-                <div className="grid grid-cols-1 md:grid-cols-3">
-                    <div className="card bg-base-100 " data-aos="fade-right">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div className="card bg-[#292929] bg-opacity-65 text-white" data-aos="fade-right">
                         <figure className=" ">
-                            <img src={goal} alt="Shoes" className="rounded-xl w-36" />
+                            <img src={goal} alt="Shoes" className="rounded-xl w-28 mt-4" />
                         </figure>
                         <div className="card-body items-center text-center">
                             <p className=''> CMC mission is to transform ordinary car interiors into extraordinary works of art. We are passionate about creating custom, high-quality interiors that reflect our client’s unique styles and personalities. Our goal is to make every ride a luxurious and comfortable experience, while also enhancing the overall value and appeal of the vehicle.</p>
                         </div>
                     </div>
-                    <div className="card bg-base-100 " >
+                    <div className="card bg-[#292929] bg-opacity-65 text-white " >
                         <figure className=" ">
                             <img src={opportunity} alt="Shoes" className="rounded-xl w-36" />
                             {/* <a href="https://www.flaticon.com/free-icons/arrive" title="arrive icons"></a> */}
@@ -73,7 +75,7 @@ const About = () => {
                             <p>CMC vision is to be the premier provider of custom car interiors, known for our exceptional craftsmanship, innovative designs, and unparalleled customer service. We aim to set the standard for the industry, continuously pushing the boundaries of what is possible in custom car interiors. </p>
                         </div>
                     </div>
-                    <div className="card bg-base-100" data-aos="fade-left">
+                    <div className="card bg-[#292929] bg-opacity-65 text-white" data-aos="fade-left">
                         <figure className=" ">
                             <img src={values} alt="Shoes" className="rounded-xl w-36" />
                         </figure>

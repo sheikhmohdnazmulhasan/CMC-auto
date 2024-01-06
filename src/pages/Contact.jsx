@@ -1,3 +1,4 @@
+
 import Swal from "sweetalert2";
 import Wp from "../components/Wp";
 
@@ -39,7 +40,7 @@ const Contact = () => {
     }
 
     return (
-        <div data-aos="fade-left" >
+        <div data-aos="fade-left bg-[url('https://i.ibb.co/gS7HzFV/Whats-App-Image-2024-01-06-at-21-54-35-0ac51658.jpg')]" >
             <Wp />
             <section
                 className="flex items-center xl:h-screen font-poppins ">
@@ -117,7 +118,7 @@ const Contact = () => {
                 </div>
             </section>
             <div className="w-full border">
-                <iframe className="w-full h-96" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.568943387994!2d55.2386008!3d25.116449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f69c8e0d7c975%3A0x45ac4b54bc4180f9!2sCMC!5e0!3m2!1sen!2sae!4v1704096068906!5m2!1sen!2sae"  allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <iframe className="w-full h-96" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.568943387994!2d55.2386008!3d25.116449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f69c8e0d7c975%3A0x45ac4b54bc4180f9!2sCMC!5e0!3m2!1sen!2sae!4v1704096068906!5m2!1sen!2sae" allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     );

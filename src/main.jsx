@@ -19,6 +19,7 @@ import Services from "./pages/Services";
 import CarDetailsParent from "./components/CarDetailsParent";
 import LongBussesType from "./pages/Car Details/LongBussesType";
 import ErrorPage from "./pages/ErrorPage";
+import X from "./pages/X";
 
 const router = createBrowserRouter([
 
@@ -38,7 +39,8 @@ const router = createBrowserRouter([
       { path: '/v-class-4', element: <VClass4 /> },
       { path: '/falcon', element: <Falcon /> },
       { path: '/sprinter', element: <Sprinter /> },
-      { path: '/long-busses-type', element: <LongBussesType /> }
+      { path: '/long-busses-type', element: <LongBussesType /> },
+      { path: "/xx", element: <X /> }
     ]
 
   },

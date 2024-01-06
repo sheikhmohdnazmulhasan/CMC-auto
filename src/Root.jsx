@@ -97,7 +97,7 @@ const Root = () => {
             </div>
 
             {/* footer */}
-            <footer className=" text-white pt-20 bg-white">
+            <footer className=" text-white bg-white">
                 <div className="footer p-10 bg-[#1E1E1E] md:flex justify-between">
                     <div className="">
                         <h1 className="text-xl font-semibold">CMC AUTOMOBILE OUTFITTING</h1>
