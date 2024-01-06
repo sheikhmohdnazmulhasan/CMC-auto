@@ -8,17 +8,17 @@ import img6 from '../../assets/IMG_5724.webp';
 const CentralConsole = () => {
     return (
         <div>
-            <div className="">
+            <div className="bg-[url('https://i.ibb.co/NshGgLF/CMC-WEB-BG.jpg')] bg-cover text-white" >
 
                 {/* Banner */}
-                <div className="bg-[url('https://i.pinimg.com/736x/5d/9a/b3/5d9ab3486d4b4d9d2f4df9c1c228448d.jpg')] h-72 flex justify-center items-center text-white bg-fixed bg-cover">
+                <div className="bg-[url('https://electrek.co/wp-content/uploads/sites/3/2021/02/Tesla-new-center-console-hero.jpg?quality=82&strip=all')] h-72 flex justify-center items-center text-white bg-fixed bg-cover">
                     <h3 className='text-4xl font-bold'>Central Console Design</h3>
                 </div>
 
                 {/* Main Content */}
-                <div className="m-10">
-                    <h3 className='text-3xl font-semibold text-slate-500'>Central Console Design</h3>
-                    <div className="mt-10 opacity-65 space-y-4 text-sm">
+                <div className="p-5 md:p-10">
+                    <h3 className='text-3xl font-semibold '>Central Console Design</h3>
+                    <div className="mt-10 opacity-80 space-y-4 text-sm">
                         <p>Welcome to CMC’s, where luxury and innovation converge to create a driving experience like no other. Our team specializes in crafting central consoles that seamlessly blend functionality with style. Explore the intricacies of our central console designs:</p>
 
                         <p> <span className='font-semibold'>Light Control Button:</span>  Our central consoles feature an intuitive light control button, allowing you to effortlessly set the ambiance inside your vehicle. Whether you prefer soft, subtle lighting or a brighter, more vibrant atmosphere, our system puts you in control, ensuring your driving environment is just the way you like it.</p>
@@ -34,15 +34,15 @@ const CentralConsole = () => {
 
                     {/* Images */}
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:ml-5 my-10">
-                        <img className='md:w-[80%] rounded hover:scale-105 transition-all' src={img1} alt="" />
-                        <img className='md:w-[80%] rounded hover:scale-105 transition-all' src={img2} alt="" />
-                        <img className='md:w-[80%] rounded hover:scale-105 transition-all' src={img3} alt="" />
-                        <img className='md:w-[80%] rounded hover:scale-105 transition-all' src={img4} alt="" />
-                        <img className='md:w-[80%] rounded hover:scale-105 transition-all' src={img5} alt="" />
-                        <img className='md:w-[80%] rounded hover:scale-105 transition-all' src={img6} alt="" />
+                        <img className=' rounded hover:scale-105 transition-all' src={img1} alt="" />
+                        <img className=' rounded hover:scale-105 transition-all' src={img2} alt="" />
+                        <img className=' rounded hover:scale-105 transition-all' src={img3} alt="" />
+                        <img className=' rounded hover:scale-105 transition-all' src={img4} alt="" />
+                        <img className=' rounded hover:scale-105 transition-all' src={img5} alt="" />
+                        <img className=' rounded hover:scale-105 transition-all' src={img6} alt="" />
                     </div>
 
-                    <div className=" opacity-65 space-y-4 text-sm">
+                    <div className=" opacity-80 space-y-4 text-sm">
                         <p>At CMC, we understand that the central console is the focal point of your vehicle’s interior—a place where form meets function. Our central console designs are meticulously crafted to harmonize seamlessly with your vehicle’s existing features, adding an exclusive touch of luxury and customization to enhance your driving experience.</p>
 
                         <p>Embark on a journey into the future of central console design with Scuderia Motor Design. Contact us today to schedule a consultation and discover how we can transform your vehicle’s interior into a realm of innovation, style, and practicality. Your path to luxury and customization starts here with us.</p>
