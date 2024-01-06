@@ -10,7 +10,7 @@ import img8 from '../assets/new Detail page/VIP V class/g/IMG-20231214-WA0179.jp
 const PhotoGallery = () => {
 
     return (
-        <div data-aos="fade-up" className='mx-5 md:mx-10'>
+        <div data-aos="fade-up" className='mx-5 md:mx-10 bg-[url("https://i.ibb.co/NshGgLF/CMC-WEB-BG.jpg")] bg-cover'>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-10">
                 <img src={img1} className="block h-full w-full rounded-md object-cover object-center" />
                 <img src={img2} className="block h-full w-full rounded-md object-cover object-center" />
