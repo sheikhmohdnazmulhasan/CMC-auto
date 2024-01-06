@@ -51,7 +51,7 @@ const Home = () => {
                 {/* Services */}
                 <div className=" mt-20 mb-10 md:p-10 bg-black text-white">
                     <div className="text-center mb-10 px-5 md:px-0">
-                        <h1 className='text-3xl font-bold'>OUR SERVICES</h1>
+                        <h1 className='text-3xl font-bold pt-10 md:pt-0'>OUR SERVICES</h1>
                         <p className='mt-2 font-semibold opacity-55'>We transform your brand-new car into a personalized masterpiece with our VIP Modification Services, <br />offering luxurious 4-seat, opulent 5-seat, and futuristic Falcon 6-seat configurations, <br /> each meticulously crafted for an elevated driving experience.</p>
                     </div>
 
