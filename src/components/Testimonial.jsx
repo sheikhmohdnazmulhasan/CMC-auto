@@ -2,11 +2,11 @@ const Testimonial = () => {
 
     return (
         <div>
-            <div className="min-w-screen min-h-screen bg-gray-50 flex items-center justify-center">
-                <div className="w-full bg-white border-t border-b border-gray-200 px-5 py-16 md:py-24 text-gray-800">
+            <div className="min-w-screen min-h-screen  flex items-center justify-center">
+                <div className="w-full border-gray-200 px-5 py-16 md:py-24 text-gray-800">
                     <div className="w-full max-w-6xl mx-auto">
                         <div className="text-center max-w-xl mx-auto">
-                            <h1 className="text-6xl md:text-7xl font-bold mb-5 text-gray-600">What people <br />are saying.</h1>
+                            <h1 className="text-6xl md:text-7xl font-bold mb-5 text-gray-200">What people <br />are saying.</h1>
                             {/* <h3 className="text-xl mb-5 font-light">Lorem ipsum dolor sit amet consectetur adipisicing .</h3> */}
                             <div className="text-center mb-10">
                                 <span className="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1"></span>
@@ -18,7 +18,7 @@ const Testimonial = () => {
                         </div>
                         <div className="-mx-3 md:flex items-start">
                             <div className="px-3 md:w-1/3">
-                                <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                                <div className="w-full mx-auto rounded-lg bg-[#292929] bg-opacity-65 text-white  p-5 font-light mb-6">
                                     <div className="w-full flex mb-4 items-center">
                                         <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
                                             <img src="https://i.pravatar.cc/100?img=1" alt="" />
@@ -31,7 +31,7 @@ const Testimonial = () => {
                                         <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>The CMC Car Care Kit is an absolute game-changer! From the quick-detailer spray to the microfiber cloths, everything is top-notch quality. It's a comprehensive set that leaves my car shining and protected without any streaks.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
                                     </div>
                                 </div>
-                                <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                                <div className="w-full mx-auto rounded-lg bg-[#292929] bg-opacity-65 text-white p-5 font-light mb-6">
                                     <div className="w-full flex mb-4 items-center">
                                         <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
                                             <img src="https://i.pravatar.cc/100?img=2" alt="" />
@@ -46,7 +46,7 @@ const Testimonial = () => {
                                 </div>
                             </div>
                             <div className="px-3 md:w-1/3">
-                                <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                                <div className="w-full mx-auto rounded-lg bg-[#292929] bg-opacity-65 p-5 text-white font-light mb-6">
                                     <div className="w-full flex mb-4 items-center">
                                         <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
                                             <img src="https://i.pravatar.cc/100?img=3" alt="" />
@@ -59,7 +59,7 @@ const Testimonial = () => {
                                         <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>These all-weather floor mats from CMC are a lifesaver, especially during the rainy season. They're easy to clean and offer fantastic coverage. No more worries about muddy shoes ruining my car's interior!<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
                                     </div>
                                 </div>
-                                <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                                <div className="w-full mx-auto rounded-lg bg-[#292929] bg-opacity-65 text-white p-5 font-light mb-6">
                                     <div className="w-full flex mb-4 items-center">
                                         <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
                                             <img src="https://i.pravatar.cc/100?img=4" alt="" />
@@ -74,7 +74,7 @@ const Testimonial = () => {
                                 </div>
                             </div>
                             <div className="px-3 md:w-1/3">
-                                <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                                <div className="w-full mx-auto rounded-lg bg-[#292929] bg-opacity-65 text-white p-5 font-light mb-6">
                                     <div className="w-full flex mb-4 items-center">
                                         <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
                                             <img src="https://i.pravatar.cc/100?img=5" alt="" />
@@ -87,7 +87,7 @@ const Testimonial = () => {
                                         <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>This sunshade has significantly reduced the heat buildup inside my car. It's well-made, fits perfectly, and the reflective surface works wonders in protecting the dashboard and keeping the temperature down<span className="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
                                     </div>
                                 </div>
-                                <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+                                <div className="w-full mx-auto rounded-lg bg-[#292929] bg-opacity-65 text-white p-5 font-light mb-6">
                                     <div className="w-full flex mb-4 items-center">
                                         <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
                                             <img src="https://i.pravatar.cc/100?img=6" alt="" />

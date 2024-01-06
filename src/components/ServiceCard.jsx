@@ -7,7 +7,7 @@ const ServiceCard = () => {
 
     return (
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 px-5 md:px-0 p-20">
-            
+
             {/* Card1 */}
             <div className="card  shadow-xl bg-[#292929] text-white rounded-md hover:scale-105 transition-all">
                 <figure><img src={service1} alt="Shoes" /></figure>
@@ -15,7 +15,7 @@ const ServiceCard = () => {
                     <h2 className="card-title">SEAT MODIFICATIONS</h2>
                     {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
                     <div className="flex justify-center">
-                        <Link className="px-4 py-2 w-full bg-black text-white rounded-md hover:bg-transparent hover:border transition-all text-center" to={"/auto-upholstery"}><button>Details</button></Link>
+                        <Link className="px-4 py-2 w-full bg-black text-white rounded-md hover:bg-transparent hover:border transition-all text-center" to={"/seat-modification"}><button>Details</button></Link>
                     </div>
                 </div>
             </div>
@@ -26,7 +26,7 @@ const ServiceCard = () => {
                     <h2 className="card-title">UPHOLSTERY</h2>
                     {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
                     <div className="flex justify-center">
-                        <Link className="px-4 py-2 w-full bg-black text-white rounded-md hover:bg-transparent hover:border transition-all text-center" to={"/seat-modification"}><button>Details</button></Link>
+                        <Link className="px-4 py-2 w-full bg-black text-white rounded-md hover:bg-transparent hover:border transition-all text-center" to={"/auto-upholstery"}><button>Details</button></Link>
                     </div>
                 </div>
             </div>
@@ -47,7 +47,7 @@ const ServiceCard = () => {
             <div className="card  shadow-xl bg-[#292929] text-white rounded-md hover:scale-105 transition-all">
                 <figure><img src={service4} alt="Shoes" /></figure>
                 <div className="card-body">
-                    <h2 className="card-title">Entertainment</h2>
+                    <h2 className="card-title uppercase">Entertainment</h2>
                     {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
                     <div className="flex justify-center">
                         <Link className="px-4 py-2 w-full bg-black text-white rounded-md hover:bg-transparent hover:border transition-all text-center" to={"/entertainment"}><button>Details</button></Link>

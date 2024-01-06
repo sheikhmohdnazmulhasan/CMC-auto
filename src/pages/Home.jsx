@@ -33,7 +33,7 @@ const Home = () => {
                 <Wp />
 
                 {/* About us */}
-                <div className=" w-full px-10 mt-96 mx-auto py-20 bg-[#292929] text-white">
+                <div className=" w-full px-5 md:px-10 mt-96 mx-auto py-20 bg-[#292929] text-white">
                     <div className="md:flex gap-5 w-full" data-aos="fade-right">
                         <div className="flex-1">
                             <img className="rounded-lg" src={newImage} alt="" />
@@ -53,13 +53,20 @@ const Home = () => {
                     <div className="text-center mb-10 px-5 md:px-0">
                         <h1 className='text-3xl font-bold pt-10 md:pt-0'>OUR SERVICES</h1>
                         <p className='mt-2 font-semibold opacity-55'>We transform your brand-new car into a personalized masterpiece with our VIP Modification Services, <br />offering luxurious 4-seat, opulent 5-seat, and futuristic Falcon 6-seat configurations, <br /> each meticulously crafted for an elevated driving experience.</p>
+                        <div className="text-center mb-10">
+                            <span className="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1"></span>
+                            <span className="inline-block w-3 h-1 rounded-full bg-indigo-500 ml-1"></span>
+                            <span className="inline-block w-40 h-1 rounded-full bg-indigo-500"></span>
+                            <span className="inline-block w-3 h-1 rounded-full bg-indigo-500 ml-1"></span>
+                            <span className="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1"></span>
+                        </div>
                     </div>
 
                     <ServiceCard />
                 </div>
 
                 {/*video Section */}
-                <div className="pt-20 md:flex gap-5 items-center space-y-5 md:space-y-0 bg-[#292929] text-white px-10 pb-20">
+                <div className="pt-20 md:flex gap-5 items-center space-y-5 md:space-y-0 bg-[#292929] text-white px-5 md:px-10 pb-20">
 
                     {/* Content */}
                     <div className="flex-1" data-aos="fade-right">
@@ -81,6 +88,13 @@ const Home = () => {
                     <div className="text-center mb-10 px-5 md:px-0">
                         <h1 className='text-3xl font-bold uppercase'>Discover CMC's Vehicles</h1>
                         <p className='mt-2 font-semibold opacity-55'>The possibilities are endless with custom luxury interior upgrades for automobiles. <br /> At CMC our mission is to provide the most functional, luxurious, and elegant travel experience possible. <br /> The unanimously positive response we have received, demonstrates clearly that we have succeeded.</p>
+                        <div className="text-center mb-10">
+                            <span className="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1"></span>
+                            <span className="inline-block w-3 h-1 rounded-full bg-indigo-500 ml-1"></span>
+                            <span className="inline-block w-40 h-1 rounded-full bg-indigo-500"></span>
+                            <span className="inline-block w-3 h-1 rounded-full bg-indigo-500 ml-1"></span>
+                            <span className="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1"></span>
+                        </div>
                     </div>
                     <div className="hidden md:flex z-[-100] bg-[#2F2F2F]">
                         {/* <CarouselComponent /> */}
@@ -94,12 +108,19 @@ const Home = () => {
                     <div className="text-center mb-5 px-5 md:px-0" data-aos="fade-up">
                         <h1 className='text-3xl font-bold uppercase'>Explore the Motorcar Gallery</h1>
                         <p className='mt-2 font-semibold opacity-55'>CMC’s conversions are famous for their premium interiors, cutting-edge technology, <br />  and unmatched elegance. We believe you shouldn’t have to sail or fly to be transported with class, <br /> so we brought the convenience, comfort and prestige of private first class travel to the road. View just a few of our executive vehicles, <br /> custom SUV and luxury vans in the motorcar gallery.</p>
+                        <div className="text-center mb-10">
+                            <span className="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1"></span>
+                            <span className="inline-block w-3 h-1 rounded-full bg-indigo-500 ml-1"></span>
+                            <span className="inline-block w-40 h-1 rounded-full bg-indigo-500"></span>
+                            <span className="inline-block w-3 h-1 rounded-full bg-indigo-500 ml-1"></span>
+                            <span className="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1"></span>
+                        </div>
                     </div>
                     <PhotoGallery />
                     <div className="mt-20 bg-[url('https://i.ibb.co/NshGgLF/CMC-WEB-BG.jpg')] bg-cover text-white" data-aos="fade-up">
                         <WhyChoose />
                     </div>
-                    <div className="mt-20" data-aos="zoom-out">
+                    <div className="mt-20 bg-[url('https://i.ibb.co/NshGgLF/CMC-WEB-BG.jpg')] bg-cover text-white" data-aos="zoom-out">
                         <Testimonial />
                     </div>
 
