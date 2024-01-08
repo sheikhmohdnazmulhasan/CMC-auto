@@ -19,6 +19,7 @@ import Services from "./pages/Services";
 import LongBussesType from "./pages/Car Details/LongBussesType";
 import ErrorPage from "./pages/ErrorPage";
 import MercedesGClass from "./pages/Car Details/MercedesGClass";
+import MercedesSclass from "./pages/Car Details/MercedesSclass";
 
 const router = createBrowserRouter([
 
@@ -38,6 +39,7 @@ const router = createBrowserRouter([
       { path: '/v-class-4', element: <VClass4 /> },
       { path: '/falcon', element: <Falcon /> },
       { path: '/sprinter', element: <Sprinter /> },
+      { path: '/mercedes-s-class', element: <MercedesSclass /> },
       { path: '/mercedes-g-class', element: < MercedesGClass /> },
       { path: '/long-busses-type', element: <LongBussesType /> },
     ]
