@@ -23,7 +23,7 @@ const Services = () => {
             </div>
             <div className="mx-5 md:mx-10 mt-20" data-aos="fade-up">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-                    <ServiceComp text={'Modifying the seats to provide more comfort or support, or to fit the customer’s specific body shape or size.'} title={"Seat modifications"} img={img1} link={'/seat-modification'} />
+                    <ServiceComp text={'Modifying the seats to provide more comfort or support, or to fit the customer’s specific body shape or size.'} title={"VEHICLES Seat modifications"} img={img1} link={'/seat-modification'} />
 
                     <ServiceComp text={'Creating unique upholstery designs that perfectly match the customer’s vision, using high-quality materials such as leather.'} title={"Car Upholstery Service"} img={img2} link={'/auto-upholstery'} />
 

@@ -10,7 +10,7 @@ const About = () => {
 
     return (
 
-        <div data-aos="fade-left" className="bg-[url('https://i.ibb.co/NshGgLF/CMC-WEB-BG.jpg')] bg-cover text-white" >
+        <div data-aos="fade-left" className="bg-[url('https://i.ibb.co/NshGgLF/CMC-WEB-BG.jpg')] bg-cover text-white  bg-animate-bounce" >
 
 
             {/* whatsApp */}
