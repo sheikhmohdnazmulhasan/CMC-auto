@@ -1,9 +1,10 @@
 import { Carousel } from "keep-react";
 import { ArrowLineLeft, ArrowLineRight } from "phosphor-react";
-import img2 from '../assets/Carosol/WhatsApp Image 2024-01-05 at 12.27.28_a6454df8.jpg';
-import img4 from '../assets/Carosol/WhatsApp Image 2024-01-05 at 12.37.38_d80386b1.jpg';
-import img5 from '../assets/Carosol/WhatsApp Image 2024-01-05 at 12.45.57_56b566cc.jpg';
-import img7 from '../assets/Carosol/WhatsApp Image 2024-01-05 at 13.13.28_15b03117.jpg';
+import FALCON from '../assets/Carosol/FALCON.png';
+import LONGBUS from '../assets/Carosol/LONG BUS.png';
+import MARSEDESGCLASS from '../assets/Carosol/MARSEDES G CLASS.png';
+import MARSEDESVCLASS from '../assets/Carosol/MARSEDES V CLASS.png';
+import SPRINTER from '../assets/Carosol/SPRINTER.png';
 import { Link } from "react-router-dom";
 
 export const CarouselComponent2 = () => {
@@ -23,27 +24,33 @@ export const CarouselComponent2 = () => {
 
             {/* **** */}
             <div className="block text-center">
-                <h4 className="uppercase text-xl font-bold text-[#3EA354]">Mercedes Benz</h4>
-                <h1 className="uppercase text-7xl font-bold text-[#2FA053]">V CLASS</h1>
-                <img src={img2} />
+                {/* <h4 className="uppercase text-xl font-bold text-[#3EA354]">Mercedes Benz</h4> */}
+                <h1 className="uppercase text-4xl font-bold text-[#2FA053]">Falcon</h1>
+                <img src={FALCON} />
                 <Link to={'/mercedes-vip'}><button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
             </div>
             <div className="block text-center">
-                <h4 className="uppercase text-xl font-bold text-[#3EA354]">Bus</h4>
-                <h1 className="uppercase text-7xl font-bold text-[#2FA053]">Long Bus</h1>
-                <img src={img4} />
+                {/* <h4 className="uppercase text-xl font-bold text-[#3EA354]">Bus</h4> */}
+                <h1 className="uppercase text-4xl font-bold text-[#2FA053]">Long Bus</h1>
+                <img src={LONGBUS} />
                 <Link to={'/long-busses-type'}> <button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
             </div>
             <div className="block text-center">
-                <h4 className="uppercase text-xl font-bold text-[#3EA354]">Mercedes Benz</h4>
-                <h1 className="uppercase text-7xl font-bold text-[#2FA053]">Falcon</h1>
-                <img src={img5} />
-                <Link to={'/falcon'}> <button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
+                {/* <h4 className="uppercase text-xl font-bold text-[#3EA354]">Mercedes Benz</h4> */}
+                <h1 className="uppercase text-4xl font-bold text-[#2FA053]">MARSEDES G CLASS</h1>
+                <img src={MARSEDESGCLASS} />
+                <Link to={'/mercedes-g-class'}> <button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
             </div>
             <div className="block text-center">
-                <h4 className="uppercase text-xl font-bold text-[#3EA354]">5 SEAT Type</h4>
-                <h1 className="uppercase text-7xl font-bold text-[#2FA053]">Sprinter</h1>
-                <img src={img7} />
+                {/* <h4 className="uppercase text-xl font-bold text-[#3EA354]">5 SEAT Type</h4> */}
+                <h1 className="uppercase text-4xl font-bold text-[#2FA053]">MARSEDES V CLASS</h1>
+                <img src={MARSEDESVCLASS} />
+                <Link to={'/v-class-4'}> <button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
+            </div>
+            <div className="block text-center">
+                {/* <h4 className="uppercase text-xl font-bold text-[#3EA354]">5 SEAT Type</h4> */}
+                <h1 className="uppercase text-4xl font-bold text-[#2FA053]">SPRINTER</h1>
+                <img src={SPRINTER} />
                 <Link to={'/sprinter'}> <button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
             </div>
         </Carousel>

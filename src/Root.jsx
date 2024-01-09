@@ -31,6 +31,7 @@ const Root = () => {
                 <Link to={'/lexus'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> lexus </Link>
                 <Link to={'/gmc'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> GMC</Link>
                 <Link to={'/toyota-coaster'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> Toyota coaster</Link>
+                <Link to={'/off-road-bus'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> OFF ROAD BUS</Link>
                 <Link to={'/camper-bus'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> Camper bus</Link>
                 <Link to={'/mobile-office-bus'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> Mobile office bus</Link>
                 <Link to={'/mobility-bus'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> Mobility bus</Link>
