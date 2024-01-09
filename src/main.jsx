@@ -25,6 +25,7 @@ import Lexus from "./pages/Car Details/Lexus";
 import Gmc from "./pages/Car Details/Gmc";
 import ToyotaCoaster from "./pages/Car Details/ToyotaCoaster";
 import CamperBus from "./pages/Car Details/CamperBus";
+import MobileOfficeBus from "./pages/Car Details/MobileOfficeBus";
 
 const router = createBrowserRouter([
 
@@ -49,6 +50,7 @@ const router = createBrowserRouter([
       { path: '/gmc', element: <Gmc /> },
       { path: '/toyota-coaster', element: <ToyotaCoaster /> },
       { path: '/camper-bus', element: <CamperBus /> },
+      { path: '/mobile-office-bus', element: <MobileOfficeBus /> },
       { path: '/mercedes-s-class', element: <MercedesSclass /> },
       { path: '/mercedes-g-class', element: < MercedesGClass /> },
       { path: '/long-busses-type', element: <LongBussesType /> },
