@@ -3,7 +3,7 @@ import { Faq } from "./Faq";
 import Wp from "./Wp";
 
 // eslint-disable-next-line react/prop-types
-const CarDetailsParent = ({ img1, img2, img3, img4, title, des, li1, li2, li3, li4, vTitle, vDes, bTitle, bDes1, bDes2, g1, g2, g3, g4, g5, g6 }) => {
+const CarDetailsParent = ({ img1, img2, img3, img4, title, des, li1, li2, li3, li4, vTitle, vDes, bTitle, bDes1, bDes2, g1, g2, g3, g4, g5, g6, g7, g8 }) => {
     return (
         <div className="bg-[url('https://i.ibb.co/NshGgLF/CMC-WEB-BG.jpg')] bg-cover text-white" >
             <Wp />
@@ -78,6 +78,8 @@ const CarDetailsParent = ({ img1, img2, img3, img4, title, des, li1, li2, li3, l
                     <img src={g4} alt="" />
                     <img src={g5} alt="" />
                     <img src={g6} alt="" />
+                    <img src={g7} alt="" />
+                    <img src={g8} alt="" />
                 </div>
             </div>
 
