@@ -23,6 +23,7 @@ import MercedesSclass from "./pages/Car Details/MercedesSclass";
 import HyundaiStaria from "./pages/Car Details/HyundaiStaria";
 import Lexus from "./pages/Car Details/Lexus";
 import Gmc from "./pages/Car Details/Gmc";
+import ToyotaCoaster from "./pages/Car Details/ToyotaCoaster";
 
 const router = createBrowserRouter([
 
@@ -45,6 +46,7 @@ const router = createBrowserRouter([
       { path: '/hyundai-staria', element: <HyundaiStaria /> },
       { path: '/lexus', element: <Lexus /> },
       { path: '/gmc', element: <Gmc /> },
+      { path: '/toyota-coaster', element: <ToyotaCoaster /> },
       { path: '/mercedes-s-class', element: <MercedesSclass /> },
       { path: '/mercedes-g-class', element: < MercedesGClass /> },
       { path: '/long-busses-type', element: <LongBussesType /> },

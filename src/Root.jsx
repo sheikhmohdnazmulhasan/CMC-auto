@@ -30,6 +30,7 @@ const Root = () => {
                 <Link to={'/hyundai-staria'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> Hyundai Staria </Link>
                 <Link to={'/lexus'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> lexus </Link>
                 <Link to={'/gmc'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> GMC</Link>
+                <Link to={'/toyota-coaster'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> Toyota coaster</Link>
             </div>
         </div>
         <div className="md:flex gap-4 md:ml-3 space-y-3 md:space-y-0" onClick={() => setOpenSubMenu(false)}>
