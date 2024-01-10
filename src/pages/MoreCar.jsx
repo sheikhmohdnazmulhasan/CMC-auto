@@ -6,6 +6,11 @@ import camper from '../assets/more/camper.jpg';
 import mobile from '../assets/more/mobile.jpg';
 import mobility from '../assets/more/mobility-bus.png';
 import longBusses from '../assets/more/long-busses-type.jpeg';
+import Vclass from '../assets/more/Vclass.jpg';
+import falcon from '../assets/more/falcon.jpg';
+import gmc from '../assets/more/gmc.jpg';
+import mercedesS from '../assets/more/mercedes-s-class.jpg';
+import mercedesG from '../assets/more/mercedes-g-class.jpg';
 
 const MoreCar = () => {
 
@@ -96,6 +101,66 @@ const MoreCar = () => {
                         {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
                         <div className="flex justify-center">
                             <Link className="px-4 py-2 w-full bg-black text-white rounded-md hover:bg-transparent hover:border transition-all text-center" to={"/long-busses-type"}><button>Details</button></Link>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Card8 */}
+                <div className="card  shadow-xl bg-[#292929] text-white rounded-md hover:scale-105 transition-all">
+                    <figure><img className="md:w-96 md:h-40" src={Vclass} alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title uppercase">MERCEDES V CLASS</h2>
+                        {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
+                        <div className="flex justify-center">
+                            <Link className="px-4 py-2 w-full bg-black text-white rounded-md hover:bg-transparent hover:border transition-all text-center" to={"/v-class"}><button>Details</button></Link>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Card9 */}
+                <div className="card  shadow-xl bg-[#292929] text-white rounded-md hover:scale-105 transition-all">
+                    <figure><img className="md:w-96 md:h-40" src={falcon} alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title uppercase">falcon</h2>
+                        {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
+                        <div className="flex justify-center">
+                            <Link className="px-4 py-2 w-full bg-black text-white rounded-md hover:bg-transparent hover:border transition-all text-center" to={"/falcon"}><button>Details</button></Link>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Card10 */}
+                <div className="card  shadow-xl bg-[#292929] text-white rounded-md hover:scale-105 transition-all">
+                    <figure><img className="md:w-96 md:h-40" src={gmc} alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title uppercase">gmc</h2>
+                        {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
+                        <div className="flex justify-center">
+                            <Link className="px-4 py-2 w-full bg-black text-white rounded-md hover:bg-transparent hover:border transition-all text-center" to={"/gmc"}><button>Details</button></Link>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Card11 */}
+                <div className="card  shadow-xl bg-[#292929] text-white rounded-md hover:scale-105 transition-all">
+                    <figure><img className="md:w-96 md:h-40" src={mercedesS} alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title uppercase">mercedes s class</h2>
+                        {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
+                        <div className="flex justify-center">
+                            <Link className="px-4 py-2 w-full bg-black text-white rounded-md hover:bg-transparent hover:border transition-all text-center" to={"/mercedes-s-class"}><button>Details</button></Link>
+                        </div>
+                    </div>
+                </div>
+
+                  {/* Card12 */}
+                  <div className="card  shadow-xl bg-[#292929] text-white rounded-md hover:scale-105 transition-all">
+                    <figure><img className="md:w-96 md:h-40" src={mercedesG} alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title uppercase">mercedes g class</h2>
+                        {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
+                        <div className="flex justify-center">
+                            <Link className="px-4 py-2 w-full bg-black text-white rounded-md hover:bg-transparent hover:border transition-all text-center" to={"/mercedes-g-class"}><button>Details</button></Link>
                         </div>
                     </div>
                 </div>
