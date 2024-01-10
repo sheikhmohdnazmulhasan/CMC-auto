@@ -1,20 +1,20 @@
 import CarDetailsParent from "../../components/CarDetailsParent";
 
 // C
-import img1 from '../../assets/new Detail page/Mercedes S-Class/c/PICS NEW1_0002_IMG-20240109-WA0030.jpg';
-import img2 from '../../assets/new Detail page/Mercedes S-Class/c/PICS NEW1_0003_IMG-20240109-WA0029.jpg';
-import img3 from '../../assets/new Detail page/Mercedes S-Class/c/PICS NEW1_0006_IMG-20240109-WA0026.jpg';
-import img4 from '../../assets/new Detail page/Mercedes S-Class/c/PICS NEW1_0008_IMG-20240109-WA0034.jpg';
+import img1 from '../../assets/new Detail page/Mercedes S-Class/c/PICS NEW1_0000_IMG-20240109-WA0036.jpg';
+import img2 from '../../assets/new Detail page/Mercedes S-Class/c/PICS NEW1_0003_IMG-20240109-WA0041.jpg';
+import img3 from '../../assets/new Detail page/Mercedes S-Class/c/PICS NEW1_0006_IMG-20240109-WA0038.jpg';
+import img4 from '../../assets/new Detail page/Mercedes S-Class/c/PICS NEW1_0007_IMG-20240109-WA0037.jpg';
 
 // G
-import g1 from '../../assets/new Detail page/Mercedes S-Class/g/PICS NEW1_0000_IMG-20240109-WA0023.jpg';
-import g2 from '../../assets/new Detail page/Mercedes S-Class/g/PICS NEW1_0001_IMG-20240109-WA0031.jpg';
-import g3 from '../../assets/new Detail page/Mercedes S-Class/g/PICS NEW1_0002_IMG-20240109-WA0030.jpg';
-import g4 from '../../assets/new Detail page/Mercedes S-Class/g/PICS NEW1_0003_IMG-20240109-WA0029.jpg';
-import g5 from '../../assets/new Detail page/Mercedes S-Class/g/PICS NEW1_0004_IMG-20240109-WA0028.jpg';
-import g6 from '../../assets/new Detail page/Mercedes S-Class/g/PICS NEW1_0005_IMG-20240109-WA0027.jpg';
-import g7 from '../../assets/new Detail page/Mercedes S-Class/g/PICS NEW1_0006_IMG-20240109-WA0026.jpg';
-import g8 from '../../assets/new Detail page/Mercedes S-Class/g/PICS NEW1_0010_IMG-20240109-WA0025.jpg';
+import g1 from '../../assets/new Detail page/Mercedes S-Class/g/PICS NEW1_0000_IMG-20240109-WA0036.jpg';
+import g2 from '../../assets/new Detail page/Mercedes S-Class/g/PICS NEW1_0001_IMG-20240109-WA0033.jpg';
+import g3 from '../../assets/new Detail page/Mercedes S-Class/g/PICS NEW1_0002_IMG-20240109-WA0043.jpg';
+import g4 from '../../assets/new Detail page/Mercedes S-Class/g/PICS NEW1_0003_IMG-20240109-WA0041.jpg';
+import g5 from '../../assets/new Detail page/Mercedes S-Class/g/PICS NEW1_0005_IMG-20240109-WA0039.jpg';
+import g6 from '../../assets/new Detail page/Mercedes S-Class/g/PICS NEW1_0004_IMG-20240109-WA0040.jpg';
+import g7 from '../../assets/new Detail page/Mercedes S-Class/g/PICS NEW1_0006_IMG-20240109-WA0038.jpg';
+import g8 from '../../assets/new Detail page/Mercedes S-Class/g/PICS NEW1_0007_IMG-20240109-WA0037.jpg';
 
 const MercedesSclass = () => {
 

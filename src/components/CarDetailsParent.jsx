@@ -76,6 +76,12 @@ const CarDetailsParent = ({ img1, img2, img3, img4, img5, img6, img7, img8, img9
                     <img src={g2} alt="" />
                     <img src={g3} alt="" />
                     <img src={g4} alt="" />
+                    <img src={g5} alt="" />
+                    <img src={g6} alt="" />
+                    <img src={g7} alt="" />
+                    <img src={g8} alt="" />
+                    {/* <img src={g8} alt="" /> */}
+
                     <img src={img9} alt="" />
                     <img src={img10} alt="" />
                     <img src={img11} alt="" />
