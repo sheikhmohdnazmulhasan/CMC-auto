@@ -20,21 +20,19 @@ const Root = () => {
                 VEHICLES <IoIosArrowForward />
             </a>
             <div className={openSubMenu ? 'absolute mt-2 uppercase py-2 w-48 !bg-black border rounded-md shadow-lg' : 'absolute uppercase hidden mt-2 py-2 w-48 bg-white border rounded-md shadow-lg'} onMouseLeave={() => setOpenSubMenu(false)}>
-                {/* <Link to={'/v-class-5'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}>VIP V CLASS</Link> */}
                 <Link to={'/v-class'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}>  MERCEDES V CLASS</Link>
+
                 <Link to={'/falcon'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> Falcon type</Link>
-                <Link to={'/long-busses-type'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> long busses type</Link>
+
                 <Link to={'/sprinter'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> Sprinter</Link>
+
                 <Link to={'/mercedes-g-class'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> Mercedes g class</Link>
+
                 <Link to={'/mercedes-s-class'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> Mercedes S-Class</Link>
-                <Link to={'/hyundai-staria'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> Hyundai Staria </Link>
-                <Link to={'/lexus'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> lexus </Link>
+
                 <Link to={'/gmc'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> GMC</Link>
-                <Link to={'/toyota-coaster'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> Toyota coaster</Link>
-                {/* <Link to={'/off-road-bus'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> OFF ROAD BUS</Link> */}
-                <Link to={'/camper-bus'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> Camper bus</Link>
-                <Link to={'/mobile-office-bus'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> Mobile office bus</Link>
-                <Link to={'/mobility-bus'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> Mobility bus</Link>
+
+                <Link to={'/vehicles'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> more VEHICLES </Link>
             </div>
         </div>
         <div className="md:flex gap-4 md:ml-3 space-y-3 md:space-y-0" onClick={() => setOpenSubMenu(false)}>
