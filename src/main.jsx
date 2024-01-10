@@ -44,7 +44,7 @@ const router = createBrowserRouter([
       { path: '/media', element: <Portfolio /> },
       { path: '/contact', element: <Contact /> },
       { path: '/v-class-5', element: <VClass5 /> },
-      { path: '/v-class-4', element: <VClass4 /> },
+      { path: '/v-class', element: <VClass4 /> },
       { path: '/falcon', element: <Falcon /> },
       { path: '/sprinter', element: <Sprinter /> },
       { path: '/hyundai-staria', element: <HyundaiStaria /> },

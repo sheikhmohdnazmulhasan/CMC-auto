@@ -20,8 +20,8 @@ const Root = () => {
                 VEHICLES <IoIosArrowForward />
             </a>
             <div className={openSubMenu ? 'absolute mt-2 uppercase py-2 w-48 !bg-black border rounded-md shadow-lg' : 'absolute uppercase hidden mt-2 py-2 w-48 bg-white border rounded-md shadow-lg'} onMouseLeave={() => setOpenSubMenu(false)}>
-                <Link to={'/v-class-5'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}>VIP V CLASS</Link>
-                <Link to={'/v-class-4'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}>  MERCEDES V CLASS</Link>
+                {/* <Link to={'/v-class-5'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}>VIP V CLASS</Link> */}
+                <Link to={'/v-class'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}>  MERCEDES V CLASS</Link>
                 <Link to={'/falcon'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> Falcon type</Link>
                 <Link to={'/long-busses-type'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> long busses type</Link>
                 <Link to={'/sprinter'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> Sprinter</Link>

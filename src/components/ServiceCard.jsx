@@ -19,7 +19,7 @@ const ServiceCard = () => {
                     </div>
                 </div>
             </div>
-            {/* Card1 */}
+            {/* Card2 */}
             <div className="card  shadow-xl bg-[#292929] text-white rounded-md hover:scale-105 transition-all">
                 <figure><img src={service2} alt="Shoes" /></figure>
                 <div className="card-body">
