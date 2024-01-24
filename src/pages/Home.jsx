@@ -14,6 +14,7 @@ import { MdOutlineMail } from 'react-icons/md';
 import Carosusel from '../components/Carosusel';
 import Wp from '../components/Wp';
 import newImage from '../assets/new Detail page/VIP V class/g/IMG-20231214-WA0114.jpg';
+import App from './App';
 const Home = () => {
 
     return (
@@ -26,7 +27,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-{/*  */}
+            {/*  */}
             {/* Main Content */}
             <main className=" z-50 mt-[100vh] bg-white w-full">
                 {/* whatsApp */}
@@ -96,9 +97,11 @@ const Home = () => {
                             <span className="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1"></span>
                         </div>
                     </div>
-                    <div className="hidden md:flex z-[-100] bg-[#2F2F2F]">
+                    <div className="hidden md:flex z-[-100] justify-center bg-[#2F2F2F]">
                         {/* <CarouselComponent /> */}
-                        <Carosusel className='bg-[#2F2F2F]' />
+                        {/* <Carosusel className='bg-[#2F2F2F]' /> */}
+                        <App />
+
                     </div>
                     <div className="md:hidden">
                         <CarouselComponent2 />

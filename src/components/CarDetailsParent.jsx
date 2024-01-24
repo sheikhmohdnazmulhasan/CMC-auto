@@ -27,50 +27,6 @@ const CarDetailsParent = ({ img1, img2, img3, img4, img5, img6, img7, img8, img9
                 </div>
             </div>
             <div data-aos="fade-up" className=" md:mx-10 mt-20">
-                {/* <div className="container mx-auto px-3 md:px-10 py-2 pt-5">
-                    <div className="-m-1 flex flex-wrap md:-m-2">
-                        <div className="flex w-1/2 flex-wrap">
-                            <div className="w-1/2 p-1 md:p-2">
-                                <img
-                                    alt="gallery"
-                                    className="block h-full w-full rounded-lg object-cover object-center"
-                                    src={g1} />
-                            </div>
-                            <div className="w-1/2 p-1 md:p-2">
-                                <img
-                                    alt="gallery"
-                                    className="block h-full w-full rounded-lg object-cover object-center"
-                                    src={g2} />
-                            </div>
-                            <div className="w-full p-1 md:p-2">
-                                <img
-                                    alt="gallery"
-                                    className="block h-full w-full rounded-lg object-cover object-center"
-                                    src={g3} />
-                            </div>
-                        </div>
-                        <div className="flex w-1/2 flex-wrap">
-                            <div className="w-full p-1 md:p-2">
-                                <img
-                                    alt="gallery"
-                                    className="block h-full w-full rounded-lg object-cover object-center"
-                                    src={g4} />
-                            </div>
-                            <div className="w-1/2 p-1 md:p-2">
-                                <img
-                                    alt="gallery"
-                                    className="block h-full w-full rounded-lg object-cover object-center"
-                                    src={g5} />
-                            </div>
-                            <div className="w-1/2 p-1 md:p-2">
-                                <img
-                                    alt="gallery"
-                                    className="block h-full w-full rounded-lg object-cover object-center"
-                                    src={g6} />
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                     <img src={g1} alt="" />
                     <img src={g2} alt="" />
