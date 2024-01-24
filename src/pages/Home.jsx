@@ -26,7 +26,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-
+{/*  */}
             {/* Main Content */}
             <main className=" z-50 mt-[100vh] bg-white w-full">
                 {/* whatsApp */}
