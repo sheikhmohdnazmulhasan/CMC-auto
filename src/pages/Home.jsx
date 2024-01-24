@@ -85,7 +85,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="pt-20 pb-16 text-white bg-[#2F2F2F]" >
+                <div className="pt-20 pb-16 text-white bg-black" >
                     <div className="text-center mb-10 px-5 md:px-0">
                         <h1 className='text-3xl font-bold uppercase'>Discover CMC's Vehicles</h1>
                         <p className='mt-2 font-semibold opacity-55'>The possibilities are endless with custom luxury interior upgrades for automobiles. <br /> At CMC our mission is to provide the most functional, luxurious, and elegant travel experience possible. <br /> The unanimously positive response we have received, demonstrates clearly that we have succeeded.</p>
@@ -97,7 +97,7 @@ const Home = () => {
                             <span className="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1"></span>
                         </div>
                     </div>
-                    <div className="hidden md:flex z-[-100] justify-center bg-[#2F2F2F]">
+                    <div className="hidden md:flex z-[-100] justify-center bg-black">
                         {/* <CarouselComponent /> */}
                         {/* <Carosusel className='bg-[#2F2F2F]' /> */}
                         <App />

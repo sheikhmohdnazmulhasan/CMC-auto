@@ -32,7 +32,7 @@ export default function App() {
             }}
             navigation={true}
             modules={[Autoplay, Pagination, Navigation]}
-            className="mySwiper flex justify-center"
+            className="mySwiper flex justify-center bg-black"
         >
             <SwiperSlide>
                 <div className="flex flex-col justify-center text-center px-40 ">
