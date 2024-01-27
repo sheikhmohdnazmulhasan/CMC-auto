@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import FALCON from '../assets/Carosol/FALCON.png';
-import LONGBUS from '../assets/Carosol/LONG BUS.png';
+import MarsedesS from '../assets/xx/m.jpg';
 import MARSEDESGCLASS from '../assets/Carosol/MARSEDES G CLASS.png';
 import MARSEDESVCLASS from '../assets/Carosol/MARSEDES V CLASS.png';
 import SPRINTER from '../assets/Carosol/SPRINTER.png';
@@ -45,9 +45,9 @@ export default function App() {
             <SwiperSlide>
                 <div className="flex flex-col justify-center text-center px-40">
                     {/* <h4 className="uppercase text-xl font-bold text-[#3EA354]">Bus</h4> */}
-                    <h1 className="uppercase text-7xl font-bold text-[#2FA053]">Long bus</h1>
-                    <img src={LONGBUS} />
-                    <Link to={'/long-busses-type'}> <button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
+                    <h1 className="uppercase text-7xl font-bold text-[#2FA053]">mercedes S Class</h1>
+                    <img src={MarsedesS} />
+                    <Link to={'/v-class'}> <button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
                 </div>
             </SwiperSlide>
             <SwiperSlide>

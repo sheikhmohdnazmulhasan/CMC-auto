@@ -5,7 +5,7 @@ import Wp from "./Wp";
 // eslint-disable-next-line react/prop-types
 const CarDetailsParent = ({ img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21, img22, img23, img24, img25, img26, img27, img28, img29, img30, img31, img32, img33, img34, img35, img36, img37, img38, img39, img40, title, des, li1, li2, li3, li4, vTitle, vDes, bTitle, bDes1, bDes2, g1, g2, g3, g4, g5, g6, g7, g8 }) => {
     return (
-        <div className="bg-[url('https://i.ibb.co/NshGgLF/CMC-WEB-BG.jpg')] bg-cover text-white" >
+        <div className="bg-[url('https://i.ibb.co/NshGgLF/CMC-WEB-BG.jpg')] bg-cover text-white px-5 md:px-0" >
             <Wp />
             <div className=" md:flex w-full bg-[#000000] text-white  md:p-20 gap-10 flex-row-reverse">
 
@@ -42,7 +42,7 @@ const CarDetailsParent = ({ img1, img2, img3, img4, img5, img6, img7, img8, img9
                     <img src={img10} alt="" />
                     <img src={img11} alt="" />
                     <img src={img12} alt="" />
-                    <img src={img12} alt="" />
+                    {/* <img src={img12} alt="" /> */}
                     <img src={img13} alt="" />
                     <img src={img14} alt="" />
                     <img src={img15} alt="" />
