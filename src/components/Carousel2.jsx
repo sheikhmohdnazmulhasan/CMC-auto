@@ -5,7 +5,7 @@ import LONGBUS from '../assets/Carosol/LONG BUS.png';
 import MarsedesS from '../assets/xx/m.jpg';
 import MARSEDESGCLASS from '../assets/Carosol/MARSEDES G CLASS.png';
 import MARSEDESVCLASS from '../assets/Carosol/MARSEDES V CLASS.png';
-import SPRINTER from '../assets/Carosol/SPRINTER.png';
+import SPRINTER from '../assets/xx/x.jpg';
 import { Link } from "react-router-dom";
 
 export const CarouselComponent2 = () => {

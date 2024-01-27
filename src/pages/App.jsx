@@ -5,7 +5,7 @@ import FALCON from '../assets/Carosol/FALCON.png';
 import MarsedesS from '../assets/xx/m.jpg';
 import MARSEDESGCLASS from '../assets/Carosol/MARSEDES G CLASS.png';
 import MARSEDESVCLASS from '../assets/Carosol/MARSEDES V CLASS.png';
-import SPRINTER from '../assets/Carosol/SPRINTER.png';
+import SPRINTER from '../assets/xx/x.jpg';
 
 // Import Swiper styles
 import 'swiper/css';
