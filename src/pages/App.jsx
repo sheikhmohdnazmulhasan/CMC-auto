@@ -64,7 +64,7 @@ export default function App() {
                     {/* <h4 className="uppercase text-xl font-bold text-[#3EA354]">5 SEAT Type</h4> */}
                     <h1 className="uppercase text-7xl font-bold text-[#2FA053]"> MARSEDES V CLASS</h1>
                     <img src={MARSEDESVCLASS} />
-                    <Link to={'/v-class-4'}> <button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
+                    <Link to={'/v-class'}> <button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
