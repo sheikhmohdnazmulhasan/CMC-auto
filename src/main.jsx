@@ -11,7 +11,6 @@ import CentralConsole from "./pages/Services/centralConsole";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
-import VClass5 from "./pages/Car Details/VClass5";
 import VClass4 from "./pages/Car Details/VClass4";
 import Falcon from "./pages/Car Details/Falcon";
 import Sprinter from "./pages/Car Details/Sprinter";
