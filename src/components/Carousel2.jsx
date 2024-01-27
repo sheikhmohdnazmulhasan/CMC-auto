@@ -28,13 +28,13 @@ export const CarouselComponent2 = () => {
                 {/* <h4 className="uppercase text-xl font-bold text-[#3EA354]">Mercedes Benz</h4> */}
                 <h1 className="uppercase text-4xl font-bold text-[#2FA053]">Falcon</h1>
                 <img src={FALCON} />
-                <Link to={'/mercedes-vip'}><button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
+                <Link to={'/falcon'}><button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
             </div>
-            <div className="flex flex-col justify-center text-center px-40">
-                {/* <h4 className="uppercase text-xl font-bold text-[#3EA354]">Bus</h4> */}
+            <div className="block text-center">
+                {/* <h4 className="uppercase text-xl font-bold text-[#3EA354]">Mercedes Benz</h4> */}
                 <h1 className="uppercase text-4xl font-bold text-[#2FA053]">mercedes S Class</h1>
                 <img src={MarsedesS} />
-                <Link to={'/v-class'}> <button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
+                <Link to={'/mercedes-s-class'}><button className="mb-10 bg-[#3EA354] hover:bg-transparent hover:text-[#3EA354] border-2 border-[#3EA354] transition-all px-3 py-2 uppercase rounded-md text-white">View Vehicles</button></Link>
             </div>
             <div className="block text-center">
                 {/* <h4 className="uppercase text-xl font-bold text-[#3EA354]">Mercedes Benz</h4> */}
