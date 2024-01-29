@@ -133,11 +133,18 @@ const Root = () => {
                         </fieldset>
                     </form>
                 </div>
-                <div className=" p-4 bg-black flex flex-col md:flex-row justify-center md:justify-between w-full px-10">
+                <div className=" p-4 bg-black flex flex-col md:flex-row justify-center md:justify-between w-full">
                     <aside className="flex justify-center">
-                        <p className="hidden md:flex justify-center">Copyright © CMC AUTOMOBILE OUTFITTING, 2024 - All right reserved</p>
-                        <p className="flex justify-center md:hidden">Copyright © CMC, 2024 - All right reserved</p>
+                        <div className="">
+                            <p className="hidden md:flex justify-center">Copyright © CMC AUTOMOBILE OUTFITTING, 2024 - All right reserved</p>
+                            <p className="hidden md:flex opacity-80 mt-2">Developed by &nbsp; <a className="hover:underline" href="http://intellitixdev.com/" target="_blank" rel="noreferrer">Intellitix Technology</a></p>
+                        </div>
+                        <div className="">
+                            <p className="flex justify-center md:hidden">Copyright © CMC, 2024 - All right reserved</p>
+                            <p className=" md:hidden opacity-80 mt-2">Developed by <a className="hover:underline" href="http://intellitixdev.com/" target="_blank" rel="noreferrer">Intellitix Technology</a></p>
+                        </div>
                     </aside>
+
                     <aside className="flex gap-3 text-3xl justify-center mt-3 md:mt-0">
                         <a href="https://www.instagram.com/cmc.uae?igsh=MmE1emZqYjRhZHVv" target="_blank" rel="noreferrer"> <FaInstagram className="cursor-pointer hover:scale-110 transition-all hover:text-[#3EA354]" /></a>
 
