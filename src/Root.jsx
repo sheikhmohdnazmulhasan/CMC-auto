@@ -131,6 +131,7 @@ const Root = () => {
                                 <button className="btn bg-[#3EA354] hover:bg-[#388e4a] text-white rounded-sm join-item">Subscribe</button>
                             </div>
                         </fieldset>
+                        {/*  */}
                     </form>
                 </div>
                 <div className=" p-4 bg-black flex flex-col md:flex-row justify-center md:justify-between w-full">
