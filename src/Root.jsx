@@ -31,6 +31,7 @@ const Root = () => {
                 <Link to={'/mercedes-s-class'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> Mercedes S-Class</Link>
 
                 <Link to={'/gmc'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> GMC</Link>
+                <Link to={'/mercedes-v-class-vip'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> Mercedes V Class Vip</Link>
 
                 <Link to={'/vehicles'} className="block px-4 py-2 font-semibold hover:text-[#3EA354]" onClick={() => setOpenSubMenu(false)}> more VEHICLES </Link>
             </div>
