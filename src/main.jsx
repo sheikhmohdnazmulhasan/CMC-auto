@@ -27,6 +27,7 @@ import CamperBus from "./pages/Car Details/CamperBus";
 import MobileOfficeBus from "./pages/Car Details/MobileOfficeBus";
 import MobilityBus from "./pages/Car Details/MobilityBus";
 import MoreCar from "./pages/MoreCar";
+import MercedesVClassVIP from "./pages/Car Details/MercedesVClassVIP";
 // import OffRoadBus from "./pages/Car Details/OffRoadBus";
 
 const router = createBrowserRouter([
@@ -60,6 +61,8 @@ const router = createBrowserRouter([
       { path: '/mercedes-s-class', element: <MercedesSclass /> },
       { path: '/mercedes-g-class', element: < MercedesGClass /> },
       { path: '/long-busses-type', element: <LongBussesType /> },
+      { path: '/mercedes-v-class-vip', element: <MercedesVClassVIP /> },
+
     ]
 
   },
