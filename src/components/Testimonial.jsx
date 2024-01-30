@@ -93,7 +93,7 @@ const Testimonial = () => {
                                             <img src="https://i.pravatar.cc/100?img=6" alt="" />
                                         </div>
                                         <div className="flex-grow pl-3">
-                                            <h6 className="font-bold text-sm uppercase text-White">Kris Stanton.</h6>
+                                            <h6 className="font-bold text-sm uppercase text-White">Kris Stantoni.</h6>
                                         </div>
                                     </div>
                                     <div className="w-full">
