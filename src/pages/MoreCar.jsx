@@ -11,6 +11,7 @@ import falcon from '../assets/more/falcon.jpg';
 import gmc from '../assets/more/gmc.jpg';
 import mercedesS from '../assets/more/mercedes-s-class.jpg';
 import mercedesG from '../assets/more/mercedes-g-class.jpg';
+import MersedesVip from '../assets/new Detail page/Vip V Class M/10855910-fa0bdo_0001_IMG-20240130-WA0013.jpg';
 
 const MoreCar = () => {
 
@@ -29,6 +30,17 @@ const MoreCar = () => {
                         {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
                         <div className="flex justify-center">
                             <Link className="px-4 py-2 w-full bg-black text-white rounded-md hover:bg-transparent hover:border transition-all text-center" to={"/hyundai-staria"}><button>Details</button></Link>
+                        </div>
+                    </div>
+                </div>
+                {/* Card Vip */}
+                <div className="card  shadow-xl bg-[#292929] text-white rounded-md hover:scale-105 transition-all">
+                    <figure><img className="md:w-96 md:h-40" src={MersedesVip} alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title uppercase">Vip V Class</h2>
+                        {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
+                        <div className="flex justify-center">
+                            <Link className="px-4 py-2 w-full bg-black text-white rounded-md hover:bg-transparent hover:border transition-all text-center" to={"/mercedes-v-class-vip"}><button>Details</button></Link>
                         </div>
                     </div>
                 </div>
