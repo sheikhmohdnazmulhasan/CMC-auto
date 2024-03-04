@@ -25,7 +25,7 @@ const CentralConsole = () => {
 
                         <p> <span className='font-semibold'>Music Control:</span> Take charge of your in-car audio experience with our integrated music control system. Designed for convenience and safety, it allows you to manage your playlist, adjust volume, and switch audio sources without diverting your attention from the road. Our central console keeps your music at your fingertips, enhancing your journey with harmonious sounds</p>
 
-                        <p> <span className='font-semibold'>Unique Look:</span>  Scuderia Motor Design takes pride in creating central consoles that are far from ordinary. Each design is meticulously crafted to harmonize with the interior aesthetics of your Mercedes-Benz or other top-tier brand vehicle. Whether your preference leans towards modern minimalism or opulent extravagance, our central console becomes a distinctive piece, reflecting your individual taste.</p>
+                        <p> <span className='font-semibold'>Unique Look:</span> Our commitment to excellence extends beyond just aesthetics – we prioritize the use of high-quality materials and cutting-edge technology to ensure long-lasting durability and functionality. When you entrust your vehicle to CMC Auto Mobile, you can rest assured that it will receive the utmost care and precision.</p>
 
                         <p> <span className='font-semibold'>Cup Holder:</span> Stay refreshed and hydrated during your travels with our thoughtfully designed cup holder. Offering both functionality and elegance, it securely cradles your beverages while seamlessly integrating into the central console’s overall design, preserving the vehicle’s aesthetic appeal.</p>
 
@@ -45,7 +45,7 @@ const CentralConsole = () => {
                     <div className=" opacity-80 space-y-4 text-sm">
                         <p>At CMC, we understand that the central console is the focal point of your vehicle’s interior—a place where form meets function. Our central console designs are meticulously crafted to harmonize seamlessly with your vehicle’s existing features, adding an exclusive touch of luxury and customization to enhance your driving experience.</p>
 
-                        <p>Embark on a journey into the future of central console design with Scuderia Motor Design. Contact us today to schedule a consultation and discover how we can transform your vehicle’s interior into a realm of innovation, style, and practicality. Your path to luxury and customization starts here with us.</p>
+                        <p>From classic models to the latest luxury vehicles, our skilled technicians have the experience and expertise to handle a wide range of interior customization projects. Whether you drive a sleek sports car or a spacious SUV, we tailor our services to meet your specific needs and preferences.</p>
                     </div>
                 </div>
             </div>

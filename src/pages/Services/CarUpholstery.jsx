@@ -65,8 +65,7 @@ const CarUpholstery = () => {
                     <li>
                         <span className='font-semibold'>Carbon Fiber:</span> For a modern and sporty touch, opt for carbon fiber accents that enhance both aesthetics and performance.
                     </li>
-                    <p>At Scuderia Motor Design, we understand that your vehicle’s interior is an extension of your personality. Our Auto Upholstery Specialists are dedicated to ensuring that every detail, from leather upholstery to custom car interiors, is a reflection of your unique style and luxury preferences.</p>
-                    <p>Experience the epitome of automotive luxury with Scuderia Motor Design. Contact us today to elevate your driving experience.</p>
+                    <p>At CMC Auto Mobile Upholstery Service, we specialize in providing top-notch upholstery services for all types of vehicles, including cars, trucks, vans, and more. Whether you're looking to upgrade your interior, repair damaged upholstery, or customize your vehicle to reflect your personal style, we have the expertise and resources to bring your vision to life.</p>
                 </ul>
 
             </div>

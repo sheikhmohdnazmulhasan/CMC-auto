@@ -61,10 +61,10 @@ const Root = () => {
         <div className="z-[900000000000]">
             {/* 
             Secondary Navbar */}
-            <div className="h-8 text-sm bg-[#292929] p-1 w-full hidden md:flex justify-around font-semibold text-slate-400">
+            {/* <div className="h-8 text-sm bg-[#292929] p-1 w-full hidden md:flex justify-around font-semibold text-slate-400">
                 <p data-aos="fade-right">Phone: +971 50 358 3882</p>
                 <p data-aos="fade-left">WE EXPORT WORLDWIDE</p>
-            </div>
+            </div> */}
 
             <div className="drawer ">
                 <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
@@ -138,11 +138,11 @@ const Root = () => {
                     <aside className="flex justify-center">
                         <div className="">
                             <p className="hidden md:flex justify-center">Copyright © CMC AUTOMOBILE OUTFITTING, 2024 - All right reserved</p>
-                            <p className="hidden md:flex opacity-80 mt-2">Developed by &nbsp; <a className="hover:underline" href="http://intellitixdev.com/" target="_blank" rel="noreferrer">Intellitix Technology</a></p>
+                            {/* <p className="hidden md:flex opacity-80 mt-2">Developed by &nbsp; <a className="hover:underline" href="http://intellitixdev.com/" target="_blank" rel="noreferrer">Intellitix Technology</a></p> */}
                         </div>
                         <div className="">
                             <p className="flex justify-center md:hidden">Copyright © CMC, 2024 - All right reserved</p>
-                            <p className=" md:hidden opacity-80 mt-2">Developed by <a className="hover:underline" href="http://intellitixdev.com/" target="_blank" rel="noreferrer">Intellitix Technology</a></p>
+                            {/* <p className=" md:hidden opacity-80 mt-2">Developed by <a className="hover:underline" href="http://intellitixdev.com/" target="_blank" rel="noreferrer">Intellitix Technology</a></p> */}
                         </div>
                     </aside>
 

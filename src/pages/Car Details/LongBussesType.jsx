@@ -4,14 +4,14 @@ import CarDetailsParent from "../../components/CarDetailsParent";
 import img1 from '../../assets/new Detail page/long bus/carousel/Bus Design.jpeg';
 import img2 from '../../assets/new Detail page/long bus/carousel/Car Interior Sketch.jpeg';
 import img3 from '../../assets/new Detail page/long bus/carousel/China High Speed Train Seats _ How to Choose Types of Seats.jpeg';
-import img4 from '../../assets/new Detail page/long bus/carousel/VDL’s new FDD2 coach - Bus & Coach Buyer.jpeg';
+import img4 from '../../assets/new Detail page/long bus/carousel/z.jpeg';
 
 // G
 import g1 from '../../assets/new Detail page/long bus/gallery/Bus Design.jpeg';
 import g2 from '../../assets/new Detail page/long bus/gallery//Car Interior Sketch.jpeg';
 import g3 from '../../assets/new Detail page/long bus/gallery/China High Speed Train Seats _ How to Choose Types of Seats.jpeg';
 import g4 from '../../assets/new Detail page/long bus/gallery/Siddhivinayak Logistics gets first Scania Metrolink intercity luxury bus.jpeg';
-import g5 from '../../assets/new Detail page/long bus/gallery/VDL’s new FDD2 coach - Bus & Coach Buyer.jpeg';
+import g5 from '../../assets/new Detail page/long bus/gallery/x.jpeg';
 import g6 from '../../assets/new Detail page/long bus/gallery/Your Ultimate Guide to Luxury Bus Travel - Wanderu.jpeg';
 
 const LongBussesType = () => {

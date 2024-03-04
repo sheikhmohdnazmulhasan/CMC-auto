@@ -35,16 +35,16 @@ const Home = () => {
 
                 {/* About us */}
                 <div className=" w-full px-5 md:px-10 mt-96 mx-auto py-20 bg-[#292929] text-white">
-                    <div className="md:flex gap-5 w-full" data-aos="fade-right">
-                        <div className="flex-1">
-                            <img className="rounded-lg" src={newImage} alt="" />
-                        </div>
-                        <div className="flex-1" data-aos="fade-left">
+                    <div className="md:flex gap-5 w-full" data-aos="fade-left">
+                        <div className="flex-1" data-aos="fade-right">
                             <h1 className="text-4xl font-bold uppercase"><span className="text-[#3EA354]"> CMC AUTOMOBILE </span>  OUTFITTING</h1>
                             <div className="mt-5 text-xl opacity-75">
-                                <p>CMC Auto specializes in Mercedes car luxury interior builder. We have a collective experience of over 10 years in luxury vehicle modification and delivered with utmost satisfaction to our high-profile customers. Scuderia leads the industry in transforming vans and another SUV’s into some of the most luxuriously productive, comfortable, safe, and exclusive vehicles in the world today. As the leading authority in luxury interior design Dubai, we are committed to delivering unparalleled quality and unparalleled experiences. SMD is the luxury interior builder for Mercedes, Lexus, and other top brands’ vehicle design and conversion.</p>
+                                <p>Welcome to CMC Auto Mobile, your premier destination for luxury car interior services in the vibrant city of Dubai. We understand the importance of maintaining the elegance and comfort of your vehicle's interior, and our team is dedicated to providing unparalleled craftsmanship and attention to detail.</p>
                             </div>
                             <div />
+                        </div>
+                        <div className="flex-1">
+                            <img className="rounded-lg" src={newImage} alt="" />
                         </div>
                     </div>
                 </div >
@@ -63,7 +63,9 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <ServiceCard />
+                    <div className="flex flex-col gap-4">
+                        <ServiceCard />
+                    </div>
                 </div>
 
                 {/*video Section */}
