@@ -80,7 +80,7 @@ const About = () => {
                             <img src={values} alt="Shoes" className="rounded-xl w-36" />
                         </figure>
                         <div className="card-body items-center text-center">
-                            <p>We are committed to upholding the highest standards of excellence in all aspects of our business. Our core values guide everything we do, from our interactions with clients to quality control. As a leading car interior decoration company, we take pride in our commitment to elevating the aesthetics and comfort of your vehicle.</p>
+                            <p>At CMC Automobile Luxury Interior in Dubai, we don't just craft automobile interiors; we curate extraordinary driving experiences that leave an indelible mark on every journey. Welcome to a world where luxury meets innovation, and your vehicle becomes a true reflection of your style and individuality.</p>
                         </div>
                     </div>
                 </div>
