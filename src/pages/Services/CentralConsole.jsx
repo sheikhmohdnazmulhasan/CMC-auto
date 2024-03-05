@@ -1,9 +1,6 @@
-import img1 from '../../assets/Central-Console-Design-01.webp';
-import img2 from '../../assets/Central-Console-Design-02.webp';
-import img3 from '../../assets/Central-Console-Design-03.webp';
-import img4 from '../../assets/Central-Console-Design-04.webp';
-import img5 from '../../assets/Central-Console-Design-07.webp';
-import img6 from '../../assets/IMG_5724.webp';
+import img1 from '../../assets/xxx/center console/WhatsApp Image 2024-03-05 at 13.26.00_5da5a086.jpg';
+import img2 from '../../assets/xxx/center console/WhatsApp Image 2024-03-05 at 13.26.00_9ec087ec.jpg';
+import img3 from '../../assets/xxx/center console/WhatsApp Image 2024-03-05 at 13.26.01_6083b79c.jpg';
 
 const CentralConsole = () => {
     return (
@@ -37,9 +34,6 @@ const CentralConsole = () => {
                         <img className=' rounded hover:scale-105 transition-all' src={img1} alt="" />
                         <img className=' rounded hover:scale-105 transition-all' src={img2} alt="" />
                         <img className=' rounded hover:scale-105 transition-all' src={img3} alt="" />
-                        <img className=' rounded hover:scale-105 transition-all' src={img4} alt="" />
-                        <img className=' rounded hover:scale-105 transition-all' src={img5} alt="" />
-                        <img className=' rounded hover:scale-105 transition-all' src={img6} alt="" />
                     </div>
 
                     <div className=" opacity-80 space-y-4 text-sm">

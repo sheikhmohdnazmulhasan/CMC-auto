@@ -1,5 +1,5 @@
 import s1 from '../../assets/Seats_5.webp';
-import s2 from '../../assets/Seat_3.webp';
+import s2 from '../../assets/Seat_3.webp'; 
 import s3 from '../../assets/Seat_6.webp';
 import s4 from '../../assets/Seat_7.webp';
 import s5 from '../../assets/Seat_8.webp';
