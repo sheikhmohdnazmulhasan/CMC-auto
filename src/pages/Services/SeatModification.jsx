@@ -1,9 +1,7 @@
-import s1 from '../../assets/Seats_5.webp';
-import s2 from '../../assets/Seat_3.webp'; 
-import s3 from '../../assets/Seat_6.webp';
-import s4 from '../../assets/Seat_7.webp';
-import s5 from '../../assets/Seat_8.webp';
-import s6 from '../../assets/Seat_1.webp';
+import s1 from '../../assets/xxx/seat modification/WhatsApp Image 2024-03-05 at 13.31.48_2a2c76db.jpg';
+import s2 from '../../assets/xxx/seat modification/WhatsApp Image 2024-03-05 at 13.31.48_3abad454.jpg';
+import s3 from '../../assets/xxx/seat modification/WhatsApp Image 2024-03-05 at 13.31.49_f742fe45.jpg';
+
 import { Faq } from '../../components/Faq';
 
 const SeatModification = () => {
@@ -37,9 +35,6 @@ const SeatModification = () => {
                     <img className=' rounded hover:scale-105 transition-all' src={s1} alt="" />
                     <img className=' rounded hover:scale-105 transition-all' src={s2} alt="" />
                     <img className=' rounded hover:scale-105 transition-all' src={s3} alt="" />
-                    <img className=' rounded hover:scale-105 transition-all' src={s4} alt="" />
-                    <img className=' rounded hover:scale-105 transition-all' src={s5} alt="" />
-                    <img className=' rounded hover:scale-105 transition-all' src={s6} alt="" />
                 </div>
 
                 <div className=" opacity-80 space-y-4 text-sm">
