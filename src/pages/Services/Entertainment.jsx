@@ -1,6 +1,7 @@
-import img1 from '../../assets/Smart-TV-Apple-TV_03.webp';
-import img2 from '../../assets/Bose-Sound-System.webp';
-import img3 from '../../assets/PS5.webp';
+import img1 from '../../assets/xxx/Entertainment/WhatsApp Image 2024-03-05 at 13.39.41_9ac79b97.jpg';
+import img2 from '../../assets/xxx/Entertainment/WhatsApp Image 2024-03-05 at 13.39.41_aa814e86.jpg';
+import img3 from '../../assets/xxx/Entertainment/WhatsApp Image 2024-03-05 at 13.39.42_18372f53.jpg';
+
 import { Faq } from '../../components/Faq';
 
 const Entertainment = () => {

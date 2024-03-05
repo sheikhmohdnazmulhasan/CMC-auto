@@ -1,6 +1,6 @@
-import fabric from '../../assets/Fabric.webp';
-import leather from '../../assets/Leather.webp';
-import croCstorage from '../../assets/CroCstorage.webp';
+import img1 from '../../assets/xxx/CarUpholstery/WhatsApp Image 2024-03-05 at 13.42.10_075496dc.jpg';
+import img2 from '../../assets/xxx/CarUpholstery/WhatsApp Image 2024-03-05 at 13.42.39_1a3243b7.jpg';
+import img3 from '../../assets/xxx/CarUpholstery/WhatsApp Image 2024-03-05 at 13.42.39_89442b8f.jpg';
 import { Faq } from '../../components/Faq';
 
 const CarUpholstery = () => {
@@ -25,9 +25,9 @@ const CarUpholstery = () => {
 
             {/* Images */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:ml-5 my-10 px-10 w-full">
-                <img className=' rounded hover:scale-105 transition-all' src={leather} alt="" />
-                <img className=' rounded hover:scale-105 transition-all' src={fabric} alt="" />
-                <img className=' rounded hover:scale-105 transition-all' src={croCstorage} alt="" />
+                <img className=' rounded hover:scale-105 transition-all' src={img1} alt="" />
+                <img className=' rounded hover:scale-105 transition-all' src={img2} alt="" />
+                <img className=' rounded hover:scale-105 transition-all' src={img3} alt="" />
             </div>
             <div className="mx-6 md:mx-10">
                 <h3 className='text-2xl font-semibold '>Our Comprehensive Services Include: </h3>
