@@ -72,7 +72,7 @@ const About = () => {
                             {/* <a href="https://www.flaticon.com/free-icons/arrive" title="arrive icons"></a> */}
                         </figure>
                         <div className="card-body items-center text-center">
-                            <p>CMC vision is to be the premier provider of custom car interiors, known for our exceptional craftsmanship, innovative designs, and unparalleled customer service. We aim to set the standard for the industry, continuously pushing the boundaries of what is possible in custom car interiors. </p>
+                            <p>Our vision is to be the global leader in crafting luxurious automobile interiors, setting the industry standard for innovation, elegance, and attention to detail. We aspire to create immersive driving spaces that reflect the unique personality and desires of each client, elevating their journey to an unparalleled level of comfort and style.</p>
                         </div>
                     </div>
                     <div className="card bg-[#292929] bg-opacity-65 text-white" data-aos="fade-left">
