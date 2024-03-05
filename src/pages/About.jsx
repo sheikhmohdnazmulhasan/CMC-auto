@@ -63,7 +63,7 @@ const About = () => {
                             <img src={goal} alt="Shoes" className="rounded-xl w-28 mt-4" />
                         </figure>
                         <div className="card-body items-center text-center">
-                            <p className=''> CMC mission is to transform ordinary car interiors into extraordinary works of art. We are passionate about creating custom, high-quality interiors that reflect our client’s unique styles and personalities. Our goal is to make every ride a luxurious and comfortable experience, while also enhancing the overall value and appeal of the vehicle.</p>
+                            <p className=''> At CMC, our mission is to consistently push the boundaries of automotive interior design, setting new benchmarks for luxury and customization. We are dedicated to providing our clients with a personalized and immersive driving experience that goes beyond the expected. Our commitment to excellence is reflected in every stitch, material choice, and technological integration, ensuring that each interior we create is a masterpiece of its own</p>
                         </div>
                     </div>
                     <div className="card bg-[#292929] bg-opacity-65 text-white " >

@@ -56,8 +56,8 @@ const CarDetailsParent = ({ img1, img2, img3, img4, img5, img6, img7, img8, img9
             </div>
             <div className="mt-20 grid grid-cols-1 md:grid-cols-6 gap-4 md:px-20 pb-10">
 
-                <img src={img7} alt="" />
-                <img src={img8} alt="" />
+                {/* <img src={img7} alt="" />
+                <img src={img8} alt="" /> */}
                 <img src={img9} alt="" />
                 <img src={img10} alt="" />
                 <img src={img11} alt="" />
